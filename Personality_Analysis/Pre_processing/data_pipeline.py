@@ -1,5 +1,4 @@
 import multiprocessing as mp
-from Prayer import prayer
 import pandas as pd
 import argparse
 import time
@@ -453,9 +452,6 @@ CONDITION 3
     if recursive:
         if not os.path.isdir(fi):
             sys.exit(f'[*] Error: you have use "-R T", but {dir_o} is not a directory!')
-        
-        # Praise the God of all Machines - The mighty Omnissiah!
-        prayer().toPray()
 
         if not os.path.exists(dir_o):
             os.mkdir(dir_o)
@@ -497,9 +493,6 @@ CONDITION 3
             rebuild = True
         else:
             rebuild = False
-
-        # Praise the God of all Machines - The mighty Omnissiah!
-        #prayer().toPray()
 
         # MAIN
         preprocess = preprocessing(fi, dir_o, chunksize, dropped_cols, rebuild, multiProcessing, filtering)
