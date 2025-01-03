@@ -6,6 +6,7 @@ import sys
 import os
 
 '''
+STEP 1
 DATA PREPROCESSING
 
 In optional, user can choose to separate the category_code
