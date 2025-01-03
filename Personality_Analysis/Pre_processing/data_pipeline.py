@@ -6,61 +6,66 @@ import time
 import sys
 import os
 
-# DATA PREPROCESSING
-# For optional, this is just for data which category_code is not spearated.
-# Such as:
-#   category_code
-#   electronics.smartphone
-# The expected form should be:
-#   category_code_0 category_code_1
-#   electronics	    smartphone	
+'''
+DATA PREPROCESSING
 
-# PIPELINE
-# for chunk in data <-----------------------< 
-#        V                                  | 
-#    drop columns                           |
-#        v                                  |
-#     drop NA -> append to list             |
-#                      |                    |
-#                      |-<if loop not over>-^
-#                      |
-#                      v
-#                concat chunks ---------------v (optional)
-#                      |                      |
-#                      |              for chunk in data <------------------------< 
-#                      |                      v                                  |
-#                      |             rebuild category_code                       |
-#                      |                      v                                  |
-#                      |                 drop columns                            |
-#                      |                      v                                  |
-#                      |                   drop NA -> append to list             |
-#                      |                                    |                    |
-#                      |                                    |-<if loop not over>-^
-#                      |                                    |
-#                      |                                    V
-#                      |                              concat chunks
-#                      |                                    v
-#                      v                                    |
-#           save to local in .csv & .h5 <-------------------<
-#                      v                                    
-#                  plot tree
-#                      v
-#                save to local
+In optional, user can choose to separate the category_code
+For example:
+  category_code
+  electronics.smartphone
+The expected form should be:
+  category_code_0 category_code_1
+  electronics	    smartphone	
+
+PIPELINE FLOWCHART
+chunk in data <---------------------------< 
+       V                                  | 
+   drop columns                           |
+       v                                  |
+    drop NA -> append to list             |
+                     |                    |
+                     |-<if loop not over>-^
+                     |
+                     v
+               concat chunks ---------------v (optional)
+                     |                      |
+                     |              for chunk in data <------------------------< 
+                     |                      v                                  |
+                     |             rebuild category_code                       |
+                     |                      v                                  |
+                     |                 drop columns                            |
+                     |                      v                                  |
+                     |                   drop NA -> append to list             |
+                     |                                    |                    |
+                     |                                    |-<if loop not over>-^
+                     |                                    |
+                     |                                    V
+                     |                              concat chunks
+                     |                                    v
+                     v                                    |
+          save to local in .csv & .h5 <-------------------<
+                     v                                    
+                 plot tree
+                     v
+               save to local
+'''
 
 class preprocessing:
-    def __init__(self, fi, dir_o, chunksize, dropped_cols, rebuild, multiProcessing):
+    def __init__(self, fi, dir_o, chunksize, dropped_cols, rebuild, multiProcessing, filtering):
         self.fi = fi
         self.dir_o = dir_o
         self.chunksize = chunksize
         self.dropped_cols = dropped_cols
         self.rebuild = rebuild
         self.multiProcessing = multiProcessing
+        self.filtering = filtering
         
         self.dir_o = os.path.join(self.dir_o, os.path.basename(self.fi).split('.')[0])
 
         if not os.path.exists(self.dir_o):
             os.mkdir(self.dir_o)
-    
+
+    # drop the chosen column
     def drop_col(self, df):
         # check if column name is correct or not
         for dropped_col in self.dropped_cols:
@@ -71,6 +76,25 @@ class preprocessing:
             df.drop(dropped_col, axis=1, inplace=True)
         
         return df
+
+    # filter user by type of categories
+    def filter(self, df):
+        usr_records, usr_index = {}, {}
+        for j in df.index:
+            if len(df.loc[j, 'category_code'].split('.')) >= self.filtering:
+                usr = df.loc[j, 'user_id']
+                usr_records.setdefault(usr, set())
+                usr_records[usr].add(df.loc[j, 'category_code'])
+                usr_index.setdefault(usr, [])
+                usr_index[usr].append(j)
+
+        idxes = []
+        if usr_records != {}:
+            for idx in [k for k, v in usr_records.items() if len(v) > 2]:
+                idxes += usr_index[idx]
+
+        return df.loc[idxes].copy(deep=True)
+
 
     # rebuild category_code
     def rebuild_category_code(self, df, df_len, PID):
@@ -113,12 +137,12 @@ class preprocessing:
         new_df = pd.DataFrame(new_df)
 
         return new_df
-    
+
     def MP_rebuild_category_code(self, chunk_df, return_dict, PID):
         new_df = self.rebuild_category_code(chunk_df, chunk_df.shape[0], PID)
         return_dict[PID] = new_df
     
-    # Generate a tree for category_code
+    # Generate a tree of category_code
     def tree(self, out, Dict, level):
         for k, v in Dict.items():
             out.write("\t"*level + f'L {k}\n')
@@ -126,7 +150,7 @@ class preprocessing:
             if type(v) == dict:
                 self.tree(out, v, level + 1)
     
-    # perpare for tree
+    # prepare for tree
     def tree_perpare(self, df):
         categories = {}
         category_codes = set()
@@ -148,11 +172,11 @@ class preprocessing:
             for j in range(len(contents)):
                 category_codes.add(contents[j])
             
-            # optimazation, skip category code combation that already processed.
+            # optimization, skip category code combination that already processed.
             if curr_combination not in cc_combination:
                 cc_combination.add(curr_combination)
 
-                # create a curr_category and point to category dictionaty - categories' location
+                # create a curr_category and point to category dictionary - categories' location
                 curr_category = categories
                 for content in contents[:-1]:
                     curr_category.setdefault(content, {})
@@ -229,8 +253,11 @@ class preprocessing:
             # drop columns
             chunk_df = self.drop_col(chunk_df)
 
-            #drop na
+            # drop N/A
             chunk_df.dropna(axis=0, inplace=True)
+
+            # filter user
+            chunk_df = self.filter(chunk_df)
 
             processed_chunks.append(chunk_df)
 
@@ -244,11 +271,11 @@ class preprocessing:
         self.save2csv(processed_df, os.path.basename(self.fi).replace('.csv', '.clean.csv'))
 
         # save as HDF5 file
-        try:
-            self.save2hdf5(processed_df, f"{os.path.basename(self.fi).replace('.csv', '.clean.split')}.h5")
-        except OverflowError as e:
-            print(f'[*] Error: {e}')
-            print('[*] Skip saving as HDF5 file.')
+        # try:
+        #     self.save2hdf5(processed_df, f"{os.path.basename(self.fi).replace('.csv', '.clean.split')}.h5")
+        # except OverflowError as e:
+        #     print(f'[*] Error: {e}')
+        #     print('[*] Skip saving as HDF5 file.')
 
         self.preview(processed_df)
 
@@ -335,11 +362,11 @@ class preprocessing:
             self.save2csv(processed_df, os.path.basename(self.fi).replace('.csv', '.clean.split.csv'))
 
             # save as HDF5 file
-            try:
-                self.save2hdf5(processed_df, f"{os.path.basename(self.fi).replace('.csv', '.clean.split')}.h5")
-            except OverflowError as e:
-                print(f'[*] Error: {e}')
-                print('[*] Skip saving as HDF5 file.')
+            # try:
+            #     self.save2hdf5(processed_df, f"{os.path.basename(self.fi).replace('.csv', '.clean.split')}.h5")
+            # except OverflowError as e:
+            #     print(f'[*] Error: {e}')
+            #     print('[*] Skip saving as HDF5 file.')
             
             self.preview(processed_df)
 
@@ -401,9 +428,11 @@ CONDITION 3
     parser.add_argument('-O', '--OUTPUT_DIRECTORY', required=True, help='File name is not required, just need path.')
     parser.add_argument('-S', '--CHUNK_SIZE', default=10000, type=int, help='Set chunk size for processing data chunk by chunk, default is 10000.')
     parser.add_argument('-COL', '--DROPPED_COLUMNS', default=[], help='Optional, specify whcih column to drop, if there are multiple columns to drop, write as: col_A,col_B,...')
-    parser.add_argument('-REBUILD', '--REBUILD_CATEGORY_CODE', default=False, choices=['T', 'F'], help='Optional, choose from T&F. This is just for data which category_code is not spearated. Such as: electronics.smartphone')
+    parser.add_argument('-REBUILD', '--REBUILD_CATEGORY_CODE', default=False, choices=['T', 'F'], help='Optional, choose from T&F. This is just for data which category_code is not separated. Such as: electronics.smartphone')
     parser.add_argument('-R', '--RECURSIVE', default=False, choices=['T', 'F'], help='Optional, choose from T&F. This is for process multiple files in a row. If T, -I should be a directory path.')
     parser.add_argument('-MP', '--MULTI_PROCESSING', default=1, help='Optional, default is 1 processing. Entering the number of processing you want. If you specify processing number that larger than 1, chunk size will be assigned automaticly.')
+    parser.add_argument('-F', '--FILTERING', default=2, type=int, help='Optional, default is 3. This is to check and remove the user whose type of categories is less than the input number')
+
 
     args = parser.parse_args()
     fi = args.INPUT
@@ -413,6 +442,7 @@ CONDITION 3
     rebuild = args.REBUILD_CATEGORY_CODE
     recursive = args.RECURSIVE
     multiProcessing = int(args.MULTI_PROCESSING)
+    filtering = args.FILTERING
 
     if recursive == 'T':
         recursive = True
@@ -448,7 +478,7 @@ CONDITION 3
                 print(f'[*] Current file - {file}, {len(files) - i} remaining.')
 
                 # MAIN
-                preprocess = preprocessing(curr_fi, dir_o, chunksize, dropped_cols, rebuild, multiProcessing)
+                preprocess = preprocessing(curr_fi, dir_o, chunksize, dropped_cols, rebuild, multiProcessing, filtering)
                 preprocess.run()
             
             i += 1
@@ -472,5 +502,5 @@ CONDITION 3
         #prayer().toPray()
 
         # MAIN
-        preprocess = preprocessing(fi, dir_o, chunksize, dropped_cols, rebuild, multiProcessing)
+        preprocess = preprocessing(fi, dir_o, chunksize, dropped_cols, rebuild, multiProcessing, filtering)
         preprocess.run()
