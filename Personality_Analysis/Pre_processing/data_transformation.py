@@ -11,8 +11,11 @@ import os
 STEP 2
 DATA TRANSFORMATION
 
-Transformation will be performed around user, the code will split event_time
-column. And filter records depend on user's purchase frequency
+Transformation have several functions:
+- rebuilt event_time
+- calculate time_float
+- check the variety of category_code
+- generate each user's records
 
 COLUMN SEQUENCE
 (event_time -> event_date,event_time)
@@ -33,6 +36,10 @@ COLUMN SEQUENCE
   drop event_time column                          |
            v                                      | 
 insert new event_time columns                     |
+           v                                      | 
+calculate the event_time to float                 |
+           v                                      | 
+insert new column time_float                      |
            v                                      | 
 sort column(COLUMN SEQUENCE) -<if loop not over>--^
            v
@@ -141,7 +148,7 @@ class transformation:
                     pass
                 
                 else:
-
+                    # check again if the type of user's categories is more than 2
                     if usr_df['category_code'].nunique() > 3 and usr_df.shape[0] > int(self.threshold):
                         # save as csv file
                         self.save2csv(usr_df, usr_dir_csv, f'{usr_lst[i]}.csv')
@@ -165,9 +172,7 @@ class transformation:
                     pass
                 
                 else:
-                    # drop the users whose types of categories are less than 3
-
-
+                    # check again if the type of user's categories is more than 2
                     if usr_df['category_code'].nunique() > 3 and usr_df.shape[0] > int(self.threshold):
                         # save as csv file
                         self.save2csv(usr_df, usr_dir_csv, f'{usr_lst[i]}.csv')
@@ -237,6 +242,7 @@ class transformation:
                     print(f"Warning: 'time_float' column not found in data for user {usr_lst[i]}")
                     continue
 
+                # check again if the type of user's categories is more than 2
                 if usr_df['category_code'].nunique() > 3 and usr_df.shape[0] > int(self.threshold):
                     # save as csv file
                     self.save2csv(usr_df, usr_dir_csv, f'{usr_lst[i]}.csv')
