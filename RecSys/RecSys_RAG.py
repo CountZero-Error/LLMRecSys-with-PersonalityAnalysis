@@ -26,24 +26,35 @@ class RecSys:
             {
                 "role": "system",
                 "content": """Using the information contained in context, give a comprehensive answer to the question.
-                Respond only to the question asked, response should be concise and relevant to the question.
-                Information of recommended products must be correct and matched in context, do not falsify information.
-                If the answer cannot be deduced from the context, do not give an answer.
-                
-                Response must include product id, title, and reason for recommendation.
-                Response must strictly follow the template below:
-                i. - Product ID: <product id>: 
-                   - Title: <title>
-                   - Reason: <reason for recommendation>""",
+Respond only to the question asked, response should be concise and relevant to the question.
+Information of recommended products must be correct and matched in context, do not falsify information.
+If the answer cannot be deduced from the context, do not give an answer.
+
+Response must include product id, title, and reason for recommendation.
+Response must strictly follow the template below:
+i. **Product ID: <Product ID>** - <Title>
+Reason: <Reason>
+
+Answer examples:
+1. **Product ID: B0C3WNM5X7** - Simple Joys by Carter's Toddler Boys' Hooded Sweater Jacket with Sherpa Lining
+Reason: This product is highly rated with an average rating of 4.8, offering excellent value for its price.
+
+2. **Product ID: B0C1X12894** - Oversized Wearable Blanket Hoodie for Women Men Comfy Sweatshirt
+Reason: This product is highly rated with an average rating of 4.8, making it a great option for those looking for a cozy and warm garment.
+
+3. **Product ID: B0C68CBFKS** - Columbia Women's West Bend Hoodie
+Reason: This product is highly rated with an average rating of 4.4, offering a reliable and affordable option for casual wear.""",
             },
             {
                 "role": "user",
                 "content": """Context:
-                {context}
-                ---
-                Now here is the question you need to answer.
-                
-                Question: {question}""",
+{context}
+
+---
+
+Now here is the question you need to answer.
+
+Question: {question}""",
             },
         ]
 
@@ -136,6 +147,9 @@ class RecSys:
         final_prompt = RAG_PROMPT_TEMPLATE.format(
             question="Base on this product, recommend 5 best products from Context.", context=context
         )
+
+        # print(f'\n[!] Prompt: \n{final_prompt}\n')
+
         print('[*] Done.')
 
         '''Generate Recommendations'''
@@ -156,6 +170,7 @@ class RecSys:
         print('[*] Done.')
 
         return recommedations, retrieved_docs_text, KNOWLEDGE_VECTOR_DATABASE
+
 
 class RecInterpreter:
     def __init__(self, KNOWLEDGE_VECTOR_DATABASE, recommendations:str, target_id:str):
@@ -180,18 +195,29 @@ class RecInterpreter:
         sorted_vector_categories = dict(sorted(vector_categories.items(), key=lambda item: len(item[1]), reverse=True))
 
         '''recommendations'''
-        pattern = re.compile(r"\*\*(.*)\*\*")
+        pattern = re.compile(r"\*\*Product ID: (.*)\*\*")
         ids = [x.split()[-1] for x in pattern.findall(self.recommendations)]
 
+        # Check IDs
+        # print(f'[!] recommended IDs: {ids}')
+
         recommedation_vectors = {}
+        target_retrieved, recommedations_retrieved = 0, 0
         for i, v in enumerate(self.metadata.values()):
             curr_id = v.metadata['id']
-            if curr_id == self.target_id:
+            if curr_id == self.target_id and target_retrieved == 0:
                 recommedation_vectors.setdefault('Target Product', [])
                 recommedation_vectors['Target Product'].append(reduced_vectors[i])
-            elif curr_id in ids:
+                target_retrieved += 1
+                
+            elif curr_id in ids and recommedations_retrieved < 5:
                 recommedation_vectors.setdefault('Recommended Product', [])
                 recommedation_vectors['Recommended Product'].append(reduced_vectors[i])
+                recommedations_retrieved += 1
+
+        # Check
+        # for k, v in recommedation_vectors.items():
+        #     print(f'[!] {k}: {len(v)}')
 
         return sorted_vector_categories, recommedation_vectors
 
@@ -293,7 +319,7 @@ class RecInterpreter:
         print(f'[*] Recommended Products Information:')
         for v in recs_info.values():
             print(f'{v}\n')
-
+            
 
 if __name__ == '__main__':
     def retrieve_product_information(df, query_value):
@@ -301,15 +327,15 @@ if __name__ == '__main__':
         full_text = df.loc[product_index, 'TEXT']
         product_id = df.loc[product_index, 'PRODUCT_ID']
         print(f'[*] Retrieved product full content:\n{full_text}')
-
+    
         return df.loc[product_index, 'DESCRIPTION'], full_text, product_id
-
+    
     random.seed(time())
     formatted_df = pd.read_csv('trainData/amazon_products.train.formatted.csv')
     random_product_id = random.choice(formatted_df['PRODUCT_ID'])
-
+    
     test_description, full_text, target_id = retrieve_product_information(formatted_df, random_product_id)
-
+    
     '''RecSys'''
     recSys = RecSys(
         model='Llama3.2',
@@ -318,19 +344,17 @@ if __name__ == '__main__':
         access_token='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',
         product_description=test_description,
     )
-
+    
     recommedations, retrieved_docs_text, KNOWLEDGE_VECTOR_DATABASE = recSys.recommend()
-
+    
     print(f'Recommendations:\n{recommedations}\n\n')
-
+    
     '''Interpreter'''
     recInterpreter = RecInterpreter(
         KNOWLEDGE_VECTOR_DATABASE=KNOWLEDGE_VECTOR_DATABASE,
         recommendations=recommedations,
         target_id=target_id,
     )
-
-    recInterpreter.recommendations_info()
-
+    
     recInterpreter.vis_3d()
-
+    recInterpreter.recommendations_info()
