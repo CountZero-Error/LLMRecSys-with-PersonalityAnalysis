@@ -320,6 +320,8 @@ if __name__ == '__main__':
 
     recommedations, retrieved_docs_text, KNOWLEDGE_VECTOR_DATABASE = recSys.recommend()
 
+    print(f'Recommendations:\n{recommedations}\n\n')
+
     '''Interpreter'''
     recInterpreter = RecInterpreter(
         KNOWLEDGE_VECTOR_DATABASE=KNOWLEDGE_VECTOR_DATABASE,
