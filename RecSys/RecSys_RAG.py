@@ -1,6 +1,6 @@
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig, pipeline
 from langchain_huggingface import HuggingFaceEmbeddings
-from langchain.vectorstores import FAISS
+from langchain_community.vectorstores import FAISS
 from mpl_toolkits.mplot3d import Axes3D
 from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
