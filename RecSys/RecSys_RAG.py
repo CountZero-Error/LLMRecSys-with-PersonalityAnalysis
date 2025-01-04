@@ -291,6 +291,7 @@ class RecInterpreter:
                 recs_info.setdefault(curr_id, '')
                 recs_info[curr_id] = v.metadata['text']
 
+        print(f'[*] Recommended Products Information:')
         for v in recs_info.values():
             print(f'{v}\n')
 
@@ -330,5 +331,7 @@ if __name__ == '__main__':
         target_id=target_id,
     )
 
-    recInterpreter.vis_3d()
     recInterpreter.recommendations_info()
+
+    recInterpreter.vis_3d()
+
