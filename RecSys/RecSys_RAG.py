@@ -103,6 +103,7 @@ class RecSys:
         loaded_vector_database = FAISS.load_local(
             self.vector_db,
             embeddings=embedding_model,
+            allow_dangerous_deserialization=True,
         )
 
         print('[*] Vector database loaded.')
