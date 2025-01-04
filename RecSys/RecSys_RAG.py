@@ -17,21 +17,25 @@ class RecSys:
         self.prompt_in_chat_format = [
             {
                 "role": "system",
-                "content": """Using the information contained in context,
-        give a comprehensive answer to the question.
-        Respond only to the question asked, response should be concise and relevant to the question.
-        Response should include product id, title, and reason for recommendation.
-        Information of recommended products must be correct, do not falsify information.
-        If the answer cannot be deduced from the context, do not give an answer.""",
+                "content": """Using the information contained in context, give a comprehensive answer to the question.
+                Respond only to the question asked, response should be concise and relevant to the question.
+                Information of recommended products must be correct and matched in context, do not falsify information.
+                If the answer cannot be deduced from the context, do not give an answer.
+                
+                Response must include product id, title, and reason for recommendation.
+                Response must strictly follow the template below:
+                i. - Product ID: <product id>: 
+                   - Title: <title>
+                   - Reason: <reason for recommendation>""",
             },
             {
                 "role": "user",
                 "content": """Context:
-        {context}
-        ---
-        Now here is the question you need to answer.
-        
-        Question: {question}""",
+                {context}
+                ---
+                Now here is the question you need to answer.
+                
+                Question: {question}""",
             },
         ]
 
@@ -42,7 +46,8 @@ class RecSys:
 
         os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
-        self.access_token = getpass("Enter your access token for HuggingFace: ")
+        # self.access_token = getpass("Enter your access token for HuggingFace: ")
+        self.access_token = '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'
 
         match self.model:
             case "Llama3.2":
@@ -143,3 +148,5 @@ class RecSys:
         print('[*] Generating Recommendations...')
         recommedations = Rec_LLM(final_prompt)[0]["generated_text"]
         print('[*] Done.')
+
+        return recommedations, retrieved_docs_text
