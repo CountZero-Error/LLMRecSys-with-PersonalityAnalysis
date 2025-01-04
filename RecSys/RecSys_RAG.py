@@ -6,7 +6,6 @@ from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
 from getpass import getpass
 from time import time
-from tqdm import tqdm
 import pandas as pd
 import numpy as np
 import random
@@ -172,7 +171,7 @@ class RecInterpreter:
         reduced_vectors = pca.fit_transform(self.vectors)
 
         vector_categories = {}
-        for i, v in tqdm(enumerate(self.metadata.values())):
+        for i, v in enumerate(self.metadata.values()):
             curr_category = v.metadata['category']
             vector_categories.setdefault(curr_category, [])
             vector_categories[curr_category].append(reduced_vectors[i])
@@ -185,7 +184,7 @@ class RecInterpreter:
         ids = [x.split()[-1] for x in pattern.findall(self.recommendations)]
 
         recommedation_vectors = {}
-        for i, v in tqdm(enumerate(self.metadata.values())):
+        for i, v in enumerate(self.metadata.values()):
             curr_id = v.metadata['id']
             if curr_id == self.target_id:
                 recommedation_vectors.setdefault('Target Product', [])
@@ -285,7 +284,7 @@ class RecInterpreter:
         ids = [x.split()[-1] for x in pattern.findall(self.recommendations)]
 
         recs_info = {}
-        for v in tqdm(self.metadata.values()):
+        for v in self.metadata.values():
             curr_id = v.metadata['id']
             if curr_id in ids:
                 recs_info.setdefault(curr_id, '')
