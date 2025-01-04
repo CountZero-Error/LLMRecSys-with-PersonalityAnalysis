@@ -1,19 +1,28 @@
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig, pipeline
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain.vectorstores import FAISS
+from mpl_toolkits.mplot3d import Axes3D
+from sklearn.decomposition import PCA
+import matplotlib.pyplot as plt
 from getpass import getpass
+from time import time
+from tqdm import tqdm
+import pandas as pd
+import numpy as np
+import random
 import torch
 import os
+import re
 
 class RecSys:
-    def __init__(self, model:str, vector_db:str, product_description:str, k:int = 15, use_4bit:bool = False):
+    def __init__(self, model:str, vector_db:str, access_token:str, product_description:str, k:int = 15, use_4bit:bool = False):
         self.model = model
         self.vector_db = vector_db
         self.product_description = product_description
         self.k = k
         self.use_4bit = use_4bit
         self.device = ''
-        self.access_token = ''
+        self.access_token = access_token
         self.prompt_in_chat_format = [
             {
                 "role": "system",
@@ -45,9 +54,6 @@ class RecSys:
         print(f"[*] Using device: {self.device}")
 
         os.environ["TOKENIZERS_PARALLELISM"] = "false"
-
-        # self.access_token = getpass("Enter your access token for HuggingFace: ")
-        self.access_token = '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'
 
         match self.model:
             case "Llama3.2":
@@ -149,4 +155,177 @@ class RecSys:
         recommedations = Rec_LLM(final_prompt)[0]["generated_text"]
         print('[*] Done.')
 
-        return recommedations, retrieved_docs_text
+        return recommedations, retrieved_docs_text, KNOWLEDGE_VECTOR_DATABASE
+
+class RecInterpreter:
+    def __init__(self, KNOWLEDGE_VECTOR_DATABASE, recommendations:str, target_id:str):
+        self.faiss_idx = KNOWLEDGE_VECTOR_DATABASE.index
+        self.metadata = KNOWLEDGE_VECTOR_DATABASE.docstore._dict
+        self.vectors = self.faiss_idx.reconstruct_n(0, self.faiss_idx.ntotal)
+        self.recommendations = recommendations
+        self.target_id = target_id
+
+    def preprocess(self):
+        '''vector database'''
+        pca = PCA(n_components=3)
+        reduced_vectors = pca.fit_transform(self.vectors)
+
+        vector_categories = {}
+        for i, v in tqdm(enumerate(self.metadata.values())):
+            curr_category = v.metadata['category']
+            vector_categories.setdefault(curr_category, [])
+            vector_categories[curr_category].append(reduced_vectors[i])
+
+        # sort in descending by category length
+        sorted_vector_categories = dict(sorted(vector_categories.items(), key=lambda item: len(item[1]), reverse=True))
+
+        '''recommendations'''
+        pattern = re.compile(r"\*\*(.*)\*\*")
+        ids = [x.split()[-1] for x in pattern.findall(self.recommendations)]
+
+        recommedation_vectors = {}
+        for i, v in tqdm(enumerate(self.metadata.values())):
+            curr_id = v.metadata['id']
+            if curr_id == self.target_id:
+                recommedation_vectors.setdefault('Target Product', [])
+                recommedation_vectors['Target Product'].append(reduced_vectors[i])
+            elif curr_id in ids:
+                recommedation_vectors.setdefault('Recommended Product', [])
+                recommedation_vectors['Recommended Product'].append(reduced_vectors[i])
+
+        return sorted_vector_categories, recommedation_vectors
+
+    def vis_3d(self):
+        sorted_vector_categories, recommedation_vectors = self.preprocess()
+
+        # Plot in 3D
+        fig = plt.figure(figsize=(40, 20))
+
+        '''Vector Database'''
+        ax1 = fig.add_subplot(121, projection='3d')
+
+        for idx, (subset_name, subset_vectors) in enumerate(sorted_vector_categories.items()):
+            subset_vectors = np.array(subset_vectors)
+
+            # Reduce background size
+            # subset_vectors_len = len(subset_vectors)
+            # if subset_vectors_len >= 1000:
+            #     subset_vectors = subset_vectors[:1000]
+            # else:
+            #     subset_vectors = subset_vectors[:int(round(subset_vectors_len/2,0))]
+
+            ax1.scatter(
+                subset_vectors[:, 0],
+                subset_vectors[:, 1],
+                subset_vectors[:, 2],
+                label=subset_name.lower().title(),  # Add label for the legend
+                alpha=0.3,
+            )
+
+        ax1.set_title("3D Visualization of Products Vector Database (Whole)", fontsize=40)
+        ax1.tick_params(axis='x', labelsize=15)
+        ax1.tick_params(axis='y', labelsize=15)
+        ax1.tick_params(axis='z', labelsize=15)
+        ax1.legend(fontsize=15)
+
+        '''Target & Recommendation'''
+        ax2 = fig.add_subplot(122, projection='3d')
+
+        # Vector Database
+        for idx, (subset_name, subset_vectors) in enumerate(sorted_vector_categories.items()):
+            subset_vectors = np.array(subset_vectors)
+
+            # Reduce background size
+            subset_vectors_len = len(subset_vectors)
+            if subset_vectors_len >= 1000:
+                subset_vectors = subset_vectors[:500]
+            else:
+                subset_vectors = subset_vectors[:int(round(subset_vectors_len / 2, 0))]
+
+            ax2.scatter(
+                subset_vectors[:, 0],
+                subset_vectors[:, 1],
+                subset_vectors[:, 2],
+                label=subset_name.lower().title(),  # Add label for the legend
+                alpha=0.3,
+            )
+
+        # Target Product & Recommeded Products
+        for idx, (subset_name, subset_vectors) in enumerate(recommedation_vectors.items()):
+            subset_vectors = np.array(subset_vectors)
+
+            marker = 'x'
+            if subset_name == 'Target Product':
+                marker = 'o'
+
+            ax2.scatter(
+                subset_vectors[:, 0],
+                subset_vectors[:, 1],
+                subset_vectors[:, 2],
+                label=subset_name,  # Add label for the legend
+                alpha=1,
+                marker=marker,
+                color='black',
+                linewidths=3,
+                s=300,
+            )
+
+        ax2.set_title("3D Visualization of Target Product & Recommended Products", fontsize=40)
+        ax2.tick_params(axis='x', labelsize=15)
+        ax2.tick_params(axis='y', labelsize=15)
+        ax2.tick_params(axis='z', labelsize=15)
+        ax2.legend(fontsize=15)
+
+        plt.tight_layout()
+        plt.show()
+
+    def recommendations_info(self):
+        pattern = re.compile(r"\*\*(.*)\*\*")
+        ids = [x.split()[-1] for x in pattern.findall(self.recommendations)]
+
+        recs_info = {}
+        for v in tqdm(self.metadata.values()):
+            curr_id = v.metadata['id']
+            if curr_id in ids:
+                recs_info.setdefault(curr_id, '')
+                recs_info[curr_id] = v.metadata['text']
+
+        for v in recs_info.values():
+            print(f'{v}\n')
+
+
+if __name__ == '__main__':
+    def retrieve_product_information(df, query_value):
+        product_index = df.index[df['PRODUCT_ID'] == query_value].tolist()[0]
+        full_text = df.loc[product_index, 'TEXT']
+        product_id = df.loc[product_index, 'PRODUCT_ID']
+        print(f'[*] Retrieved product full content:\n{full_text}')
+
+        return df.loc[product_index, 'DESCRIPTION'], full_text, product_id
+
+    random.seed(time())
+    formatted_df = pd.read_csv('trainData/amazon_products.train.formatted.csv')
+    random_product_id = random.choice(formatted_df['PRODUCT_ID'])
+
+    test_description, full_text, target_id = retrieve_product_information(formatted_df, random_product_id)
+
+    '''RecSys'''
+    recSys = RecSys(
+        model='Llama3.2',
+        # model='Qwen2.5',
+        vector_db='./Vector_DB',
+        access_token='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',
+        product_description=test_description,
+    )
+
+    recommedations, retrieved_docs_text, KNOWLEDGE_VECTOR_DATABASE = recSys.recommend()
+
+    '''Interpreter'''
+    recInterpreter = RecInterpreter(
+        KNOWLEDGE_VECTOR_DATABASE=KNOWLEDGE_VECTOR_DATABASE,
+        recommendations=recommedations,
+        target_id=target_id,
+    )
+
+    recInterpreter.vis_3d()
+    recInterpreter.recommendations_info()
