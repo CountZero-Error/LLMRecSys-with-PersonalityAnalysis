@@ -1,3 +1,4 @@
+from collections import Counter
 from tqdm import tqdm
 import pandas as pd
 import numpy as np
@@ -33,11 +34,17 @@ class data_statistic_transformation:
     def cal_brand_loyalty_ratio(self, col):
         return round(col.tolist().count(statistics.mode(col))/len(col), self.round_decimal)
 
+    def activity_category_distribution(self, col):
+        counter = Counter(col)
+        activity_distribution = {k: round(v/len(col), 1) for k, v in counter.items()}
+        return activity_distribution
+
     def transform(self):
         df = pd.read_csv(self.fi, sep=self.sep)
 
         self.transformed_usr_records["average_time_float"].append(round(np.mean(df["time_float"]), self.round_decimal))
         self.transformed_usr_records["purchase_ratio"].append(self.cal_purchase_ratio(df["event_type"]))
+        self.transformed_usr_records["average_price"].append(round(np.mean(df[["price"]]), self.round_decimal))
         self.transformed_usr_records["brand_loyalty_ratio"].append(self.cal_brand_loyalty_ratio(df["brand"]))
 
         # Find the top 3 most frequent values for category_code_2
@@ -49,7 +56,11 @@ class data_statistic_transformation:
         self.transformed_usr_records["most_freq_category_2"].append(top_categories[1])
         self.transformed_usr_records["most_freq_category_3"].append(top_categories[2])
 
-        self.transformed_usr_records["average_price"].append(round(np.mean(df[["price"]]), self.round_decimal))
+        activity_distribution = self.activity_category_distribution(df["category_code"])
+
+        self.transformed_usr_records["category_1_activity_weight"].append(activity_distribution[top_categories[0]])
+        self.transformed_usr_records["category_2_activity_weight"].append(activity_distribution[top_categories[1]])
+        self.transformed_usr_records["category_3_activity_weight"].append(activity_distribution[top_categories[2]])
 
         return self.transformed_usr_records
 
@@ -84,11 +95,14 @@ if __name__ == '__main__':
         "user_id": [],
         "average_time_float": [],
         "purchase_ratio": [],
+        "average_price": [],
         "brand_loyalty_ratio": [],
         "most_freq_category_1": [],
+        "category_1_activity_weight": [],
         "most_freq_category_2": [],
+        "category_2_activity_weight": [],
         "most_freq_category_3": [],
-        "average_price": [],
+        "category_3_activity_weight": [],
     }
     files = os.listdir(di)
 
