@@ -60,7 +60,7 @@ Question: {question}""",
 
     def initialize(self):
         # Set hardware
-        self.device = torch.device("cuda" if torch.cuda.is_available() else "mps" if torch.mps.is_available else "cpu")
+        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         print(f"[*] Using device: {self.device}")
 
         os.environ["TOKENIZERS_PARALLELISM"] = "false"
@@ -145,7 +145,7 @@ Question: {question}""",
         )
 
         final_prompt = RAG_PROMPT_TEMPLATE.format(
-            question="Base on this product, recommend 5 best products from Context.", context=context
+            question="Base on this product, recommend 5 best products from Context. And for each recommended product, give a reason.", context=context
         )
 
         # print(f'\n[!] Prompt: \n{final_prompt}\n')
@@ -166,19 +166,20 @@ Question: {question}""",
         )
 
         print('[*] Generating Recommendations...')
-        recommedations = Rec_LLM(final_prompt)[0]["generated_text"]
+        recommendations = Rec_LLM(final_prompt)[0]["generated_text"]
         print('[*] Done.')
 
-        return recommedations, retrieved_docs_text, KNOWLEDGE_VECTOR_DATABASE
+        return recommendations, retrieved_docs_text, KNOWLEDGE_VECTOR_DATABASE
 
 
 class RecInterpreter:
-    def __init__(self, KNOWLEDGE_VECTOR_DATABASE, recommendations:str, target_id:str):
+    def __init__(self, KNOWLEDGE_VECTOR_DATABASE, recommendations: str, target_id: str, candidates: list):
         self.faiss_idx = KNOWLEDGE_VECTOR_DATABASE.index
         self.metadata = KNOWLEDGE_VECTOR_DATABASE.docstore._dict
         self.vectors = self.faiss_idx.reconstruct_n(0, self.faiss_idx.ntotal)
         self.recommendations = recommendations
         self.target_id = target_id
+        self.candidates = candidates
 
     def preprocess(self):
         '''vector database'''
@@ -195,34 +196,65 @@ class RecInterpreter:
         sorted_vector_categories = dict(sorted(vector_categories.items(), key=lambda item: len(item[1]), reverse=True))
 
         '''recommendations'''
-        pattern = re.compile(r"\*\*Product ID: (.*)\*\*")
-        ids = [x.split()[-1] for x in pattern.findall(self.recommendations)]
+        recommendation_pattern = re.compile(r"\*\*Product ID: (.*)\*\*")
+        recommendation_ids = [x.split()[-1] for x in recommendation_pattern.findall(self.recommendations)]
 
         # Check IDs
         # print(f'[!] recommended IDs: {ids}')
 
-        recommedation_vectors = {}
-        target_retrieved, recommedations_retrieved = 0, 0
+        '''candidates'''
+        candidate_pattern = r"Product ID:\s*(\w+)"
+        _candidate_ids = []
+        for candidate in self.candidates:
+            _candidate_ids += re.findall(candidate_pattern, candidate)
+
+        # Intersect with recommendations
+        candidate_ids = []
+        for candidate_id in _candidate_ids:
+            if candidate_id not in recommendation_ids:
+                candidate_ids.append(candidate_id)
+
+        # Check IDs
+        # print(f'[!] candidate IDs: {candidate_ids}')
+
+        '''get vector'''
+        recommendation_vectors = {}
+        matched_products = {}
+        target_retrieved, recommendations_retrieved, candidates_retrieved = 0, 0, 0
         for i, v in enumerate(self.metadata.values()):
             curr_id = v.metadata['id']
             if curr_id == self.target_id and target_retrieved == 0:
-                recommedation_vectors.setdefault('Target Product', [])
-                recommedation_vectors['Target Product'].append(reduced_vectors[i])
+                recommendation_vectors.setdefault('Target Product', [])
+                recommendation_vectors['Target Product'].append(reduced_vectors[i])
                 target_retrieved += 1
-                
-            elif curr_id in ids and recommedations_retrieved < 5:
-                recommedation_vectors.setdefault('Recommended Product', [])
-                recommedation_vectors['Recommended Product'].append(reduced_vectors[i])
-                recommedations_retrieved += 1
+
+                matched_products.setdefault('Target Product', [])
+                matched_products['Target Product'].append(curr_id)
+
+            elif curr_id in recommendation_ids and recommendations_retrieved < 5:
+                recommendation_vectors.setdefault('Recommended Product', [])
+                recommendation_vectors['Recommended Product'].append(reduced_vectors[i])
+                recommendations_retrieved += 1
+
+                matched_products.setdefault('Recommended Product', [])
+                matched_products['Recommended Product'].append(curr_id)
+
+            elif curr_id in candidate_ids and candidates_retrieved < 10:
+                recommendation_vectors.setdefault('Candidate Product', [])
+                recommendation_vectors['Candidate Product'].append(reduced_vectors[i])
+                candidates_retrieved += 1
+
+                matched_products.setdefault('Candidate Product', [])
+                matched_products['Candidate Product'].append(curr_id)
 
         # Check
-        # for k, v in recommedation_vectors.items():
-        #     print(f'[!] {k}: {len(v)}')
+        for k, v in recommendation_vectors.items():
+            print(f'[!] {k}({len(v)}): {matched_products[k]}')
 
-        return sorted_vector_categories, recommedation_vectors
+        return sorted_vector_categories, recommendation_vectors
 
-    def vis_3d(self):
-        sorted_vector_categories, recommedation_vectors = self.preprocess()
+    def vis_3d(self, save2local: str = ''):
+        sorted_vector_categories, recommendation_vectors = self.preprocess()
 
         # Plot in 3D
         fig = plt.figure(figsize=(40, 20))
@@ -277,12 +309,14 @@ class RecInterpreter:
             )
 
         # Target Product & Recommeded Products
-        for idx, (subset_name, subset_vectors) in enumerate(recommedation_vectors.items()):
+        for idx, (subset_name, subset_vectors) in enumerate(recommendation_vectors.items()):
             subset_vectors = np.array(subset_vectors)
 
             marker = 'x'
             if subset_name == 'Target Product':
                 marker = 'o'
+            elif subset_name == 'Candidate Product':
+                marker = '+'
 
             ax2.scatter(
                 subset_vectors[:, 0],
@@ -303,22 +337,31 @@ class RecInterpreter:
         ax2.legend(fontsize=15)
 
         plt.tight_layout()
+
+        if save2local != '':
+            plt.savefig(save2local)
+
         plt.show()
 
     def recommendations_info(self):
-        pattern = re.compile(r"\*\*(.*)\*\*")
-        ids = [x.split()[-1] for x in pattern.findall(self.recommendations)]
+        recommendation_pattern = re.compile(r"\*\*Product ID: (.*)\*\*")
+        recommendation_ids = [x.split()[-1] for x in recommendation_pattern.findall(self.recommendations)]
 
         recs_info = {}
         for v in self.metadata.values():
             curr_id = v.metadata['id']
-            if curr_id in ids:
+            if curr_id in recommendation_ids:
                 recs_info.setdefault(curr_id, '')
                 recs_info[curr_id] = v.metadata['text']
 
-        print(f'[*] Recommended Products Information:')
+        print(f'\n[*] Recommended Products Information:')
         for v in recs_info.values():
             print(f'{v}\n')
+
+    def candidates_info(self):
+        print(f'\n[*] Candidate Products Information:')
+        for candidate in self.candidates:
+            print(f'{candidate}\n')
             
 
 if __name__ == '__main__':
@@ -327,34 +370,38 @@ if __name__ == '__main__':
         full_text = df.loc[product_index, 'TEXT']
         product_id = df.loc[product_index, 'PRODUCT_ID']
         print(f'[*] Retrieved product full content:\n{full_text}')
-    
+
         return df.loc[product_index, 'DESCRIPTION'], full_text, product_id
-    
+
+
     random.seed(time())
     formatted_df = pd.read_csv('trainData/amazon_products.train.formatted.csv')
     random_product_id = random.choice(formatted_df['PRODUCT_ID'])
-    
+
     test_description, full_text, target_id = retrieve_product_information(formatted_df, random_product_id)
-    
+
     '''RecSys'''
     recSys = RecSys(
-        model='Llama3.2',
-        # model='Qwen2.5',
+        # model='Llama3.2',
+        model='Qwen2.5',
         vector_db='./Vector_DB',
         access_token='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',
         product_description=test_description,
+        k=15,
     )
-    
-    recommedations, retrieved_docs_text, KNOWLEDGE_VECTOR_DATABASE = recSys.recommend()
-    
-    print(f'Recommendations:\n{recommedations}\n\n')
-    
+
+    recommendations, retrieved_docs_text, KNOWLEDGE_VECTOR_DATABASE = recSys.recommend()
+
+    print(f'Recommendations:\n{recommendations}\n\n')
+
     '''Interpreter'''
     recInterpreter = RecInterpreter(
         KNOWLEDGE_VECTOR_DATABASE=KNOWLEDGE_VECTOR_DATABASE,
-        recommendations=recommedations,
+        recommendations=recommendations,
         target_id=target_id,
+        candidates=retrieved_docs_text,
     )
-    
-    recInterpreter.vis_3d()
+
+    recInterpreter.vis_3d('vectors.png')
     recInterpreter.recommendations_info()
+    recInterpreter.candidates_info()
