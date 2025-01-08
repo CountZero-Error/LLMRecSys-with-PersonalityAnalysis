@@ -207,6 +207,11 @@ class Labeling:
 
                         label = label.lstrip('.')
 
+        # 去重逻辑
+        if label:
+            unique_labels = list(set(label.split('.')))
+            label = '.'.join(sorted(unique_labels))
+
         return label
 
 
@@ -284,14 +289,7 @@ class Labeling:
         df.insert(df.shape[1], 'labels', label_col, allow_duplicates=True)
 
         # save to local
-        self.save2csv(df, os.path.basename(self.fi).replace('.csv', '.clean.labbelled.csv'))
-
-        # save as HDF5
-        # try:
-        #     self.save2hdf5(df, f"{os.path.basename(self.fi).replace('.csv', '.clean.labbelled')}.h5")
-        # except OverflowError as e:
-        #     print(f'\n[*] Error: {e}')
-        #     print('[*] Skip saving as HDF5 file.')
+        self.save2csv(df, os.path.basename(self.fi).replace('.csv', '_labeled.csv'))
 
         self.preview(df)
 
@@ -300,14 +298,7 @@ class Labeling:
         labelled_df = df[df['labels'] != '/']
         
         # save to local
-        self.save2csv(labelled_df, os.path.basename(self.fi).replace('.csv', '.clean.labbelled_only.csv'))
-
-        # # save as HDF5
-        # try:
-        #     self.save2hdf5(labelled_df, f"{os.path.basename(self.fi).replace('.csv', '.clean.labbelled_only')}.h5")
-        # except OverflowError as e:
-        #     print(f'\n[*] Error: {e}')
-        #     print('[*] Skip saving as HDF5 file.')
+        # self.save2csv(labelled_df, os.path.basename(self.fi).replace('.csv', '_labeled_only.csv'))
 
         time_spend = time.time() - start
         if time_spend < 60:

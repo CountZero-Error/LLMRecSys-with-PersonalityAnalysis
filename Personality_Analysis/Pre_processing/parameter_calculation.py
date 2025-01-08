@@ -62,13 +62,13 @@ class data_statistic_transformation:
         self.transformed_usr_records["category_2_activity_weight"].append(activity_distribution[top_categories[1]])
         self.transformed_usr_records["category_3_activity_weight"].append(activity_distribution[top_categories[2]])
 
-        self.transformed_usr_records["records_number"].append(df.shape[0])
+        # self.transformed_usr_records["records_number"].append(df.shape[0])
 
         return self.transformed_usr_records
 
 def save2csv(transformed_usr_records, fo):
     final_df = pd.DataFrame(transformed_usr_records)
-    final_df = final_df.sort_values(by=['records_number'], ascending=False)
+    # final_df = final_df.sort_values(by=['records_number'], ascending=False)
     final_df.to_csv(fo, index=False)
 
 
@@ -106,7 +106,7 @@ if __name__ == '__main__':
         "category_2_activity_weight": [],
         "most_freq_category_3": [],
         "category_3_activity_weight": [],
-        "records_number": [],
+        # "records_number": [],
     }
     files = os.listdir(di)
 
