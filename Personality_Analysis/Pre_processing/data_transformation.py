@@ -191,10 +191,10 @@ class transformation:
     def generate_usr_records(self, df, usr_lst):
         # Create directory user_records in dir_o
         usr_dir_csv = os.path.join(self.dir_o, 'user_records_csv')
-        usr_dir_hdf = os.path.join(self.dir_o, 'user_records_hdf')
+        # usr_dir_hdf = os.path.join(self.dir_o, 'user_records_hdf')
 
         self.check_directory(usr_dir_csv)
-        self.check_directory(usr_dir_hdf)
+        # self.check_directory(usr_dir_hdf)
 
         print('[*] Generating user records...')
 
@@ -208,7 +208,7 @@ class transformation:
             for i in range(self.multiProcessing):
                 processing = mp.Process(
                     target=self.MP_generate_usr_records,
-                    args=(i, df, usr_lst, usr_start, usr_end, usr_num, usr_dir_csv, usr_dir_hdf)
+                    args=(i, df, usr_lst, usr_start, usr_end, usr_num, usr_dir_csv)
                 )
                 processing.start()
 
