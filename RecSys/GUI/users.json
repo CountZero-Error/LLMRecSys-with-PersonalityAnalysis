@@ -1,0 +1,1713 @@
+[
+    {
+        "id": 1,
+        "name": "AlexSmith",
+        "active": false,
+        "visualizationPath": "None",
+        "targetItem": {
+            "id": "None",
+            "name": "None",
+            "description": "None",
+            "category": "None",
+            "rating": 0,
+            "price": 0,
+            "details": "None"
+        },
+        "recommendedItems": [],
+        "candidateItems": []
+    },
+
+
+
+
+    {
+      "id": 2,
+      "name": "BellaJohnson",
+      "active": true,
+      "visualizationPath": "vis/A.png",
+      "targetItem": {
+        "id": "B0BS6MF43Y",
+        "name": "African Waist Beads Chain for Women,Layered Belly Bead Chains Plus Size Multilayer Body Chain Colorful Summer Bikini Jewelry Accessories for Beach Party",
+        "description": "10PCS African Waist Beads Chain for Women,Layered Belly Bead Chains Plus Size Multilayer Body Chain Colorful Summer Bikini Jewelry Accessories for Beach Party",
+        "category": "AMAZON FASHION",
+        "rating": 4.3,
+        "price": 9.99,
+        "details": "Package Dimensions: 8.07 x 4.21 x 1.3 inches; 7.83 Ounces | Department: Womens | Date First Available: January 12 | 2023 | Country of Origin: China"
+      },
+      "recommendedItems": [
+        {
+          "id": "B0BTPC9ZP9",
+          "name": "foyjoey Dainty Ankle Bracelets for Women 18K Gold Plated Satellite Beaded Herringbone Chain Anklets Simple Lip Ball Chain Anklet Bracelet Minimalist Summer Beach Foot Jewelry Gifts for Girls",
+          "description": "Simple Cute Chain Anklet Flat Snake Chain Link Dainty Ankle Bracelets for Women Boho Cute Summer Beach Anklets Features: Color: Gold Size: 8.3\" +1.5\" extender chain Material: 18K gold plated over stainless steel High Quality Sturdy chain with smooth edges, comfortable to wear. Also can use lobster clasp easy to adjust. Hypoallergenic, waterproof, nickle and lead free. Will never fade, rust, or turn skin green. Perfect Gifts Minimalist and simple design, fashion trendy anklet, never be out of date. Suit for many occasions, etc party, wedding, ceremony, graduation, dating and vocation。",
+          "category": "AMAZON FASHION",
+          "rating": 4.6,
+          "price": 12.95,
+          "details": "Material: Stainless Steel | Color: Satellite-Gold | Brand: Foyjoey | Style: Beaded,Chain,Gold Plated,Minimalist,Simple | Age Range (Description): Adult | Department: Womens | Date First Available: February 2 | 2023 | Manufacturer: foyjoey",
+          "reason": "This ankle bracelet set is made from high-quality materials and features intricate designs that add a touch of sophistication to any outfit. The adjustable strap ensures a secure fit, and the lightweight construction makes it perfect for everyday wear."
+        },
+        {
+          "id": "B0C1X12894",
+          "name": "SRVNFBKT Girls Winter Coats Fur Hooded Warm Puffer Jacket Parka Coat for Girls",
+          "description": "Girls Puffer Down Coat Winter Jacket Parka Overcoat Windproof Snowsuit Outerwear with Fur Hood for Girls Product features Fur hood Fur hood could keep you Warm in the chill winter climates. 2 large front pockets Hand warmer pockets provide storage for accessories and extra comfort for frigid fingers. Elastic cuffs The elastic cuffs and hem provide a close, comfortable fit for added weather protection.",
+          "category": "AMAZON FASHION",
+          "rating": 4.4,
+          "price": 39.99,
+          "details": "Date First Available: April 9 | 2023",
+          "reason": "This product offers a high-quality hoodie with a soft and cozy fabric, perfect for cold weather. Its oversized design makes it suitable for both men and women, and its sweatshirt style ensures comfort during physical activities."
+        },
+        {
+          "id": "B0BVR4SBDN",
+          "name": "HUASAI Layered Necklaces for Women Silver Twist Chain Necklace Delicate Sparkling Clavicle Chain for Teen Girls Adjustable Layered Choker Necklace",
+          "description": "Layered Necklaces for Women Silver Twist Chain Necklace Delicate Sparkling Clavicle Chain for Teen Girls Adjustable Layered Choker Necklace",
+          "category": "AMAZON FASHION",
+          "rating": 4.1,
+          "price": 9.99,
+          "details": "Department: womens | Date First Available: February 14 | 2023 | Manufacturer: U Elegant 4 All",
+          "reason": "This layered necklace set offers a unique and stylish way to add a touch of elegance to any outfit. The adjustable design allows for customization, and the delicate sparkly details make it perfect for special occasions."
+        },
+        {
+          "id": "B0C68CBFKS",
+          "name": "Columbia Women's West Bend Hoodie",
+          "description": "Made from plush sherpa fleece with a hint of stretch, this hoodie is just the cozy boost you need on cold days. Columbia offers this jacket in multiple colors and sizes. Extended sizing available. Regular fit.",
+          "category": "AMAZON FASHION",
+          "rating": 4.4,
+          "price": 61.0,
+          "details": "Item model number: 2013241 | Department: womens | Date First Available: May 24 | 2023 | Manufacturer: Columbia",
+          "reason": "This product features a durable and water-resistant design, making it suitable for outdoor activities. The hooded design provides protection from wind and rain, while the fleece lining keeps users warm. Its affordability and versatility make it a great option for everyday wear."
+        },
+        {
+          "id": "B0C3VGBRN4",
+          "name": "LSxAB Spooky Ghost Charm Competible with Pandora Charm Bracelets Women Girls Haunted House Five Little Ghosts",
+          "description": "We provides various kinds of fashion jewelry, such as bracelet charms, stud earrings, drop earrings, leather bracelets, women bracelets, finger rings, dog tag necklace, women necklaces, initial letter cuff bracelets, initial name necklaces, zodiac necklaces, medical ID bracelets, Autism bracelets, safety chain for bracelet, turquoise bracelets, snack chain for bracelets, men necklaces, mini cremation urn, lucky bracelets, lucky rope, surfer bracelet, friendship bracelets, sisterhood bracelets, cubic zirconia charm, dangle charm, charm beads, neck gaiter, magic mask, head-wear.",
+          "category": "AMAZON FASHION",
+          "rating": 4.2,
+          "price": 8.99,
+          "details": "Item model number: LNCC 031 | Department: Girls | Date First Available: April 28 | 2023 | Manufacturer: LSxAB fits Pandora Charm Bracelet",
+          "reason": "This charm set combines spooky and fun elements in a unique way, making it perfect for fans of horror movies or Halloween enthusiasts. The ghost charm adds a touch of whimsy to any outfit, and the Pandora-style packaging adds a touch of luxury."
+        }
+      ],
+      "candidateItems": [
+        {
+          "id": "B09Y196GWW",
+          "name": "Body Chains for Women Waist Chain Leg Chain Sexy Body Chain Crossover Thin Bra Bikini Waist Belly Chain Beach Body Necklace Jewelry for Women",
+          "description": "Body Chains for Women Waist Chain Leg Chain Sexy Body Chain Crossover Thin Bra Bikini Waist Belly Chain Beach Body Necklace Jewelry for Women",
+          "category": "AMAZON FASHION",
+          "rating": 3.9,
+          "price": 6.99,
+          "details": "Package Dimensions: 5 x 5 x 0.35 inches; 0.53 Ounces | Department: Womens | Date First Available: February 17 | 2023 | Manufacturer: Aouaos Jewelry"
+        },
+        {
+          "id": "B0BVR4SBDN",
+          "name": "HUASAI Layered Necklaces for Women Silver Twist Chain Necklace Delicate Sparkling Clavicle Chain for Teen Girls Adjustable Layered Choker Necklace",
+          "description": "Layered Necklaces for Women Silver Twist Chain Necklace Delicate Sparkling Clavicle Chain for Teen Girls Adjustable Layered Choker Necklace",
+          "category": "AMAZON FASHION",
+          "rating": 4.1,
+          "price": 9.99,
+          "details": "Department: womens | Date First Available: February 14 | 2023 | Manufacturer: U Elegant 4 All"
+        },
+        {
+          "id": "B0C1V561CF",
+          "name": "Taouzi Waist Beads with Crystals Handmade Elastic African Waist Chains Boho Colorful Beads Body Chains Summer Beach Jewelry for Women",
+          "description": "Waist Beads for Women",
+          "category": "AMAZON FASHION",
+          "rating": 4.4,
+          "price": 11.98,
+          "details": "Package Dimensions: 3 x 2 x 0.25 inches; 3.2 Ounces | Department: womens | Date First Available: April 9 | 2023 | Manufacturer: Taouzi | Country of Origin: China"
+        },
+        {
+          "id": "B0BZCWV2KD",
+          "name": "ROSIEYO 14k Gold Cuban Link Chain Necklace Mens Gold Chain Man Necklace Chain Gold Real Plated 316L Stainless Steel Diamond Cut Miami 3.5/6/8/10mm 18/20/22/24/26 Inch",
+          "description": "ROSIEYO 14k Gold Cuban Link Chain Necklace, Mens Cuban Link Chain Necklace, Gold Chain for Men Women Boys, 316L Stainless Steel Chain 3.5/6/8/10mm 18/20/22/24/26 Inch",
+          "category": "AMAZON FASHION",
+          "rating": 4.5,
+          "price": 22.99,
+          "details": "Department: Mens | Date First Available: March 23 | 2023"
+        },
+        {
+          "id": "B0BRV1Z5GZ",
+          "name": "DEARMAY 14K Gold Necklaces for Women, Dainty Layered Gold Herringbone Choker Necklace for Women Thin Chunky Snake Chain Necklaces Jewelry for Teen Girl Gifts",
+          "description": "DEARMAY Dainty 14K Gold Chain Necklace for Women, Thin Chunky Herringbone Snake Rope Paperclip Chain Necklaces Set Layered Cute Choker Necklaces Aesthetic Jewelry Gift for Women",
+          "category": "AMAZON FASHION",
+          "rating": 4.3,
+          "price": 12.56,
+          "details": "Package Dimensions: 2.76 x 2.76 x 0.59 inches; 0.71 Ounces | Department: womens | Date First Available: January 7 | 2023"
+        },
+        {
+          "id": "B0C4T9KPWY",
+          "name": "700Pcs Spacer Beads, Crystal Beads, Rhinestone Beads,Charms Beads for Jewelry Making, Bracelet Pendants,10 Colors (8mm-10colors)",
+          "description": "700Pcs Spacer Beads, Crystal Beads, Rhinestone Beads ,Charms Beads for Jewelry Making , Bracelet Pendants,15 Colors",
+          "category": "Amazon Home",
+          "rating": 4.5,
+          "price": 9.99,
+          "details": "Product Dimensions: 0.31 x 0.31 x 0.08 inches | Item Weight: 5 ounces | Manufacturer: MinduoYK | Country of Origin: China | Item model number: Lok-7008-10Colors | Best Sellers Rank: {Arts | Crafts & Sewing: 4537 | Beading Supplies: 216 | Beads & Bead Assortments: 258} | Date First Available: March 2 | 2023 | Color: 8mm-10colors | Material: Metal | Size: Small | Brand: MinduoYK | Shape: Round | Number of Pieces: 700"
+        },
+        {
+          "id": "B0BTPC9ZP9",
+          "name": "foyjoey Dainty Ankle Bracelets for Women 18K Gold Plated Satellite Beaded Herringbone Chain Anklets Simple Lip Ball Chain Anklet Bracelet Minimalist Summer Beach Foot Jewelry Gifts for Girls",
+          "description": "Simple Cute Chain Anklet Flat Snake Chain Link Dainty Ankle Bracelets for Women Boho Cute Summer Beach Anklets",
+          "category": "AMAZON FASHION",
+          "rating": 4.6,
+          "price": 12.95,
+          "details": "Material: Stainless Steel | Color: Satellite-Gold | Brand: Foyjoey | Style: Beaded,Chain,Gold Plated,Minimalist,Simple | Age Range (Description): Adult | Department: Womens | Date First Available: February 2 | 2023 | Manufacturer: foyjoey"
+        },
+        {
+          "id": "B0C3VGBRN4",
+          "name": "LSxAB Spooky Ghost Charm Competible with Pandora Charm Bracelets Women Girls Haunted House Five Little Ghosts",
+          "description": "We provides various kinds of fashion jewelry, such as bracelet charms, stud earrings, drop earrings, leather bracelets, women bracelets, finger rings, dog tag necklace, women necklaces, etc.",
+          "category": "AMAZON FASHION",
+          "rating": 4.2,
+          "price": 8.99,
+          "details": "Item model number: LNCC 031 | Department: Girls | Date First Available: April 28 | 2023 | Manufacturer: LSxAB fits Pandora Charm Bracelet"
+        },
+        {
+          "id": "B0BW8ZY9BP",
+          "name": "Marg Collection Wednesday Addams Merchandise Necklace for Women Men, Stainless Steel Silver Plated Pendant W Necklace Gothic Punk Costume Wednesday Necklace Gifts for Boys Girls",
+          "description": "Wednesday Addams Merchandise Necklace for Women Men, Stainless Steel Silver Plated Pendant W Necklace Gothic Punk Costume Wednesday Necklace Gifts for Boys Girls",
+          "category": "AMAZON FASHION",
+          "rating": 4.0,
+          "price": 6.99,
+          "details": "Package Dimensions: 1.18 x 0.79 x 0.39 inches; 0.14 Ounces | Item model number: silver W | Department: Unisex Adult | Date First Available: February 20 | 2023 | Manufacturer: Marg Collection"
+        },
+        {
+          "id": "B0BVRTVJF2",
+          "name": "Acrylic Beads Assorted Heart Flower Candy Butterfly Star Ball Bow Pastel Loose Charm Cute Beaded 9colors 600pcs with Strings Bulk for Bracelet Necklace Jewelry Making Phone Strap Craft (Black White)",
+          "description": "Acrylic Beads Assorted Heart Flower Candy Butterfly Star Ball Bow Pastel Loose charm Cute Beaded 9colors 600pcs with strings Bulk for Bracelet Necklace Jewelry Making Phone Strap Craft",
+          "category": "Amazon Home",
+          "rating": 4.8,
+          "price": 12.99,
+          "details": "Product Dimensions: 0.39 x 0.39 x 0.39 inches | Item Weight: 4.2 ounces | Manufacturer: Cmidy | Country of Origin: China | Item model number: Acrylic Beads Assorted | Best Sellers Rank: {Arts | Crafts & Sewing: 287372 | Beads & Bead Assortments: 13973} | Date First Available: February 18 | 2023 | Color: Black White | Material: Acrylic | Size: Medium | Brand: Cmidy | Shape: Heart | Number of Pieces: 600"
+        },
+        {
+          "id": "B0BTYC5V7V",
+          "name": "Geyoga 4 Pieces Rhinestone Clutch Purses Necklace Choker Earring Waist Chains Jewelry Set Women Rhinestone Glitter Crystal Waist Triangle Bling Diamond Purse for Women Girl Wedding Party",
+          "description": "Features: Bling appearance: These bag and wrist chain are designed with full rhinestone, and the disco necklace can shine under light, which can attract more women and girls.",
+          "category": "AMAZON FASHION",
+          "rating": 2.0,
+          "price": 19.99,
+          "details": "Package Dimensions: 11.81 x 7.87 x 1.18 inches; 12.7 Ounces | Department: womens | Date First Available: February 6 | 2023 | Manufacturer: Geyoga"
+        },
+        {
+          "id": "B0BYZK1Y4T",
+          "name": "Snake Jewelry Set for Women Snake Dangle Drop Earrings for Teen Girls Silver Gold Winding Snake Pendent Necklace Punk Snake Wrap Cuff Bracelet Adjustable Open Snake Ring Halloween Cosplay Accessories",
+          "description": "Snake Jewelry Set for Women Snake Dangle Drop Earrings for Teen Girls Silver Gold Winding Snake Pendent Necklace Punk Snake Wrap Cuff Bracelet Adjustable Open Snake Ring Halloween Cosplay Accessories",
+          "category": "AMAZON FASHION",
+          "rating": 3.9,
+          "price": 16.99,
+          "details": "Department: Unisex Adult | Date First Available: March 20 | 2023 | Manufacturer: CHUYUN"
+        },
+        {
+          "id": "B0C1B18QBH",
+          "name": "Yinkin 36 Pcs Surfer Bracelets for Men Unisex Surfer bracelets Summer Anklet Sets Beach Handmade Beaded Anklet Colorful Bracelet Bohemia Anklet Chain Boho Jewelry for Women Men",
+          "description": "Features: Nice gift ideal: The summer bracelets are handmade and delicate, which provide you with ideal choices to gift your girls, lover, friends, family, etc.",
+          "category": "Handmade",
+          "rating": 4.1,
+          "price": 14.99,
+          "details": "Package Dimensions: 7.2 x 7.09 x 0.71 inches; 3.84 Ounces | Department: womens | Date First Available: April 3 | 2023"
+        },
+        {
+          "id": "B005PSP1BU",
+          "name": "JewelryWeb 14k White Gold Rope Chain for boys or girls Pendant Necklace 13 Inch",
+          "description": "14k White Gold Rope Chain Childrens Pendant Necklace - 13 Inch - in 14k White Gold - JewelryWeb Style: MDP187856W - FREE gift-ready jewelry box",
+          "category": "AMAZON FASHION",
+          "rating": 1.0,
+          "price": 110.0,
+          "details": "Is Discontinued By Manufacturer: No | Item model number: MDP187856W | Department: boys | Date First Available: October 9 | 2023 | Manufacturer: JewelryWeb | Country of Origin: USA"
+        },
+        {
+          "id": "B0BRZTSHCQ",
+          "name": "Quasimodo 6pcs Charms for Bracelets and Necklaces Dangle Pendants Travel Round The World Beads Charms Christmas Jewelry Gift for Women Girls",
+          "description": "6pcs Charms for Bracelets and Necklaces Dangle Pendants Travel Round The World Beads Charms Christmas Jewelry Gift for Women Girls",
+          "category": "AMAZON FASHION",
+          "rating": 3.9,
+          "price": 9.89,
+          "details": "Package Dimensions: 3.5 x 3.39 x 0.63 inches; 0.63 Ounces | Department: Womens | Date First Available: January 10 | 2023"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "ChrisDavis",
+      "active": true,
+      "visualizationPath": "vis/B.png",
+      "targetItem": {
+          "id": "B0C6B1PPYC",
+          "name": "MUK LUKS Women's Holly Slippers",
+          "description": "Kick back in cozy style in Muk Luks® holly slippers! cuddle up with your choice of sweet patterns, a warm faux fur lining, and relaxed fit. Easy pull on style and versatile indoor/outdoor sole take you where you need to go! hand wash in cold water, no bleach, dry flat. Imported.",
+          "category": "AMAZON FASHION",
+          "rating": 4.5,
+          "price": 39.99,
+          "details": "Department: Womens | Date First Available: May 25 | 2023 | Manufacturer: MUK LUKS"
+      },
+      "recommendedItems": [
+        {
+          "id": "B0C69WNRR3",
+          "name": "MUK LUKS Men's Mark Bootie Slippers",
+          "description": "When temps start to drop, MUK LUKS® Men's Mark Bootie Slippers has got your back. Soft plush lining & knit upper offers full coverage to keep feet warm while the durable sole allows you to lounge indoors and outdoors. Wipe with a damp cloth to clean, no bleach, lay flat to dry. Imported. -TPR Indoor/Outdoor Sole -100% Polyester Faux Fur Insole -100% Acrylic Upper -100% Polyester Faux Fur Lining -Pull-on ankle design -Multiple color options available -US Men's whole size S (8-9), M (10-11), L (12-13)",
+          "category": "AMAZON FASHION",
+          "rating": 3.8,
+          "price": 22.18,
+          "details": "Item model number: 0016981 | Department: mens | Date First Available: May 25 | 2023 | Manufacturer: MUK LUKS",
+          "reason": "The slipper design and memory foam insoles provide superior comfort and support, making it suitable for people who prioritize comfort during colder months."
+        },
+        {
+          "id": "B0C69YQSNQ",
+          "name": "MUK LUKS Women's Ballerina Slippers",
+          "description": "Get cozy with MUK LUKS Women's Classic Ballerina Slippers. It’s simple pull-on style, sweet patterns and warm faux fur will make you want to lounge all day long. Machine wash cold, only non-chlorine bleach when needed, dry flat to dry. Imported. - 100% Acrylic Upper - 100% Polyester Faux Shearling Lining - Non-Skid PVC Dot Sole - Pom/Tassel Detail - US Women's Sizes S/M (5-7), L/XL (8-10) - Multiple Color Options",
+          "category": "AMAZON FASHION",
+          "rating": 4.2,
+          "price": 13.99,
+          "details": "Department: womens | Date First Available: May 25 | 2023 | Manufacturer: MUK LUKS",
+          "reason": "The ballerina slipper features a simple pull-on style, sweet patterns, and warm faux fur lining, making it a cozy and comfortable choice for lounging around the house."
+        },
+        {
+          "id": "B0BSMWDFNN",
+          "name": "MUK LUKS mens Classic",
+          "description": "MUK LUKS is bringing back Men's slippers! We are still giving men the comfort and style on their feet this season. Our Moccasin is extremely comfortable, and easy to slip on and wear! 100% cow suede with 100% polyester Berber lining. With a TPR sole that can be worn inside or outside! Available in whole sizes 9-13 in Chocolate and Tan. Imported. Clean suede leather with a damp cloth and diluted, mild detergent. Rinse cloth and rub again. Blot dry with dry cloth. Launched as slipper sox in 1972, these classic comforts immediately became a staple fashion item. Over the years, MUK LUKS has remained on trend, and now boasts the strongest, most comprehensive line ever. Bold patterns, bright colors, and total comfort define today’s MUK LUKS--a contemporary cousin of the original.",
+          "category": "AMAZON FASHION",
+          "rating": 4.9,
+          "price": 29.96,
+          "details": "Department: mens | Date First Available: January 19 | 2023",
+          "reason": "The classic design and high-quality materials used in this product ensure durability and comfort, making it a great option for men who prefer timeless styles."
+        },
+        {
+          "id": "B0CCZK8WM3",
+          "name": "MUK LUKS Women's Fleece Lined Marl",
+          "description": "Experience ultimate warmth and comfort in MUK LUKS Women's Fleece Lined Marl Leggings. Form fitting, warm and lightweight, these warm fleece leggings move with you to provide all-day comfort.",
+          "category": "AMAZON FASHION",
+          "rating": 3.9,
+          "price": 12.99,
+          "details": "Department: Womens | Date First Available: July 27 | 2023 | Manufacturer: MUK LUKS",
+          "reason": "As a warm and lightweight fleece-lined legging, this product provides excellent warmth and comfort for everyday wear, making it suitable for various occasions."
+        },
+        {
+          "id": "B0C6B7WCKK",
+          "name": "MUK LUKS Women's Polysuede Clog Slipper",
+          "description": "Treat your feet to a new pair of MUK LUKS® Women's Polysuede Clog. Perfect for cold weather with durable indoor/outdoor soles and comfortable faux fur lined foam footbeds. Wipe with damp cloth, do not bleach, dry flat. Imported. -TPR Indoor/Outdoor Sole -100% Polyester Insole -100% Polyester Upper -100% Polyester Lining -Available in Women's Sizes S (5-6), M (7-8), L (9-10), and XL (11-12) -Multiple Color Options available",
+          "category": "AMAZON FASHION",
+          "rating": 3.9,
+          "price": 21.99,
+          "details": "Item model number: 0015589 | Department: Womens | Date First Available: May 25 | 2023 | Manufacturer: MUK LUKS",
+          "reason": "The polysuede material and durable indoor/outdoor sole ensure that this clog is resistant to water and scratches, making it a practical choice for everyday wear."
+        }
+      ],
+        "candidateItems": [
+        {
+          "id": "B0C69YQSNQ",
+          "name": "MUK LUKS Women's Ballerina Slippers",
+          "description": "Get cozy with MUK LUKS Women's Classic Ballerina Slippers. It’s simple pull-on style, sweet patterns and warm faux fur will make you want to lounge all day long. Machine wash cold, only non-chlorine bleach when needed, dry flat to dry. Imported. - 100% Acrylic Upper - 100% Polyester Faux Shearling Lining - Non-Skid PVC Dot Sole - Pom/Tassel Detail - US Women's Sizes S/M (5-7), L/XL (8-10) - Multiple Color Options",
+          "category": "AMAZON FASHION",
+          "rating": 4.2,
+          "price": 13.99,
+          "details": "Department: womens | Date First Available: May 25 | 2023 | Manufacturer: MUK LUKS"
+        },
+        {
+          "id": "B0CCZK8WM3",
+          "name": "MUK LUKS Women's Fleece Lined Marl",
+          "description": "Experience ultimate warmth and comfort in MUK LUKS Women's Fleece Lined Marl Leggings. Form fitting, warm and lightweight, these warm fleece leggings move with you to provide all-day comfort.",
+          "category": "AMAZON FASHION",
+          "rating": 3.9,
+          "price": 12.99,
+          "details": "Department: Womens | Date First Available: July 27 | 2023 | Manufacturer: MUK LUKS"
+        },
+        {
+          "id": "B0BSMWDFNN",
+          "name": "MUK LUKS mens Classic",
+          "description": "MUK LUKS is bringing back Men's slippers! We are still giving men the comfort and style on their feet this season. Our Moccasin is extremely comfortable, and easy to slip on and wear! 100% cow suede with 100% polyester Berber lining. With a TPR sole that can be worn inside or outside! Available in whole sizes 9-13 in Chocolate and Tan. Imported. Clean suede leather with a damp cloth and diluted, mild detergent. Rinse cloth and rub again. Blot dry with dry cloth. Launched as slipper sox in 1972, these classic comforts immediately became a staple fashion item. Over the years, MUK LUKS has remained on trend, and now boasts the strongest, most comprehensive line ever. Bold patterns, bright colors, and total comfort define today’s MUK LUKS--a contemporary cousin of the original.",
+          "category": "AMAZON FASHION",
+          "rating": 4.9,
+          "price": 29.96,
+          "details": "Department: mens | Date First Available: January 19 | 2023"
+        },
+        {
+          "id": "B0C69WNRR3",
+          "name": "MUK LUKS Men's Mark Bootie Slippers",
+          "description": "When temps start to drop, MUK LUKS® Men's Mark Bootie Slippers has got your back. Soft plush lining & knit upper offers full coverage to keep feet warm while the durable sole allows you to lounge indoors and outdoors. Wipe with a damp cloth to clean, no bleach, lay flat to dry. Imported. -TPR Indoor/Outdoor Sole -100% Polyester Faux Fur Insole -100% Acrylic Upper -100% Polyester Faux Fur Lining -Pull-on ankle design -Multiple color options available -US Men's whole size S (8-9), M (10-11), L (12-13)",
+          "category": "AMAZON FASHION",
+          "rating": 3.8,
+          "price": 22.18,
+          "details": "Item model number: 0016981 | Department: mens | Date First Available: May 25 | 2023 | Manufacturer: MUK LUKS"
+        },
+        {
+          "id": "B0CCZLHTW2",
+          "name": "MUK LUKS Women's 1-Pair Fleece Lined Marled Leggings",
+          "description": "Life is too short for uncomfortable pants! Form fitting, warm, and lightweight, MUK LUKS women's 1-pair fleece lined marled leggings are a perfect way to move with you to provide all-day comfort so that you can focus on more important things, such as being your amazing self. Take your pick of four rich, ultra wearable colors. Machine wash cold on gentle cycle, no bleach, tumble dry low heat. imported.",
+          "category": "AMAZON FASHION",
+          "rating": 4.0,
+          "price": 9.72,
+          "details": "Department: Womens | Date First Available: July 27 | 2023 | Manufacturer: MUK LUKS"
+        },
+        {
+          "id": "B0C6H1LJYV",
+          "name": "MUK LUKS Women's Micro Chenille Trimmed Clog Slippers-Pink",
+          "description": "Experience comfort and luxury with MUK LUKS Micro Chinelle Trimmed Clog Slippers that give you the perfect chic yet cozy vibe you need. They are perfect for summers and even chilly winters, and you can wear these slides for long hours without any discomfort. Featuring memory foam insoles and sturdy outsoles, these trendy yet undeniably comfy indoor/outdoor slippers make your daily hustle easier. Just slide your foot inside and get on with your day in a jiffy! Perfect for daily wear, these washable slippers can be worn all through the day in the house, for casual outings, or for running errands. An ideal gift for all ladies, be it your wife or girlfriend, mom or daughter, sister, or a friend.",
+          "category": "AMAZON FASHION",
+          "rating": 3.2,
+          "price": 12.0,
+          "details": "Department: Womens | Date First Available: May 27 | 2023 | Manufacturer: MUK LUKS"
+        },
+        {
+          "id": "B0CD35FVNM",
+          "name": "MUK LUKS Women's Micro Chenille Trimmed Clog Slippers-Lavender",
+          "description": "Experience comfort and luxury with MUK LUKS Micro Chinelle Trimmed Clog Slippers that give you the perfect chic yet cozy vibe you need. They are perfect for summers and even chilly winters, and you can wear these slides for long hours without any discomfort. Featuring memory foam insoles and sturdy outsoles, these trendy yet undeniably comfy indoor/outdoor slippers make your daily hustle easier. Just slide your foot inside and get on with your day in a jiffy! Perfect for daily wear, these washable slippers can be worn all through the day in the house, for casual outings, or for running errands. An ideal gift for all ladies, be it your wife or girlfriend, mom or daughter, sister, or a friend.",
+          "category": "AMAZON FASHION",
+          "rating": 4.7,
+          "price": 17.99,
+          "details": "Department: Womens | Date First Available: July 28 | 2023 | Manufacturer: MUK LUKS"
+        },
+        {
+          "id": "B0C6B5QFLN",
+          "name": "MUK LUKS Men's Cuff Slipper Boots",
+          "description": "Pull on MUK LUKS Men's Cuff Slipper Boots when temps start to drop With soft faux sherpa lining and foam insoles, these lightweight slippers will keep toes warm and cozy all season long Wipe with damp cloth Dry flat Imported -84% Acrylic, 16% Polyester Upper -100% Polyester Faux Shearling Lining -100% Polyester Sole -Foam Insole -Multiple Color Options -US Men's Whole Size S/M (8-10) L/XL (11-13)",
+          "category": "AMAZON FASHION",
+          "rating": 4.1,
+          "price": 16.42,
+          "details": "Department: mens | Date First Available: May 25 | 2023 | Manufacturer: MUK LUKS"
+        },
+        {
+          "id": "B0C6G1CDD7",
+          "name": "MUK LUKS Women's Tidal Wave Sandals",
+          "description": "Embrace warm weather in MUK LUKS® Women's Tidal Sandals. These sweet sandals offer cushioned insoles that will mold to your foot while multiple fun color options allow you to express your individuality. Wipe with damp cloth. Do not bleach. Lay flat to dry. Imported. - Indoor/Outdoor PVC Sole - 100% Polyurethane Upper - 100% Polyurethane Lining - Foam Insole - US Women’s Whole Sizes 6-11 - Multiple Color Options",
+          "category": "AMAZON FASHION",
+          "rating": 3.7,
+          "price": 13.56,
+          "details": "Department: womens | Date First Available: May 26 | 2023 | Manufacturer: MUK LUKS"
+        },
+        {
+          "id": "B0C676L5FS",
+          "name": "MUK LUKS Men's Slipper Boots",
+          "description": "Pull on MUK LUKS Men's Slipper Boots when temps start to drop With soft faux sherpa lining and foam insoles, these booties will keep toes warm and cozy all season long while a non-skid sole keeps you safe on slick floors Wipe with damp cloth Dry flat Imported -100% Acrylic Upper -100% Polyester Faux Shearling Lining -100% Polyester Faux Suede Poly Tricot Sole -Foam Insole -Stretchy knit fabric to allow for easy on and off -Multiple Color Options -US Men's Whole Size S/M (8-10) L/XL (11-13)",
+          "category": "AMAZON FASHION",
+          "rating": 4.2,
+          "price": 20.0,
+          "details": "Department: mens | Date First Available: May 24 | 2023 | Manufacturer: MUK LUKS"
+        }
+      ]
+
+    },
+
+
+
+
+    {
+      "id": 4,
+      "name": "DanaMiller",
+      "active": true,
+      "visualizationPath": "vis/C.png",
+      "targetItem": {
+          "id": "B0BZ48LZP9",
+          "name": "Magnetic Eyeglass Holders, Name tag, Badge Holder, Sunglass Holder, ID Badge for Men and Women (Stainless Steel, Blue Diamond)",
+          "description": "Keep your essentials secure and stylish with the Sutify Magnetic Eyeglass Holder. Featuring a durable stainless steel design with a blue diamond accent, this lightweight and versatile accessory securely holds eyeglasses, badges, or sunglasses with a strong magnetic closure—perfect for work, travel, or daily use.",
+          "category": "Office Products",
+          "rating": 4.6,
+          "price": 13.99,
+          "details": "Manufacturer: sutify | Brand: Sutify | Item Weight: 1.6 ounces | Package Dimensions: 5 x 2 x 0.1 inches | Item model number: 1 | Color: Stainless Steel | Blue Diamond | Closure: Clip,Magnet,Magnetic | Material Type: Plastic | Number of Items: 1 | Manufacturer Part Number: 1 | Best Sellers Rank: {Office Products: 145078 | Badge Holders: 4591} | Date First Available: February 4 | 2023"
+
+        },
+      "recommendedItems": [
+        {
+          "id": "B0C4PWDCBD",
+          "name": "Honiway Black Wall Decor 21 inch Mirrors for Wall Wood Boho Wall Decor for Room Decor Home Decor Farmhouse Wall Decor at Living Room Bedroom Bathroom Kitchen Black",
+          "description": "Bohemian-inspired decor option for living rooms, bedrooms, bathrooms, kitchens, hallways, and dining areas. Features sunburst design, wood frame, and antique theme.",
+          "category": "Amazon Home",
+          "rating": 4.4,
+          "price": 53.99,
+          "details": "Brand: Honiway | Room Type: Bedroom, Living Room, Home Office, Hallway, Dining Room | Shape: Sunburst | Dimensions: 21\"L x 21\"W | Frame Material: Wood | Style: Bohemian | Mounting Type: Wall Mount | Finish Type: Finished | Color: Black | Date First Available: January 24, 2023",
+          "reason": "These mirrors offer a unique bohemian-inspired decor option for living rooms, bedrooms, bathrooms, kitchens, hallways, and dining areas, providing ample space for displaying personal items."
+        },
+        {
+          "id": "B0BWMPGJVB",
+          "name": "6L Humidifiers for Bedroom Large Room, Cool Mist Humidifiers for Baby Nursery Plants with Essential Oils Diffuser, 360°Rotatable Double Spray Outlet Nozzle, Auto-Shut Off, Sleep Mode, Quiet",
+          "description": "Large-capacity humidifier with advanced features like auto-shutoff, quiet operation, and essential oil diffuser. Suitable for nurseries, plants, and large rooms.",
+          "category": "Amazon Home",
+          "rating": 3.9,
+          "price": 39.99,
+          "details": "Brand: WOAEDMBY | Capacity: 6 Liters | Dimensions: 7\"D x 7\"W x 7\"H | Runtime: 50 hours | Power Source: Corded Electric | Date First Available: February 22, 2023",
+          "reason": "These humidifiers provide effective moisture control for large rooms, baby nurseries, and plants, while also featuring advanced features like auto-shutoff and quiet operation."
+        },
+        {
+          "id": "B0BRQBZVTG",
+          "name": "Panana Dresser for Bedroom with 6 Drawers, Wooden Chest of Drawers, Storage Organizer Unit Dressers for Bedroom, Living Room, Hallway, Nursery (White, 6 Drawer)",
+          "description": "Stylish and functional dresser with six drawers for versatile storage in bedrooms, living rooms, and nurseries. Made from eco-friendly materials.",
+          "category": "Amazon Home",
+          "rating": 2.7,
+          "price": 189.99,
+          "details": "Brand: Panana | Material: Wood | Dimensions: 47.2\"D x 24.13\"W x 15.4\"H | Number of Drawers: 6 | Color: White | Date First Available: January 5, 2023",
+          "reason": "This dresser offers a stylish and functional storage solution for bedroom, living room, hallway, nursery, and other spaces, featuring six drawers and a wooden chest of drawers for added storage."
+        },
+        {
+          "id": "B0BLTRTJHG",
+          "name": "3 Pack Artificial Hanging Leaves Vines 16.8ft Artificial Silk Greenery Garland Fake Ivy for Indoor Wedding Party Crowns Wreath Decor, Outdoor Wall Garden Decoration",
+          "description": "Artificial greenery garland with long-lasting durability, perfect for decorating indoor and outdoor spaces, weddings, and parties.",
+          "category": "Amazon Home",
+          "rating": 4.4,
+          "price": 22.48,
+          "details": "Brand: Duciotey | Material: Plastic | Dimensions: 10\"D x 2\"W x 2\"H | Indoor/Outdoor Usage: Indoor | Date First Available: April 8, 2023",
+          "reason": "This artificial greenery garland provides a beautiful and long-lasting decoration option for indoor and outdoor spaces, ideal for weddings, parties, and garden decorations."
+        },
+        {
+          "id": "B0BVB7WGPR",
+          "name": "Kiydom 300FT Wireless Meat Thermometer with 2 Probes-Rechargeable, Rechargeable Digital Cooking Thermometer with Alarm Function Preprogrammed Temperatures for The Oven, Kitchen, BBQ IP67",
+          "description": "Rechargeable wireless meat thermometer with 2 probes, alarm function, and preprogrammed temperature settings. Ideal for home cooks and professionals.",
+          "category": "Industrial & Scientific",
+          "rating": 4.4,
+          "price": 129.0,
+          "details": "Brand: Kiydom | Special Feature: Alarm | Display Type: Digital | Package Dimensions: 6.61 x 5.35 x 1.54 inches | Date First Available: March 3, 2023",
+          "reason": "This meat thermometer offers accurate temperature readings, automatic shut-off, and a rechargeable battery life, making it perfect for home cooks and professionals alike, especially when cooking outdoors or using high-heat appliances."
+        }
+      ],
+        "candidateItems": [
+        {
+          "id": "B0C4PWDCBD",
+          "name": "Honiway Black Wall Decor 21 inch Mirrors for Wall Wood Boho Wall Decor for Room Decor Home Decor Farmhouse Wall Decor at Living Room Bedroom Bathroom Kitchen Black",
+          "description": "Bohemian-inspired decor option for living rooms, bedrooms, bathrooms, kitchens, hallways, and dining areas.",
+          "category": "Amazon Home",
+          "rating": 4.4,
+          "price": 53.99,
+          "details": "Brand: Honiway | Room Type: Bedroom, Living Room, Home Office, Hallway, Dining Room | Shape: Sunburst | Dimensions: 21\"L x 21\"W | Frame Material: Wood | Style: Bohemian | Mounting Type: Wall Mount | Finish Type: Finished | Color: Black | Date First Available: January 24, 2023",
+          "reason": "These mirrors offer a unique bohemian-inspired decor option for living rooms, bedrooms, bathrooms, kitchens, hallways, and dining areas, providing ample space for displaying personal items."
+        },
+        {
+          "id": "B0BWMPGJVB",
+          "name": "6L Humidifiers for Bedroom Large Room, Cool Mist Humidifiers for Baby Nursery Plants with Essential Oils Diffuser, 360°Rotatable Double Spray Outlet Nozzle, Auto-Shut Off, Top Fill Ultrasonic",
+          "description": "Large-capacity humidifier with advanced features like auto-shutoff, quiet operation, and essential oil diffuser.",
+          "category": "Amazon Home",
+          "rating": 3.9,
+          "price": 39.99,
+          "details": "Brand: WOAEDMBY | Capacity: 6 Liters | Dimensions: 7\"D x 7\"W x 7\"H | Runtime: 50 hours | Power Source: Corded Electric | Date First Available: February 22, 2023",
+          "reason": "These humidifiers provide effective moisture control for large rooms, baby nurseries, and plants, while also featuring advanced features like auto-shutoff and quiet operation."
+        },
+        {
+          "id": "B0BRQBZVTG",
+          "name": "Panana Dresser for Bedroom with 6 Drawers, Wooden Chest of Drawers, Storage Organizer Unit Dressers for Bedroom, Living Room, Hallway, Nursery (White, 6 Drawer)",
+          "description": "Stylish and functional dresser with six drawers for versatile storage in bedrooms, living rooms, and nurseries.",
+          "category": "Amazon Home",
+          "rating": 2.7,
+          "price": 189.99,
+          "details": "Brand: Panana | Material: Wood | Dimensions: 47.2\"D x 24.13\"W x 15.4\"H | Number of Drawers: 6 | Color: White | Date First Available: January 5, 2023",
+          "reason": "This dresser offers a stylish and functional storage solution for bedroom, living room, hallway, nursery, and other spaces, featuring six drawers and a wooden chest of drawers for added storage."
+        },
+        {
+          "id": "B0BLTRTJHG",
+          "name": "3 Pack Artificial Hanging Leaves Vines 16.8ft Feet Artificial Silk Greenery Garland Fake Ivy for Indoor Wedding Party Crowns Wreath Decor, Outdoor Wall Garden Decoration",
+          "description": "Artificial greenery garland with long-lasting durability, perfect for decorating indoor and outdoor spaces.",
+          "category": "Amazon Home",
+          "rating": 4.4,
+          "price": 22.48,
+          "details": "Brand: Duciotey | Material: Plastic | Dimensions: 10\"D x 2\"W x 2\"H | Indoor/Outdoor Usage: Indoor | Date First Available: April 8, 2023",
+          "reason": "This artificial greenery garland provides a beautiful and long-lasting decoration option for indoor and outdoor spaces, ideal for weddings, parties, and garden decorations."
+        },
+        {
+          "id": "B0BVQLGYD1",
+          "name": "Full Size Mattress Topper Mattress Pad Protector - Quality Plush Luxury Down Alternative Pillow Top - 3inch Extra Thick Mattress Cover",
+          "description": "Plush mattress topper designed for comfort and extra support, suitable for full-sized beds.",
+          "category": "Amazon Home",
+          "rating": 4.0,
+          "price": 55.0,
+          "details": "Brand: ORTHOMTEX | Size: Full | Fabric Type: Plush | Special Feature: Pillow Top | Dimensions: 53 x 75 x 2 inches | Item Weight: 5.74 pounds | Date First Available: February 14, 2023",
+          "reason": "This mattress topper provides an extra layer of plush comfort, ideal for enhancing sleep quality and extending the lifespan of mattresses."
+        },
+        {
+          "id": "B0C5WJQH15",
+          "name": "Humidifiers for Large Room 6.5L, Humidifiers for Bedroom, Cool Mist Humidifiers for Baby, Plants and Office Ultrasonic Blue",
+          "description": "Quiet and efficient humidifier for large rooms, nurseries, plants, and offices. Features a 6.5L capacity.",
+          "category": "Amazon Home",
+          "rating": 4.6,
+          "price": 45.99,
+          "details": "Brand: AMEIFU | Special Feature: Quiet | Color: Blue | Product Dimensions: 7.4\"D x 9.37\"W x 12.91\"H | Item Weight: 1.8 Pounds | Capacity: 1.72 Gallons | Power Source: Corded Electric | Date First Available: January 5, 2023",
+          "reason": "This humidifier is ideal for large spaces, offering quiet operation and a 6.5L capacity, perfect for maintaining optimal humidity levels in homes and offices."
+        },
+        {
+          "id": "B0BS3JV9RY",
+          "name": "2 In 1 Dumpling Maker, Manual Artifact For Pressing Dumpling, Kitchen Dumpling Maker Machine, Portable Dumpling Skin Maker DIY Dumpling Moulds (Yellow)",
+          "description": "Compact and efficient dumpling maker for easy dumpling preparation.",
+          "category": "Amazon Home",
+          "rating": 3.0,
+          "price": 7.99,
+          "details": "Brand: Panmall | Color: Yellow | Dimensions: 2.3 x 2 x 2.7 inches | Blade Material: PP | Manual Operation | Date First Available: January 11, 2023",
+          "reason": "This dumpling maker is an affordable and portable kitchen tool, ideal for quick and efficient dumpling preparation."
+        },
+        {
+          "id": "B0BX32XY9N",
+          "name": "Collapsible Colanders with Handles with Extendable Handles Perfect for Draining Pasta Vegetable Fruit 2 PC",
+          "description": "Versatile collapsible colanders with extendable handles, perfect for draining pasta, vegetables, and fruits.",
+          "category": "Amazon Home",
+          "rating": 4.4,
+          "price": 17.49,
+          "details": "Brand: Zoopod | Material: Silicone | Dimensions: 7\"L x 5\"W x 9\"H | Dishwasher Safe | Date First Available: February 28, 2023",
+          "reason": "These collapsible colanders provide space-saving and convenient draining solutions for kitchens."
+        },
+        {
+          "id": "B0BVB7WGPR",
+          "name": "Kiydom 300FT Wireless Meat Thermometer with 2 Probes-Rechargeable, Rechargeable Digital Cooking Thermometer with Alarm Function Preprogrammed Temperatures for The Oven, Kitchen, BBQ IP67",
+          "description": "Wireless meat thermometer with dual probes, rechargeable battery, and preprogrammed temperature settings.",
+          "category": "Industrial & Scientific",
+          "rating": 4.4,
+          "price": 129.0,
+          "details": "Brand: Kiydom | Special Feature: Alarm | Display Type: Digital | Reusability: Reusable | Date First Available: March 3, 2023",
+          "reason": "This meat thermometer offers accurate temperature readings, rechargeable functionality, and advanced settings, making it ideal for professional cooks and home use."
+        },
+        {
+          "id": "B0BS3PMYPW",
+          "name": "Deztibos 2 Pack Floral Kitchen Window Valance Pink Flower Farmhouse Country Rod Pocket 52x18inch Short Half Textured Curtain Header Topper Valance (Black OWL)",
+          "description": "Floral-patterned valances with light-filtering fabric, perfect for adding farmhouse charm to kitchens.",
+          "category": "Amazon Home",
+          "rating": 4.3,
+          "price": 18.99,
+          "details": "Brand: Deztibos | Material: Polyester | Dimensions: 18\"L x 52\"W | Light-filtering | Date First Available: January 11, 2023",
+          "reason": "These valances offer a charming and stylish way to enhance the aesthetics of your kitchen windows while allowing natural light to filter through."
+        },
+        {
+          "id": "B0BVYQS55R",
+          "name": "XINLTC Ceramic Coffee Mugs Set of 4, 14 oz Coffee Cups with Handle, Large Latte Mug Modern Stylish Tea Cup Mugs Coffee Cup Set for Latte, Cappuccino, Milk, Water, Cocoa, Cereal-A",
+          "description": "Stylish and durable ceramic coffee mug set, perfect for various beverages.",
+          "category": "Amazon Home",
+          "rating": 4.2,
+          "price": 28.99,
+          "details": "Brand: XINLTC | Capacity: 14 oz | Material: Ceramic | Style: Modern | Date First Available: February 16, 2023",
+          "reason": "These ceramic mugs are durable and stylish, making them ideal for everyday use or special occasions."
+        },
+        {
+          "id": "B0BRQ63T79",
+          "name": "ATOYSKPX Spice Grinder 2.5 Inch, Large Grinder (Black)",
+          "description": "Compact and durable spice grinder with manual operation, perfect for home kitchens.",
+          "category": "Amazon Home",
+          "rating": 4.5,
+          "price": 15.99,
+          "details": "Brand: ATOYSKPX | Material: Zinc | Dimensions: 2.36\" x 2.36\" x 1.65\" | Dishwasher Safe | Date First Available: January 5, 2023",
+          "reason": "This spice grinder is efficient and easy to use, perfect for preparing fresh spices in your kitchen."
+        },
+        {
+          "id": "B0BRQCS4KM",
+          "name": "Panana Dresser for Bedroom with 4/5 Drawers, Wooden Chest of Drawers, Storage Organizer Unit Dressers for Bedroom, Living Room, Hallway, Nursery (Black, 5 Drawer)",
+          "description": "Elegant and functional dresser with five drawers for organized storage in multiple rooms.",
+          "category": "Amazon Home",
+          "rating": 3.5,
+          "price": 139.99,
+          "details": "Brand: Panana | Material: Wood | Color: Black | Dimensions: 1\"D x 1\"W x 1\"H | Date First Available: January 5, 2023",
+          "reason": "This dresser offers practical and durable storage options, ideal for enhancing room organization."
+        },
+        {
+          "id": "B0BSBWRRLW",
+          "name": "VAYNEIOJOY Spidey Friend Lunch Bag Tote Meal Bag Reusable Insulated Portable With Pockets Boys And Girls Lunch Box Picnic Travel Outdoor For Adult Men Women",
+          "description": "Reusable insulated lunch bag with pockets and a fun Spidey Friend design.",
+          "category": "Amazon Home",
+          "rating": 4.8,
+          "price": 15.99,
+          "details": "Brand: VAYNEIOJOY | Material: Aluminum | Closure: Zipper | Dimensions: 9.92\" x 9.37\" x 1.73\" | Date First Available: January 14, 2023",
+          "reason": "This lunch bag is highly functional and durable, with insulation to keep food fresh for picnics, travel, or daily use."
+        },
+        {
+          "id": "B0BZ8B9ZFQ",
+          "name": "6L Humidifiers for Bedroom Large Room, Cool Mist Humidifiers for Baby Nursery Plants with Essential Oils Diffuser, 360°Rotatable Double Spray Outlet Nozzle, Auto-Shut Off, Sleep Mode, Quiet",
+          "description": "Efficient and quiet humidifier with a 6L capacity, suitable for large rooms and nurseries.",
+          "category": "Amazon Home",
+          "rating": 3.8,
+          "price": 39.99,
+          "details": "Capacity: 6L | Dimensions: 7\" x 7\" x 7\" | Runtime: 50 hours | Date First Available: February 8, 2023",
+          "reason": "This humidifier is perfect for creating a comfortable atmosphere in large spaces while operating quietly and efficiently."
+        }
+      ]
+    },
+
+
+    {
+        "id": 11,
+        "name": "OliverHayes",
+        "active": false,
+        "visualizationPath": "None",
+        "targetItem": {
+            "id": "None",
+            "name": "None",
+            "description": "None",
+            "category": "None",
+            "rating": 0,
+            "price": 0,
+            "details": "None"
+        },
+        "recommendedItems": [],
+        "candidateItems": []
+    },
+
+
+
+
+
+
+
+    {
+      "id": 5,
+      "name": "EvanBrown",
+      "active": true,
+      "visualizationPath": "vis/D.png",
+      "targetItem": {
+          "id": "B0BWNBYWJZ",
+          "name": "Dell Wireless Keyboard and Mouse - KM3322W, Wireless - 2.4GHz, Optical LED Sensor, Mechanical Scroll, Anti-Fade Plunger Keys, 6 Multimedia Keys, Tilt Leg - Black",
+          "description": "Dell Wireless Keyboard and Mouse - KM3322W, Wireless - 2.4GHz, Optical LED Sensor, Mechanical Scroll, Anti-fade Plunger Keys, 6 Multimedia Keys, Tilt Leg - Black.",
+          "category": "Computers",
+          "rating": 3.9,
+          "price": 21.99,
+          "details": "Brand: Dell | Series: Dell Wireless Keyboard and Mouse - KM3322W | Item model number: KM3322W | Hardware Platform: PC | Item Weight: 1.23 pounds | Product Dimensions: 5.89 x 7.86 x 2.54 inches | Item Dimensions  LxWxH: 5.89 x 7.86 x 2.54 inches | Color: Black | Power Source: Corded Electric | Batteries: 2 AAA batteries required. (included) | Manufacturer: DELL | Country of Origin: China | Date First Available: February 23 | 2023 | Best Sellers Rank: {Computer Keyboard & Mouse Combos: 29} | Connectivity Technology: Bluetooth | Special Feature: Rechargeable | Compatible Devices: Personal Computer"
+      },
+      "recommendedItems": [
+        {
+          "id": "B0C9VMN9WZ",
+          "name": "Dell 2023 Vostro 3910 Business Tower Desktop Computer, 12th Gen Intel 12-Core i7-12700 up to 4.9GHz, 16GB DDR4 RAM, 1TB PCIe SSD + 1TB HDD, DVDRW, WiFi, Bluetooth 5, Keyboard & Mouse, Windows 11 Pro",
+          "description": "High-performance desktop computer with a 12-core i7 processor, ample storage, and robust connectivity options.",
+          "category": "Computers",
+          "rating": 4.7,
+          "price": 1009.0,
+          "details": "Processor: 12th Gen Intel Core i7-12700 | RAM: 16GB DDR4 | Storage: 1TB PCIe SSD + 1TB HDD | OS: Windows 11 Pro | Connectivity: WiFi, Bluetooth 5.0",
+          "reason": "This desktop computer stands out due to its high-performance capabilities, ample storage space, and robust features like Bluetooth connectivity, which makes it suitable for both business and personal use."
+        },
+        {
+          "id": "B0BXLHCF3T",
+          "name": "Dell Bluetooth Travel Mouse – MS700, Wireless - Bluetooth 5.1, Microsoft Swift Pair Pair (Windows 10 & 11 only), Optical LED Sensor, Touch Scroll with Later Touch Controller - Black",
+          "description": "Compact wireless Bluetooth mouse with advanced optical sensors and touch scrolling.",
+          "category": "Computers",
+          "rating": 4.8,
+          "price": 51.99,
+          "details": "Brand: Dell | Connectivity: Bluetooth 5.1 | Optical LED Sensor | Compatible with Windows 10/11 | Power Source: Battery Powered",
+          "reason": "This mouse is a versatile option that combines wireless convenience with advanced features like optical sensors and touch scrolling, making it ideal for users who require both mobility and precision control."
+        },
+        {
+          "id": "B0C9Q89YS5",
+          "name": "Dell 2023 Vostro 3910 Business Tower Desktop Computer, 12th Gen Intel 12-Core i7-12700 up to 4.9GHz, 16GB DDR4 RAM, 1TB PCIe SSD + 1TB HDD, DVDRW, WiFi, Bluetooth 5, Keyboard & Mouse, Windows 11 Pro",
+          "description": "High-performance desktop computer with a 12-core i7 processor, ample storage, and robust connectivity options.",
+          "category": "Computers",
+          "rating": 4.7,
+          "price": 1009.0,
+          "details": "Processor: 12th Gen Intel Core i7-12700 | RAM: 16GB DDR4 | Storage: 1TB PCIe SSD + 1TB HDD | OS: Windows 11 Pro | Connectivity: WiFi, Bluetooth 5.0",
+          "reason": "Similar to the previous recommendation, this desktop computer boasts impressive specs, including a powerful processor, ample storage, and robust connectivity options, making it a top choice for businesses and individuals alike."
+        },
+        {
+          "id": "B0C9QBX3NG",
+          "name": "Intel 2023 NUC 13 Pro Kit NUC13ANHi5 Tall Mini Business Desktop Computer, 13th Gen 12-Core i5-1340P up to 4.6GHz, 16GB DDR4 RAM, 1TB PCIe SSD, WiFi 6, BT 5.3, Windows 11 Pro, BROAG Mouse Pad",
+          "description": "Compact mini desktop computer with 13th Gen Intel i5 processor and 16GB RAM.",
+          "category": "Computers",
+          "rating": 5.0,
+          "price": 979.0,
+          "details": "Processor: 13th Gen Intel Core i5-1340P | RAM: 16GB DDR4 | Storage: 1TB PCIe SSD | Connectivity: WiFi 6, Bluetooth 5.3 | OS: Windows 11 Pro",
+          "reason": "This compact desktop computer is perfect for those seeking a portable yet powerful solution, offering a balance between performance and portability, making it suitable for professionals and students."
+        },
+        {
+          "id": "B0C9QDX9W5",
+          "name": "HP 2023 Omen 17 Gaming Laptop, Full Power GeForce RTX 4080 12GB 175W, 17.3\" 165Hz QHD (2560x1440), 13th Gen Intel 24-Core i9-13900HX, 16GB DDR5 RAM, 1TB PCIe SSD, WiFi 6E, BT 5.3, RGB KB, Windows 11",
+          "description": "High-performance gaming laptop with advanced NVIDIA graphics and 13th Gen Intel processor.",
+          "category": "Computers",
+          "rating": 5.0,
+          "price": 2799.0,
+          "details": "Processor: 13th Gen Intel Core i9-13900HX | RAM: 16GB DDR5 | GPU: GeForce RTX 4080 | Display: 17.3\" QHD 165Hz | Storage: 1TB PCIe SSD | OS: Windows 11",
+          "reason": "This gaming laptop stands out due to its exceptional performance, stunning visuals, and cutting-edge features like NVIDIA's GeForce RTX 4080 GPU, making it ideal for gamers and content creators who demand the best possible performance."
+        }
+      ],
+      "candidateItems": [
+        {
+          "id": "B0CF9XM688",
+          "name": "ASUS ROG Gladius III Wireless AimPoint Gaming Mouse",
+          "description": "ASUS ROG Gladius III Wireless AimPoint Gaming Mouse with 36000 DPI Sensor, 6 programmable buttons, replaceable switches, and paracord cable.",
+          "category": "Computers",
+          "rating": 4.5,
+          "price": 99.58,
+          "details": "Battery Life: 119 Hours | Connectivity: Bluetooth, Wired, 2.4GHz RF | Brand: ASUS | Color: White | Movement Detection Technology: Optical",
+          "reason": "This gaming mouse offers exceptional precision and flexibility with multiple connectivity options, replaceable switches, and lightweight portability, ideal for pro gamers."
+        },
+        {
+          "id": "B0BXLHCF3T",
+          "name": "Dell Bluetooth Travel Mouse – MS700",
+          "description": "Wireless Bluetooth travel mouse with advanced optical LED sensors and touch scrolling.",
+          "category": "Computers",
+          "rating": 4.8,
+          "price": 51.99,
+          "details": "Bluetooth 5.1 | Power Source: Battery | Weight: 2.08 ounces | Dimensions: 4.6 x 2.3 x 1.2 inches",
+          "reason": "The Dell Bluetooth Travel Mouse combines portability with precise control and modern design, making it a versatile choice for professionals on the go."
+        },
+        {
+          "id": "B0CGX1RRXZ",
+          "name": "AULA S20 Gaming Mouse",
+          "description": "Wired USB gaming mouse with RGB backlight and adjustable DPI, featuring 6 programmable macro buttons.",
+          "category": "All Electronics",
+          "rating": 4.1,
+          "price": 13.89,
+          "details": "Item Weight: 5.6 ounces | Dimensions: 5.51 x 4.02 x 2.17 inches | Connectivity: USB",
+          "reason": "The AULA S20 Gaming Mouse offers affordable performance with customizable buttons and RGB lighting, perfect for casual gamers and everyday use."
+        },
+        {
+          "id": "B0BRKH9VJR",
+          "name": "Dell 2023 XPS 8950 Business Tower Desktop Computer",
+          "description": "High-performance desktop with 12th Gen Intel i7 processor, 32GB RAM, 2TB SSD, and NVIDIA GeForce RTX 3060 Ti graphics.",
+          "category": "Computers",
+          "rating": 4.5,
+          "price": 1769.97,
+          "details": "Processor: 12th Gen Intel Core i7-12700 | RAM: 32GB | Graphics: NVIDIA GeForce RTX 3060 Ti | Storage: 2TB SSD + 1TB HDD | OS: Windows 11 Pro",
+          "reason": "This desktop delivers robust performance and storage capacity, making it a reliable choice for professionals requiring power-intensive applications."
+        },
+        {
+          "id": "B0C9RRBFRD",
+          "name": "Dell Vostro 3910 Business Desktop Computer",
+          "description": "Compact desktop computer with Intel i3 processor, 16GB RAM, and 256GB SSD + 1TB HDD storage.",
+          "category": "Computers",
+          "rating": 3.4,
+          "price": 529.99,
+          "details": "Processor: Intel Core i3-12100 | RAM: 16GB DDR4 | Storage: 256GB SSD + 1TB HDD | Connectivity: WiFi 6, Bluetooth 5.0 | OS: Windows 11 Pro",
+          "reason": "This desktop offers a budget-friendly solution with adequate performance for everyday tasks and business applications."
+        },
+        {
+          "id": "B0BRVKZJWJ",
+          "name": "Intel NUC 13 Extreme Kit Home & Business Mini Desktop",
+          "description": "Mini desktop with Intel Core i9-13900K processor, 64GB DDR5 RAM, and 8TB SSD storage.",
+          "category": "Computers",
+          "rating": 5.0,
+          "price": 4504.0,
+          "details": "Processor: Intel Core i9-13900K | RAM: 64GB DDR5 | Storage: 8TB SSD | Connectivity: WiFi 6E, Bluetooth 5.3 | OS: Windows 11 Pro",
+          "reason": "This mini desktop provides cutting-edge performance, ample storage, and compact design, ideal for advanced business and creative workflows."
+        },
+        {
+          "id": "B0C9Q89YS5",
+          "name": "Dell 2023 Vostro 3910 Business Tower Desktop Computer",
+          "description": "High-performance business desktop with Intel i7 processor, 16GB RAM, and dual storage (1TB SSD + 1TB HDD).",
+          "category": "Computers",
+          "rating": 4.7,
+          "price": 1009.0,
+          "details": "Processor: Intel Core i7-12700 | RAM: 16GB DDR4 | Storage: 1TB SSD + 1TB HDD | OS: Windows 11 Pro",
+          "reason": "This desktop combines excellent processing power and storage capacity, making it a great choice for business professionals."
+        },
+        {
+          "id": "B0BXP5MRVZ",
+          "name": "NewDell Alien.Ware Aurora R13 Gaming Desktop",
+          "description": "Gaming desktop with Intel i7 processor, 16GB DDR5 RAM, and NVIDIA RTX 3060Ti graphics.",
+          "category": "Computers",
+          "rating": 5.0,
+          "price": 1449.0,
+          "details": "Processor: Intel Core i7-12700F | RAM: 16GB DDR5 | Graphics: NVIDIA RTX 3060Ti | Storage: 512GB SSD",
+          "reason": "This gaming desktop delivers high performance and graphics quality, making it suitable for gamers and multimedia enthusiasts."
+        },
+        {
+          "id": "B0C65MM5X1",
+          "name": "Lenovo 2023 ThinkPad T16 Business Laptop",
+          "description": "Business laptop with 12th Gen Intel i5 processor, 16GB RAM, and 1TB SSD.",
+          "category": "Computers",
+          "rating": 4.3,
+          "price": 1039.0,
+          "details": "Processor: Intel Core i5-1235U | RAM: 16GB DDR4 | Storage: 1TB SSD | Display: 16\" WUXGA | OS: Windows 10 Pro",
+          "reason": "This ThinkPad offers reliable performance, high storage capacity, and a professional design, perfect for business users."
+        },
+        {
+          "id": "B0C3QGD9W5",
+          "name": "HP 2023 Omen 17 Gaming Laptop",
+          "description": "High-performance gaming laptop with Intel i9 processor and NVIDIA RTX 4080 graphics.",
+          "category": "Computers",
+          "rating": 5.0,
+          "price": 3049.0,
+          "details": "Processor: Intel Core i9-13900HX | RAM: 16GB DDR5 | Graphics: NVIDIA RTX 4080 | Display: 17.3\" QHD | OS: Windows 11",
+          "reason": "This gaming laptop offers exceptional performance and stunning visuals, making it ideal for gamers and creators."
+        }
+      ]
+    },
+
+
+
+
+    {
+      "id": 6,
+      "name": "FionaWilson",
+      "active": true,
+      "visualizationPath": "vis/F.png",
+      "targetItem": {
+          "id": "B0BTMHKK6F",
+          "name": "ICE CARATS 925 Sterling Silver Snake Ring Animal Fine Jewelry For Women Gifts For Her",
+          "description": "CECARATS DESIGNER JEWELRY 925 STERLING SILVER SNAKE RINGMaterial Purity : 925Finish : PolishedBand Width : 2 mmCoating : Anti-tarnishFeature : SolidManufacturing Process : CastedMaterial : Sterling SilverProduct Type : JewelryJewelry Type : RingsSold By Unit : EachGender : Women'sMaterial Color : WhiteRing Type : ThemedOUR MISSION & BELIEFSOur mission at IceCarats is to celebrate our customers and enhance their lives journey, honoring life's memorable occasions and enhancing the beauty of everyday through our extensive collection of quality jewelry.THE ICECARATS STORY - CRAFTSMANSHIP...QUALITY...VALUEJewelry is our passion - IceCarats is devoted to craftsmanship, quality, and value. Each piece hand stamped for authenticityMADE WITH LOVE FROM US TO YOU - QUALITY WITHOUT COMPROMISEWhen you purchase jewelry from the IceCarats collection, you buy with confidence - Lifetime Warranty and 30-Day Returns .ELEGANT GIFT PACKAGING - JUST ANOTHER REASON TO SAY YES!Receive Elegant Gift Packing On Every Order with IceCarats!",
+          "category": "AMAZON FASHION",
+          "rating": 3.6,
+          "price": 74.45,
+          "details": "Item Weight: 1 Pounds | Department: Womens | Date First Available: June 29 | 2023 | Manufacturer: IceCarats"
+      },
+      "recommendedItems": [
+        {
+          "id": "B0BTMDH91P",
+          "name": "ICE CARATS 925 Sterling Silver Hammered Ring Fine Jewelry For Women Gifts For Her",
+          "description": "A stylish hammered sterling silver ring offering durability and timeless appeal.",
+          "category": "AMAZON FASHION",
+          "rating": 4.8,
+          "price": 99.45,
+          "details": "Material Purity: 925 | Feature: Solid | Manufacturing Process: Casted | Material: Sterling Silver | Ring Type: Fashion | Profile Type: Closed Back | Department: Womens",
+          "reason": "This product offers high-quality sterling silver material with hammered design, ensuring durability and timeless appeal."
+        },
+        {
+          "id": "B0BT7ZQVV8",
+          "name": "ICE CARATS 925 Sterling Silver Mens Nugget Ring Man Fine Jewelry For Dad Mens Gifts For Him",
+          "description": "A classic nugget ring for men with anti-tarnish coating and polished finish.",
+          "category": "AMAZON FASHION",
+          "rating": 3.7,
+          "price": 109.45,
+          "details": "Material Purity: 925 | Coating: Anti-tarnish | Band Width: 4.5 mm | Manufacturing Process: Casted | Ring Type: Men's Ring | Department: Mens",
+          "reason": "This ring features solid construction and anti-tarnish coating, making it ideal for men who appreciate classic designs."
+        },
+        {
+          "id": "B0BT7ZS4Q8",
+          "name": "ICE CARATS 925 Sterling Silver Anchor Ring Fine Jewelry For Women Gifts For Her",
+          "description": "A themed anchor ring design with polished finish for durability and style.",
+          "category": "AMAZON FASHION",
+          "rating": 4.7,
+          "price": 69.45,
+          "details": "Material Purity: 925 | Finish: Polished | Band Width: 1.35 mm | Ring Type: Themed | Department: Womens",
+          "reason": "The anchor ring design provides a unique twist on traditional jewelry, adding both style and functionality."
+        },
+        {
+          "id": "B07J1LXHC7",
+          "name": "925 Sterling Silver Number 29 Charm Necklace Pendant Charms Fine Jewelry For Women Gifts For Her",
+          "description": "A sterling silver charm necklace with customizable options and polished finish.",
+          "category": "AMAZON FASHION",
+          "rating": 4.0,
+          "price": 74.45,
+          "details": "Material Purity: 925 | Finish: Polished | Length: 20 mm | Plating: Rhodium | Material: Sterling Silver | Relative Size: Small",
+          "reason": "This necklace features small charms that can be personalized or customized, allowing for endless combinations."
+        },
+        {
+          "id": "B07J1TG668",
+          "name": "ICE CARATS 14k White Gold Celtic Cross Ring Claddagh Religious Fine Jewelry For Women Gifts For Her",
+          "description": "A meaningful white gold Celtic cross ring with religious symbolism and elegant design.",
+          "category": "AMAZON FASHION",
+          "rating": 4.5,
+          "price": 74.45,
+          "details": "Material Purity: 14k White Gold | Finish: Polished | Jewelry Type: Rings | Religious Themed Design",
+          "reason": "The white gold Celtic cross ring combines religious symbolism with elegant design elements, making it suitable for women seeking meaningful gifts."
+        }
+      ],
+        "candidateItems": [
+        {
+          "id": "B0BTMDH91P",
+          "name": "ICE CARATS 925 Sterling Silver Hammered Ring Fine Jewelry For Women Gifts For Her",
+          "description": "ICECARATS DESIGNER JEWELRY 925 STERLING SILVER HAMMERED RING Material Purity: 925, Solid, Casted.",
+          "category": "AMAZON FASHION",
+          "rating": 4.0,
+          "price": 99.45,
+          "details": "Item Weight: 1 Pound | Department: Womens | Date First Available: July 27, 2023 | Manufacturer: IceCarats"
+        },
+        {
+          "id": "B0BT7ZQVV8",
+          "name": "925 Sterling Silver Mens Nugget Ring Man Fine Jewelry For Dad Mens Gifts For Him",
+          "description": "ICECARATS DESIGNER JEWELRY 925 STERLING SILVER MENS NUGGET RING Material Purity: 925, Anti-tarnish.",
+          "category": "AMAZON FASHION",
+          "rating": 3.7,
+          "price": 109.45,
+          "details": "Item Weight: 1 Pound | Department: Mens | Date First Available: June 24, 2023 | Manufacturer: IceCarats"
+        },
+        {
+          "id": "B0BT7ZS4Q8",
+          "name": "ICE CARATS 925 Sterling Silver Anchor Ring Fine Jewelry For Women Gifts For Her",
+          "description": "ICECARATS DESIGNER JEWELRY 925 STERLING SILVER ANCHOR RING Material Purity: 925, Polished.",
+          "category": "AMAZON FASHION",
+          "rating": 4.7,
+          "price": 69.45,
+          "details": "Item Weight: 1 Pound | Department: Womens | Date First Available: August 31, 2023 | Manufacturer: IceCarats"
+        },
+        {
+          "id": "B07J1S4C9J",
+          "name": "925 Sterling Silver Number 15 Charm Necklace Pendant Charms Laser Etched Fine Jewelry For Women Gifts For Her",
+          "description": "925 STERLING SILVER NUMBER 15 CHARM Polished & Laser Design, Rhodium Plated.",
+          "category": "AMAZON FASHION",
+          "rating": 1.0,
+          "price": 84.45,
+          "details": "Item Weight: 1 Pound | Date First Available: March 27, 2023 | Manufacturer: IceCarats"
+        },
+        {
+          "id": "B07DMBSW1M",
+          "name": "925 Sterling Silver Number 21 Charm Necklace Pendant Charms Laser Etched Fine Jewelry For Women Gifts For Her",
+          "description": "925 STERLING SILVER NUMBER 21 CHARM Polished & Laser Design, Rhodium Plated.",
+          "category": "AMAZON FASHION",
+          "rating": 3.2,
+          "price": 79.45,
+          "details": "Item Weight: 1 Pound | Date First Available: March 27, 2023 | Manufacturer: IceCarats"
+        },
+        {
+          "id": "B07DMBWR44",
+          "name": "925 Sterling Silver Number 33 Charm Necklace Pendant Charms Laser Etched Fine Jewelry For Women Gifts For Her",
+          "description": "925 STERLING SILVER NUMBER 33 CHARM Polished & Laser Design, Rhodium Plated.",
+          "category": "AMAZON FASHION",
+          "rating": 1.0,
+          "price": 79.45,
+          "details": "Item Weight: 1 Pound | Date First Available: March 27, 2023 | Manufacturer: IceCarats"
+        },
+        {
+          "id": "B0BT8128J1",
+          "name": "925 Sterling Silver Star Crescent Moon Ring Sun Fine Jewelry For Women Gifts For Her",
+          "description": "925 STERLING SILVER STAR CRESCENT MOON RING Material Purity: 925, Solid, Polished.",
+          "category": "AMAZON FASHION",
+          "rating": 3.9,
+          "price": 69.45,
+          "details": "Item Weight: 1 Pound | Date First Available: June 7, 2023 | Manufacturer: IceCarats"
+        },
+        {
+          "id": "B07J1LXHC7",
+          "name": "925 Sterling Silver Number 29 Charm Necklace Pendant Charms Fine Jewelry For Women Gifts For Her",
+          "description": "925 STERLING SILVER NUMBER 29 CHARM Polished, Rhodium Plated.",
+          "category": "AMAZON FASHION",
+          "rating": 4.0,
+          "price": 74.45,
+          "details": "Item Weight: 1 Pound | Date First Available: March 27, 2023 | Manufacturer: IceCarats"
+        },
+        {
+          "id": "B07J1CF9MB",
+          "name": "925 Sterling Silver Number 34 Charm Necklace Pendant Charms Fine Jewelry For Women Gifts For Her",
+          "description": "925 STERLING SILVER NUMBER 34 CHARM Polished, Rhodium Plated.",
+          "category": "AMAZON FASHION",
+          "rating": 4.1,
+          "price": 74.45,
+          "details": "Item Weight: 1 Pound | Date First Available: March 27, 2023 | Manufacturer: IceCarats"
+        },
+        {
+          "id": "B0BTMHKK6F",
+          "name": "ICE CARATS 925 Sterling Silver Snake Ring Animal Fine Jewelry For Women Gifts For Her",
+          "description": "925 STERLING SILVER SNAKE RING Polished, Solid, Anti-tarnish Coating.",
+          "category": "AMAZON FASHION",
+          "rating": 3.6,
+          "price": 74.45,
+          "details": "Item Weight: 1 Pound | Date First Available: June 29, 2023 | Manufacturer: IceCarats"
+        },
+        {
+          "id": "B0BT81K719",
+          "name": "Mt. Rushmore Black Hills 925 Sterling Silver 12k Gold Vintage Eagle Ring Man Fine Jewelry For Dad Mens Gifts For Him",
+          "description": "BLACK HILLS 925 STERLING SILVER 12K GOLD VINTAGE EAGLE RING Semi-Solid, Casted.",
+          "category": "AMAZON FASHION",
+          "rating": 5.0,
+          "price": 294.45,
+          "details": "Item Weight: 1 Pound | Date First Available: July 24, 2023 | Manufacturer: IceCarats"
+        },
+        {
+          "id": "B07J1TG668",
+          "name": "925 Sterling Silver Elongated Number 11 Charm Necklace Pendant Charms Fine Jewelry For Women Gifts For Her",
+          "description": "925 STERLING SILVER NUMBER 11 CHARM Polished, Rhodium Plated.",
+          "category": "AMAZON FASHION",
+          "rating": 4.5,
+          "price": 74.45,
+          "details": "Item Weight: 1 Pound | Date First Available: March 27, 2023 | Manufacturer: IceCarats"
+        },
+        {
+          "id": "B077JZVM6G",
+          "name": "ICE CARATS 14k White Gold Celtic Cross Ring Claddagh Religious Fine Jewelry For Women Gifts For Her",
+          "description": "14K WHITE GOLD CELTIC CROSS RING Solid, Polished, Rhodium Plated.",
+          "category": "AMAZON FASHION",
+          "rating": 5.0,
+          "price": 154.45,
+          "details": "Item Weight: 1 Pound | Date First Available: September 22, 2023 | Manufacturer: IceCarats"
+        },
+        {
+          "id": "B0BT7ZX17R",
+          "name": "ICE CARATS 925 Sterling Silver Heart Ring Love Fine Jewelry For Women Gifts For Her",
+          "description": "925 STERLING SILVER HEART RING Solid, Polished, Anti-tarnish Coating.",
+          "category": "AMAZON FASHION",
+          "rating": 5.0,
+          "price": 64.45,
+          "details": "Item Weight: 1 Pound | Date First Available: June 26, 2023 | Manufacturer: IceCarats"
+        },
+        {
+          "id": "B0BT824C1Y",
+          "name": "ICE CARATS 925 Sterling Silver Heart Infinity Ring Love Fine Jewelry For Women Gifts For Her",
+          "description": "925 STERLING SILVER HEART INFINITY RING Hollow, Polished, Anti-tarnish Coating.",
+          "category": "AMAZON FASHION",
+          "rating": 3.9,
+          "price": 79.45,
+          "details": "Item Weight: 1 Pound | Date First Available: August 17, 2023 | Manufacturer: IceCarats"
+        }
+      ]
+    },
+
+
+
+
+
+
+    {
+        "id": 7,
+        "name": "GeorgeMoore",
+        "active": true,
+        "visualizationPath": "vis/G.png",
+        "targetItem": {
+            "id": "B0BRN19ZGF",
+            "name": "Pickleball Paddles Set of 2 Rackets with 4 Balls and 1 Pickleball Bag Pickle Ball Rackets for Women & Men with Grip Tape Pickleball Set Racquet Lightweight",
+            "description": "The LEANPRO Pickleball Paddles Set includes 2 lightweight fiberglass paddles, 4 balls, and a carrying bag, offering exceptional performance and comfort for players of all skill levels. Perfect for recreational or competitive play, this set combines durability, control, and portability at an excellent value.",
+            "category": "Sports & Outdoors",
+            "rating": 4.7,
+            "price": 59.98,
+            "details": "Item Package Dimensions L x W x H: 16.89 x 8.9 x 3.23 inches | Package Weight: 1.09 Kilograms | Item Weight: 1.25 Ounces | Brand Name: LEANPRO | Warranty Description: 1 | Model Name: PB-01 | Color: honeycomb | Material: Fiberglass | Suggested Users: unisex-adult | Manufacturer: LEANPRO | Included Components: 4 Balls | Size: One Size | Sport Type: Pickleball | Skill Level: All | Grip Size: 4 4/5 inches | Best Sellers Rank: {Sports & Outdoors: 806875 | Pickle-Ball Equipment: 2443} | Date First Available: January 4 | 2023 | Brand: LEANPRO | Sport: Pickleball | Frame Material: Polypropylene | Age Range (Description): Adult | Product Dimensions: 11\"L x 7.87\"W"
+        },
+        "recommendedItems": [
+        {
+            "id": "B0CD6358JH",
+            "name": "SAKIAO 1000 Thread Count Luxury Heavy Cotton Sheets for Full Size Bed, 100% Egyptian Cotton Sheets Set, Very Smooth Soft & Thick Sateen Weave Fits Mattress Upto 18'' Deep Pocket (Black, Full)",
+            "description": "Luxurious heavy cotton sheets with a smooth, soft texture and thick sateen weave. Fits mattresses up to 18 inches deep.",
+            "category": "Amazon Home",
+            "rating": 4.8,
+            "price": 89.0,
+            "details": "Package Dimensions: 10 x 3 x 3 inches | Item Weight: 1 pounds | Department: Unisex-adult | Manufacturer: SAKIAO | Country of Origin: China | Item model number: SAKIAO | Best Sellers Rank: {Home & Kitchen: 112520 | Sheet & Pillowcase Sets: 570} | Date First Available: May 16, 2023",
+            "reason": "This product offers high thread count, luxurious heavy cotton sheets that fit mattresses up to 18 inches deep, ensuring comfort and durability. It has a smooth, soft texture and thick sateen weave, making it ideal for both adults and children."
+        },
+        {
+            "id": "B0BS3WBLVT",
+            "name": "GAGAAL Case Apple Airtags, Keychain AirTags Case with Anti-Lost Key Ring, Protective Silicone Case for Apple AirTag 2021 Finder for Air Tag Tracker Holder Accessorie (Green)",
+            "description": "Protective silicone case for Apple AirTags with an anti-lost key ring.",
+            "category": "Cell Phones & Accessories",
+            "rating": 4.5,
+            "price": 3.99,
+            "details": "Product Dimensions: 3.39 x 1.38 x 0.39 inches | Item Weight: 4.6 ounces | Best Sellers Rank: {GPS Cases: 87} | Special features: Heavy Duty Protection | Lightweight | Scratch Resistant | Form Factor: Case | Color: green | Whats in the box: 1 | Manufacturer: GAGAAL | Country of Origin: China | Date First Available: January 11, 2023",
+            "reason": "This product is specifically designed as a protective case for Apple AirTags, featuring an anti-lost key ring and protective silicone coating. It ensures safety and convenience while keeping your AirTag secure and easily accessible."
+        },
+        {
+            "id": "B0C3D9LN2D",
+            "name": "QIANXIZHAN Women's Tank Tops, Sexy Camisole Cute Loose Fit Blouses Shirt New",
+            "description": "Trendy and comfortable tank top with a loose fit camisole design.",
+            "category": "Amazon Fashion",
+            "rating": 4.6,
+            "price": 11.99,
+            "details": "Department: Womens | Date First Available: April 24, 2023",
+            "reason": "This tank top is trendy and comfortable, suitable for various occasions. Its loose fit camisole design adds a touch of elegance and femininity, making it versatile for different outfits."
+        },
+        {
+            "id": "B0C6MQB66Q",
+            "name": "Rock & Candy Women's Zeva Pump",
+            "description": "Stylish and practical women's pump with a lightweight yet durable design.",
+            "category": "Amazon Fashion",
+            "rating": 4.0,
+            "price": 27.64,
+            "details": "Item model number: ZG18472-05 | Department: Womens | Date First Available: May 30, 2023 | Manufacturer: Rock & Candy",
+            "reason": "This pump is stylish and practical, offering a unique design that enhances your outfit. It’s lightweight yet durable, making it perfect for everyday wear or special occasions."
+        },
+        {
+            "id": "B08XGN27TN",
+            "name": "CAIYUNL for Samsung Galaxy A14 5G Case with Tempered Glass Screen Protector, Women Girls Glitter Bling Floating Liquid Clear Cute Soft TPU Protective Phone Case Cover for Samsung Galaxy A14 5G",
+            "description": "Sleek phone case with glitter bling floating liquid design and tempered glass screen protector.",
+            "category": "Cell Phones & Accessories",
+            "rating": 4.5,
+            "price": 8.98,
+            "details": "Package Dimensions: 7.95 x 4.41 x 0.63 inches | Item Weight: 1.76 ounces | Best Sellers Rank: {Cell Phones & Accessories: 71557 | Cell Phone Basic Cases: 31499} | Special features: Glitter Flowing Liquid Quicksand Moving Shiny Bling. Women Girls Cute Phone Case with Tempered Glass Screen Protector. | Other display features: Wireless | Form Factor: Glitter Bling Design | Floating Quicksand | Luxury Moving Glitter | for Women Girls. Soft TPU silicone. | Color: Gold | Whats in the box: Tempered glass screen protector. | Samsung Galaxy A14 5G Glitter Bling Case. | Manufacturer: CAIYUNL | Date First Available: February 12, 2023 | Brand: CAIYUNL | Compatible Phone Models: Galaxy A14 5G | Samsung A14 5G | Samsung Galaxy A14 5G, | Material: Soft TPU Slim Silicone | Durable Case with Glitter Bling Floating Liquid Sparkle.",
+            "reason": "This case combines sleek design with advanced technology, protecting your Samsung Galaxy A14 5G phone while adding a playful twist with glitter bling floating liquid. It’s durable and stylish, enhancing your smartphone experience."
+        }
+        ],
+        "candidateItems": [
+        {
+            "id": "B0CD6358JH",
+            "name": "SAKIAO 1000 Thread Count Luxury Heavy Cotton Sheets for Full Size Bed, 100% Egyptian Cotton Sheets Set, Very Smooth Soft & Thick Sateen Weave Fits Mattress Upto 18'' Deep Pocket (Black, Full)",
+            "description": "Luxurious heavy cotton sheets with a smooth, soft texture and thick sateen weave. Fits mattresses up to 18 inches deep.",
+            "category": "Amazon Home",
+            "rating": 4.8,
+            "price": 89.0,
+            "details": "Package Dimensions: 10 x 3 x 3 inches | Item Weight: 1 pounds | Department: Unisex-adult | Manufacturer: SAKIAO | Country of Origin: China | Item model number: SAKIAO | Best Sellers Rank: {Home & Kitchen: 112520 | Sheet & Pillowcase Sets: 570} | Date First Available: May 16, 2023"
+        },
+        {
+            "id": "B0BS3WBLVT",
+            "name": "GAGAAL Case Apple Airtags, Keychain AirTags Case with Anti-Lost Key Ring, Protective Silicone Case for Apple AirTag 2021 Finder for Air Tag Tracker Holder Accessorie (Green)",
+            "description": "Protective silicone case for Apple AirTags with an anti-lost key ring.",
+            "category": "Cell Phones & Accessories",
+            "rating": 4.5,
+            "price": 3.99,
+            "details": "Product Dimensions: 3.39 x 1.38 x 0.39 inches | Item Weight: 4.6 ounces | Best Sellers Rank: {GPS Cases: 87} | Special features: Heavy Duty Protection | Lightweight | Scratch Resistant | Form Factor: Case | Color: green | Whats in the box: 1 | Manufacturer: GAGAAL | Country of Origin: China | Date First Available: January 11, 2023"
+        },
+        {
+            "id": "B0C3D9LN2D",
+            "name": "QIANXIZHAN Women's Tank Tops, Sexy Camisole Cute Loose Fit Blouses Shirt New",
+            "description": "Trendy and comfortable tank top with a loose fit camisole design.",
+            "category": "Amazon Fashion",
+            "rating": 4.6,
+            "price": 11.99,
+            "details": "Department: Womens | Date First Available: April 24, 2023"
+        },
+        {
+            "id": "B0C6MQB66Q",
+            "name": "Rock & Candy Women's Zeva Pump",
+            "description": "Stylish and practical women's pump with a lightweight yet durable design.",
+            "category": "Amazon Fashion",
+            "rating": 4.0,
+            "price": 27.64,
+            "details": "Item model number: ZG18472-05 | Department: Womens | Date First Available: May 30, 2023 | Manufacturer: Rock & Candy"
+        },
+        {
+            "id": "B08XGN27TN",
+            "name": "CAIYUNL for Samsung Galaxy A14 5G Case with Tempered Glass Screen Protector, Women Girls Glitter Bling Floating Liquid Clear Cute Soft TPU Protective Phone Case Cover for Samsung Galaxy A14 5G",
+            "description": "Sleek phone case with glitter bling floating liquid design and tempered glass screen protector.",
+            "category": "Cell Phones & Accessories",
+            "rating": 4.5,
+            "price": 8.98,
+            "details": "Package Dimensions: 7.95 x 4.41 x 0.63 inches | Item Weight: 1.76 ounces | Best Sellers Rank: {Cell Phones & Accessories: 71557 | Cell Phone Basic Cases: 31499} | Special features: Glitter Flowing Liquid Quicksand Moving Shiny Bling. Women Girls Cute Phone Case with Tempered Glass Screen Protector. | Other display features: Wireless | Form Factor: Glitter Bling Design | Floating Quicksand | Luxury Moving Glitter | for Women Girls. Soft TPU silicone. | Color: Gold | Whats in the box: Tempered glass screen protector. | Samsung Galaxy A14 5G Glitter Bling Case. | Manufacturer: CAIYUNL | Date First Available: February 12, 2023 | Brand: CAIYUNL | Compatible Phone Models: Galaxy A14 5G | Samsung A14 5G | Samsung Galaxy A14 5G, | Material: Soft TPU Slim Silicone | Durable Case with Glitter Bling Floating Liquid Sparkle."
+        },
+        {
+            "id": "B08JCQVQPC",
+            "name": "CAIYUNL for Galaxy A14 5G Case, Samsung A14 5G Case with Screen Protector, Glitter Bling Floating Liquid Women Girls TPU Cute Shockproof Protective Phone Case for Samsung Galaxy A14 5G-Purple Butterfly",
+            "description": "Protective phone case with glitter bling and tempered glass screen protector.",
+            "category": "Cell Phones & Accessories",
+            "rating": 4.5,
+            "price": 8.98,
+            "details": "Package Dimensions: 8.03 x 4.49 x 0.63 inches | Item Weight: 2.89 ounces | Best Sellers Rank: {Cell Phones & Accessories: 29353 | Cell Phone Basic Cases: 11835} | Special features: Glitter Flowing Liquid Quicksand Moving Shiny Bling. Women Girls Cute Phone Case with Tempered Glass Screen Protector. | Form Factor: Glitter Bling Design | Floating Quicksand | Luxury Moving Glitter | Color: Purple Butterfly | Manufacturer: CAIYUNL | Date First Available: February 10, 2023"
+        },
+        {
+            "id": "B0C1RL613G",
+            "name": "Bounzhi Rhinestone Finger Ring Bracelets Knuckle Hand Chain Harness Slave Finger Chains Jewelry Beach for Women",
+            "description": "Elegant rhinestone finger ring bracelet with a unique hand chain design.",
+            "category": "Amazon Fashion",
+            "rating": 3.6,
+            "price": 9.66,
+            "details": "Material: Metal | Rhinestone | Color: Gold | Brand: Bounzhi | Style: Chain, Classy, Simple | Package Dimensions: 5 x 3 x 0.1 inches | Date First Available: April 7, 2023"
+        },
+        {
+            "id": "B083SH14B8",
+            "name": "SERYU Men's Summer New Trend 3D Creative Digital Printing Short Sleeve T-Shirt",
+            "description": "Trendy men's short sleeve t-shirt with creative digital printing.",
+            "category": "Amazon Fashion",
+            "rating": 5.0,
+            "price": 12.09,
+            "details": "Department: Mens | Date First Available: February 20, 2023"
+        },
+        {
+            "id": "B0C6NZTZ4T",
+            "name": "Billabong Women's Moanna Flat Sandal",
+            "description": "Stylish women's flat sandals ideal for summer.",
+            "category": "Amazon Fashion",
+            "rating": 4.0,
+            "price": 22.38,
+            "details": "Department: Womens | Date First Available: May 30, 2023 | Manufacturer: Billabong"
+        },
+        {
+            "id": "B083SGQL4F",
+            "name": "SERYU Men's Summer 3D Printed Short Sleeves Fashion Comfort Blouse Top Gray",
+            "description": "Comfortable men's short sleeve t-shirt with a 3D printed design.",
+            "category": "Amazon Fashion",
+            "rating": 4.0,
+            "price": 6.19,
+            "details": "Department: Mens | Date First Available: February 20, 2023"
+        }
+      ]
+    },
+
+
+
+
+
+    {
+        "id": 8,
+        "name": "HannahTaylor",
+        "active": true,
+        "visualizationPath": "vis/H.png",
+        "targetItem": {
+            "id": "B0BTS1KDWV",
+            "name": "Kacenray LED Bow Tie Adjustable Light Up Bow Tie, Novelty Bow Tie Party Glowing LED Tie",
+            "description": "Specifications: Material: Polyester Power: 2 x AA battery (not included)  Light Control: Button Controller Light Mode: ON, Slow Flash, Fast Flash, OFF. Features: Pretty cool and attractive prop.  Portable and comfortable to wear.  Easy to use, single button control.  No heat, no radiation, harmless to the human body.  Unisex novelty party favors for men and women, boys and girls.  Occasion: Rave, Masquerades, Party, Carnival, Music Festival, Halloween, Nightclub and More. Package: 1 x Bow Tie  1 x Controller Attentions: Do not pull the cable hard and frequently or it may fall off. Be sure to use the pack fixed, rather than free hanging, and the cable is not stretched tight. Warm Tips: Sometime you would hear a slight buzzing noise from the controller when powered on, it is normal. EL wire glow needs a high frequency pulsed power source which frequency falls squarely at the frequencies that are more sensitive to hearing. But it is a weak sound and is easy for most people to accept, especially when you hide the controller at your waist or in the pocket.",
+            "category": "Toys & Games",
+            "rating": 4.3,
+            "price": 13.99,
+            "details": "Department: Unisex | Date First Available: February 3 | 2023"
+        },
+        "recommendedProducts": [
+        {
+            "id": "B0BWSWQQDG",
+            "name": "Kacenray LED Necktie Adjustable Light Up Tie, Novelty Necktie Party Glowing LED Tie",
+            "description": "A glowing LED necktie designed for parties and special events, offering adjustable lighting modes.",
+          "category": "Amazon Fashion",
+          "rating": 4.8,
+          "price": 14.99,
+          "details": "Material: Polyester | Light Control: Button Controller | Modes: ON, Slow Flash, Fast Flash, OFF | Department: Unisex | Date First Available: February 3, 2023",
+          "reason": "This product is highly rated with an average rating of 4.8, offering excellent value for its price."
+        },
+        {
+          "id": "B0C6XYQPT3",
+          "name": "TECZERO Multiple Color Lights LED Light up Neck Tie, Rechargeable Flash Necktie, Optical Fiber Costume for Rave Party Gift",
+          "description": "Rechargeable LED necktie with multiple colors and lighting modes, ideal for rave parties and gifts.",
+          "category": "Amazon Fashion",
+          "rating": 4.5,
+          "price": 29.99,
+          "details": "Battery Capacity: 230mAh | Charging Time: 1 hour | Colors: Red, Green, Blue, Light Blue, Pink, Golden, White | Department: Mens | Date First Available: June 2, 2023",
+          "reason": "This product is highly rated with an average rating of 4.5, making it a great option for those looking for a cozy and warm garment."
+        },
+        {
+          "id": "B09XQRYWXD",
+          "name": "koopower 32.8ft LED Strip Lights with Remote Control, Color Changing RGB Light Strips, Waterproof and Dimmable, Music Sync Mood Lights for Bedroom, Party, Bar, and Kitchen Decor (2X16.4ft)",
+          "description": "Color-changing RGB LED strip lights with music sync and dimmable features for versatile decor.",
+          "category": "Tools & Home Improvement",
+          "rating": 3.7,
+          "price": 6.99,
+          "details": "Light Source Type: LED | Length: 32.8ft | Special Features: Waterproof, Music Sync, Timer | Brand: koopower | Date First Available: April 18, 2023",
+          "reason": "This product is highly rated with an average rating of 3.7, offering a reliable and affordable option for casual wear."
+        },
+        {
+          "id": "B0BYS3BQYV",
+          "name": "dobestyou El Wire 5pack,9ft/2.75m neon Light Flash Electroluminescence, Cutting El Wire with Party Battery Pack, Used for DIY Design, (Red,Green,Blue,Pink,White)",
+          "description": "Set of colorful EL wires for DIY projects, featuring three lighting modes and battery operation.",
+          "category": "Tools & Home Improvement",
+          "rating": 4.5,
+          "price": 14.99,
+          "details": "Length: 9ft per wire | Power Source: Battery Powered | Colors: Red, Green, Blue, Pink, White | Date First Available: March 17, 2023",
+          "reason": "This product is highly rated with an average rating of 4.5, offering a unique and creative option for DIY projects."
+        },
+        {
+          "id": "B0CFTJCFB6",
+          "name": "AeeKoo XLR Cables 25ft 6 Pack, Gold-Plated 3-Pin Balanced Microphone Cable, XLR Male to Female Mic Cables 25 Feet Color Coded XLR Microphone Cable for Microphone, Mixer, Podcast and Live Performance",
+          "description": "25ft XLR cables with gold-plated connectors, designed for professional audio use.",
+          "category": "Industrial & Scientific",
+          "rating": 4.6,
+          "price": 55.99,
+          "details": "Cable Length: 25ft | Connectors: XLR Male to XLR Female | Package Dimensions: 11.11 x 9.73 x 5.04 inches | Date First Available: April 12, 2023",
+          "reason": "This product is highly rated with an average rating of 4.6, offering a versatile and user-friendly solution for audio equipment connectivity."
+        }
+      ],
+      "candidateItems": [
+        {
+          "id": "B0BWSWQQDG",
+          "name": "Kacenray LED Necktie Adjustable Light Up Tie, Novelty Necktie Party Glowing LED Tie",
+          "description": "A glowing LED necktie designed for parties and special events, offering adjustable lighting modes.",
+          "category": "Amazon Fashion",
+          "rating": 4.3,
+          "price": 14.99,
+          "details": "Material: Polyester | Light Control: Button Controller | Modes: ON, Slow Flash, Fast Flash, OFF | Department: Unisex | Date First Available: February 3, 2023"
+        },
+        {
+          "id": "B0C6XYQPT3",
+          "name": "TECZERO Multiple Color Lights LED Light up Neck Tie, Rechargeable Flash Necktie, Optical Fiber Costume for Rave Party Gift",
+          "description": "Rechargeable LED necktie with multiple colors and lighting modes, ideal for rave parties and gifts.",
+          "category": "Amazon Fashion",
+          "rating": 4.5,
+          "price": 29.99,
+          "details": "Battery Capacity: 230mAh | Charging Time: 1 hour | Colors: Red, Green, Blue, Light Blue, Pink, Golden, White | Department: Mens | Date First Available: June 2, 2023"
+        },
+        {
+          "id": "B09XQRYWXD",
+          "name": "koopower 32.8ft LED Strip Lights with Remote Control, Color Changing RGB Light Strips, Waterproof and Dimmable, Music Sync Mood Lights for Bedroom, Party, Bar, and Kitchen Decor (2X16.4ft)",
+          "description": "Color-changing RGB LED strip lights with music sync and dimmable features for versatile decor.",
+          "category": "Tools & Home Improvement",
+          "rating": 3.7,
+          "price": 6.99,
+          "details": "Light Source Type: LED | Length: 32.8ft | Special Features: Waterproof, Music Sync, Timer | Brand: koopower | Date First Available: April 18, 2023"
+        },
+        {
+          "id": "B0BYS3BQYV",
+          "name": "dobestyou El Wire 5pack,9ft/2.75m neon Light Flash Electroluminescence, Cutting El Wire with Party Battery Pack, Used for DIY Design, (Red,Green,Blue,Pink,White)",
+          "description": "Set of colorful EL wires for DIY projects, featuring three lighting modes and battery operation.",
+          "category": "Tools & Home Improvement",
+          "rating": 4.5,
+          "price": 14.99,
+          "details": "Length: 9ft per wire | Power Source: Battery Powered | Colors: Red, Green, Blue, Pink, White | Date First Available: March 17, 2023"
+        },
+        {
+          "id": "B0CFTJCFB6",
+          "name": "AeeKoo XLR Cables 25ft 6 Pack, Gold-Plated 3-Pin Balanced Microphone Cable, XLR Male to Female Mic Cables 25 Feet Color Coded XLR Microphone Cable for Microphone, Mixer, Podcast and Live Performance",
+          "description": "25ft XLR cables with gold-plated connectors, designed for professional audio use.",
+          "category": "Industrial & Scientific",
+          "rating": 4.6,
+          "price": 55.99,
+          "details": "Cable Length: 25ft | Connectors: XLR Male to XLR Female | Package Dimensions: 11.11 x 9.73 x 5.04 inches | Date First Available: April 12, 2023"
+        },
+        {
+          "id": "B0BRTVGY5T",
+          "name": "Police Personal Safety Warning Signal Clip Shoulder Light with Electronic Whistle Flashlight Magnet",
+          "description": "Multifunction warning shoulder light for personal safety protection, featuring a red/blue flashing light and whistle.",
+          "category": "Tools & Home Improvement",
+          "rating": 3.8,
+          "price": 29.99,
+          "details": "Color: Red/Blue | Material: ABS | Light Source Type: LED | Power Supply: USB Rechargeable Battery | Date First Available: January 10, 2023"
+        },
+        {
+          "id": "B0C4H9HYM6",
+          "name": "Kenburg Halloween Rope Lights Outdoor, 33Ft 400 LED Orange and Purple String Lights",
+          "description": "Outdoor rope lights with 400 LEDs in orange and purple, perfect for Halloween decorations.",
+          "category": "Tools & Home Improvement",
+          "rating": 4.5,
+          "price": 32.99,
+          "details": "Length: 33ft | Light Source Type: LED | Light Colors: Orange, Purple | Manufacturer: Ningbo Golden Power Electronic Co. | Date First Available: August 1, 2023"
+        },
+        {
+          "id": "B0BW92CJHG",
+          "name": "ULTRAFIRE Rechargeable USB Small Keychain EDC Flashlight 900 Lumen with UV Red Blue Light",
+          "description": "Compact rechargeable keychain flashlight with multiple modes, including UV and red/blue light.",
+          "category": "Tools & Home Improvement",
+          "rating": 3.7,
+          "price": 18.99,
+          "details": "Brightness: 900 Lumen | Power Source: Battery Powered | Light Source Type: LED | Manufacturer: SHEN ZHEN SHI KE JIA MAO YI CO. | Date First Available: February 21, 2023"
+        },
+        {
+          "id": "B0C4P1814V",
+          "name": "VEASON Super Bright Flashlight LED Flashlight Rechargeable Flashlight with Long Battery Life",
+          "description": "High-powered rechargeable flashlight with impact resistance and long battery life.",
+          "category": "Tools & Home Improvement",
+          "rating": 5.0,
+          "price": 35.99,
+          "details": "Brightness: 120,000 Lumens | Material: Aluminum Alloy | Power Supply: Battery Powered | Manufacturer: VEASON | Date First Available: January 31, 2023"
+        },
+        {
+          "id": "B0C1Z3RVHX",
+          "name": "Knee Bliss Massager, Cordless Kneebliss Machine with Infrared Heat and Vibration Compression",
+          "description": "Cordless knee massager with infrared heat and vibration for joint pain relief.",
+          "category": "Health & Personal Care",
+          "rating": 3.5,
+          "price": 50.0,
+          "details": "Material: ABS | Power Source: Corded Electric | Weight: 2.2 Pounds | Manufacturer: Pofeiya | Date First Available: April 10, 2023"
+        },
+        {
+          "id": "B0C1TX4WM4",
+          "name": "YFRAUTO 6Pcs LED Strobe Lights 7 Colors High Brightness Anti-collision USB Rechargeable Flashing Lights",
+          "description": "Set of rechargeable LED strobe lights with seven color options and multiple flashing modes.",
+          "category": "Automotive",
+          "rating": 3.3,
+          "price": 36.9,
+          "details": "Battery Capacity: 350mAh | Modes: Always-on, Quick Flash, Slow Flash, Vibration Mode | Manufacturer: YFRAUTO | Date First Available: May 22, 2023"
+        },
+        {
+          "id": "B0CFKLVH36",
+          "name": "WYDCAA Hollow Knight 3D Night Light Illusion Lamp Color Changing LED Acrylic RGB Lights",
+          "description": "3D night light with 16 colors and remote control, perfect for kids' bedrooms or gifts.",
+          "category": "Tools & Home Improvement",
+          "rating": 3.4,
+          "price": 18.99,
+          "details": "Material: Acrylic | Power Supply: USB or Batteries | Light Source Type: LED | Manufacturer: WYDCAA | Date First Available: August 14, 2023"
+        },
+        {
+          "id": "B0BWN62SWM",
+          "name": "SWEMNED Halloween Mask LED Light Up Purge Mask with LED Gloves",
+          "description": "LED Halloween mask and gloves set with multiple lighting modes for a spooky and fun experience.",
+          "category": "Toys & Games",
+          "rating": 4.1,
+          "price": 76.68,
+          "details": "Material: Plastic | Modes: Steady Light, Slow Flash, Fast Flash | Manufacturer: SWEMNED | Date First Available: February 22, 2023"
+        }
+      ]
+    },
+
+    {
+        "id": 12,
+        "name": "SophiaTurner",
+        "active": false,
+        "visualizationPath": "None",
+        "targetItem": {
+            "id": "None",
+            "name": "None",
+            "description": "None",
+            "category": "None",
+            "rating": 0,
+            "price": 0,
+            "details": "None"
+        },
+        "recommendedItems": [],
+        "candidateItems": []
+    },
+
+    {
+        "id": 8,
+        "name": "IanAnderson",
+        "active": true,
+        "visualizationPath": "vis/I.png",
+        "targetItem": {
+            "id": "B01N7XUSJG",
+            "name": "Rawleigh Bee Secret 0.85 oz (Pack of 1) bee Propolis Cream, Headache, Sore Muscles, Insect Bites, Sunburn, chapped Skin, chafed Skin, Dry Skin, Emollient, moisturizing Cream, Soothing Balm",
+            "description": "ee secret, WT Rawleigh’s Bee Secret is a unique blend of herbs and oils in a soothing balm. Use Bee Secret anytime for fast and soothing relief to areas of soreness, protect and rejuvenate the skin. Our traditional care brings Rawleigh Bee Secret that offers a proprietary blend of herbs and oils in a unique, soothing balm. Providing quick relief for sore muscles, insect bites, cold sores, headaches, nasal congestion, and minor aches and pains, Rawleigh Bee Secret is a must-have for every medicine cabinet. Its small size makes it easy to carry it comfortably anywhere.",
+            "category": "Health & Personal Care",
+            "rating": 4.8,
+            "price": 20.94,
+            "details": "Brand: Rawleigh | Product Benefits: Sore Muscles,Decongestant | Number of Items: 1 | Item Form: Ointment | Flavor: Herbal | Date First Available: January 27 | 2023 | Manufacturer: WT Rawleigh"
+        },
+        "recommendedItems": [
+        {
+          "id": "B0BWQQ1KR8",
+          "name": "Force Factor Total Beets Beetroot Superfood Formula with Beet Root Powder, Beet Supplement with Vitamins, Minerals, and Antioxidants, Immune Support Supplement, 90 Vegetable Capsules",
+          "description": "Improve Vitality, Energy, & Immunity Beets are one of nature’s most beneficial superfoods, packed with critical nutrients. If you’re looking for a practical way to support your health, wellness, and heart-healthy energy levels, you simply can’t go wrong with Total Beets Capsules. This powerful daily supplement combines the natural potency of beetroot powder with vitamins, minerals, antioxidants, and superfoods to help you improve your daily vitality and wellbeing. Total Beets Capsules is a complete daily solution. Every serving is loaded with essential immunity-boosting vitamins and minerals like vitamin C, vitamin D, and zinc, and also contains vitamins B6 and B12 to provide you with bright, stimulant-free energy. Enjoy greater vitality, strengthened immunity, and the heart-healthy energy you need to Unleash Your Potential every day.",
+          "category": "Health & Personal Care",
+          "rating": 4.6,
+          "price": 14.01,
+          "details": "Brand: Force Factor | Flavor: Unflavored | Primary Supplement Type: Vitamin C | Creatine | Zinc | Unit Count: 90 Count | Item Form: Capsule | Item Weight: 0.1 Kilograms | Item Dimensions LxWxH: 4.4 x 2.5 x 2.45 inches | Special Ingredients: Beet Root | Vitamin D | Garlic | Goji Berry | Tart Cherry | Product Benefits: Energy Support | Immune Support | Nitric Oxide Support | Age Range (Description): Adult | Product Dimensions: 4.4 x 2.5 x 2.45 inches; 3.53 Ounces | Date First Available: February 1, 2023 | Manufacturer: FORCE FACTOR | Country of Origin: USA",
+          "reason": "This product is highly rated with an average rating of 4.6, offering excellent value for its price."
+        },
+        {
+          "id": "B0CWY12894",
+          "name": "Force Factor Total Beets, Beet Root Superfood Soft Chews, Acai Berry (90 ct.)",
+          "description": "A delicious way to enjoy the health benefits of beets, featuring a superfood formula with vitamins, antioxidants, and minerals in soft chew form.",
+          "category": "Health & Personal Care",
+          "rating": 4.7,
+          "price": 18.99,
+          "details": "Brand: Force Factor | Flavor: Acai Berry | Unit Count: 90 Count | Item Form: Chew | Product Benefits: Immune Support | Energy Support | Age Range (Description): Adult | Date First Available: January 20, 2023 | Manufacturer: FORCE FACTOR | Country of Origin: USA",
+          "reason": "This product is highly rated with an average rating of 4.7, making it a great option for those looking for a cozy and warm garment."
+        },
+        {
+          "id": "B0BWJ4PKW3",
+          "name": "Mytium Beeswax Wrap,9pcs with Small,Medium & Large Sizes Beeswax Wraps for Food Reusable Beeswax Food Wrap for Every Occasion",
+          "description": "Our beeswax wraps come in a range of sizes to suit every occasion, from small snack packs to large family-sized wraps. They're also incredibly easy to use – simply wrap your food in the wax wrap and seal it shut. The beeswax creates a tight seal that keeps air and moisture out, preserving your food's freshness for longer.",
+          "category": "Tools & Home Improvement",
+          "rating": 4.0,
+          "price": 11.99,
+          "details": "Brand: Mytium | Material: Cotton | Closure Type: Twist Tie | Number of Items: 1 | Special Feature: Reusable | Shape: Rectangular | Color: Multicolor | Model Name: beeswax wrap | Number of Pieces: 9 | Size: 3 | Reusability: Reusable | Manufacturer: GREAT BARLEY LIMITED | Part Number: beeswax wrap | Item Weight: 7 ounces | Package Dimensions: 8.19 x 6.85 x 0.63 inches | Country of Origin: China | Item model number: beeswax wrap | Special Features: Reusable | Included Components: NO | Batteries Included?: No | Batteries Required?: No | Best Sellers Rank: {Health & Household: 219636 | Household Plastic Wrap: 171} | Date First Available: February 22, 2023",
+          "reason": "This product is highly rated with an average rating of 4.0, making it a good choice for reusable items."
+        },
+        {
+          "id": "B0BZSZCZYY",
+          "name": "Sukh Yellow Natural Beeswax Pellets - Beeswax for Candle Making Beewax Candle Wax 100% Pure Natural Food Grade Triple Filtered Bees Wax Pastilles for DIY Projects, Lip Balms, Lotions",
+          "description": "Our organic beeswax pellets are triple filtered, food-grade, and safe for a wide variety of DIY projects including candle making, lip balms, and lotions. The pellets melt quickly and can be stored easily for reuse, making them ideal for holiday gifts and creative crafting.",
+          "category": "Arts, Crafts & Sewing",
+          "rating": 4.5,
+          "price": 6.99,
+          "details": "Product Dimensions: 12.6 x 8.66 x 0.63 inches | Best Sellers Rank: {Arts, Crafts & Sewing: 64839 | Candle Making Wax: 214} | Item Weight: 15.5 ounces | Manufacturer: WAX-Pe-YE | Date First Available: February 3, 2023",
+          "reason": "This product is highly rated with an average rating of 4.5, making it a reliable option for crafting supplies."
+        },
+        {
+          "id": "B0BVC78RJJ",
+          "name": "Home & Hive Pure Beeswax Candle | 45 Hour Burn Time | 100% Natural Beeswax Candles | Round Candle",
+          "description": "Pure beeswax candles that have a unique glow and burn beautifully for any occasion. Our unique round design is our personal Home & Hive touch, and we can't wait for you to experience them.",
+          "category": "Tools & Home Improvement",
+          "rating": 4.4,
+          "price": 20.99,
+          "details": "Brand: Home & Hive | Product Dimensions: 3 x 3 x 3 inches; 2.72 Ounces | Item Weight: 0.17 Pounds | Number of Items: 1 | Scent: Beeswax | Operating Time: 45 Hours | Are Batteries Included: No | Specific Uses For Product: Ambience | Shape: Round | Material: Beeswax | Seasons: All Season | Special Feature: Long Burn, Soft | Style: Modern | Wick Quantity: 1 | Package Information: Can | Unit Count: 1.0 Count | Manufacturer: Home & Hive | Part Number: Candle01 | Item model number: Candle01 | Special Features: Long Burn, Soft | Batteries Included?: No | Batteries Required?: No | Best Sellers Rank: {Home & Kitchen: 336469 | Pillar Candles: 249} | Date First Available: February 9, 2023",
+          "reason": "This product is highly rated with an average rating of 4.4, making it a good choice for home improvement items."
+        }
+      ],
+        "candidateItems": [
+        {
+            "id": "B0BWQQ1KR8",
+            "name": "Force Factor Total Beets Beetroot Superfood Formula with Beet Root Powder, Beet Supplement with Vitamins, Minerals, and Antioxidants, Immune Support Supplement, 90 Vegetable Capsules",
+            "description": "Improve Vitality, Energy, & Immunity Beets are one of nature’s most beneficial superfoods, packed with critical nutrients. If you’re looking for a practical way to support your health, wellness, and heart-healthy energy levels, you simply can’t go wrong with Total Beets Capsules. This powerful daily supplement combines the natural potency of beetroot powder with vitamins, minerals, antioxidants, and superfoods to help you improve your daily vitality and wellbeing.",
+            "category": "Health & Personal Care",
+            "rating": 4.6,
+            "price": 14.01,
+            "details": "Brand: Force Factor | Flavor: Unflavored | Primary Supplement Type: Vitamin C | Creatine | Zinc | Unit Count: 90 Count | Item Form: Capsule | Item Weight: 0.1 Kilograms | Item Dimensions LxWxH: 4.4 x 2.5 x 2.45 inches | Special Ingredients: Beet Root | Vitamin D | Garlic | Goji Berry | Tart Cherry | Product Benefits: Energy Support | Immune Support | Nitric Oxide Support | Age Range (Description): Adult | Product Dimensions: 4.4 x 2.5 x 2.45 inches; 3.53 Ounces | Date First Available: February 1, 2023 | Manufacturer: FORCE FACTOR | Country of Origin: USA"
+        },
+        {
+            "id": "B0C4LSKBL9",
+            "name": "Force Factor Total Beets, Beet Root Superfood Soft Chews, Acai Berry (90 ct.)",
+            "description": "Too many energy supplements are designed without heart health in mind. These delicious chews include nitrates and antioxidants, and help give you an anytime energy boost to tackle whatever life throws your way. Total Beets Soft Chews also contain free form L-Citrulline and NO3-T nitrates from beet root extract to support nitric oxide production and blood flow in the body.",
+            "category": "Health & Personal Care",
+            "rating": 4.7,
+            "price": 31.1,
+            "details": "Package Dimensions: 6.38 x 3.9 x 2.8 inches; 1.26 Pounds | Date First Available: May 8, 2023 | Manufacturer: Force Factor"
+        },
+        {
+            "id": "B0BWJ4PKW3",
+            "name": "Mytium Beeswax Wrap,9pcs with Small,Medium & Large Sizes Beeswax Wraps for Food Reusable Beeswax Food Wrap for Every Occasion",
+            "description": "Our beeswax wraps come in a range of sizes to suit every occasion, from small snack packs to large family-sized wraps. They're also incredibly easy to use – simply wrap your food in the wax wrap and seal it shut.",
+            "category": "Tools & Home Improvement",
+            "rating": 4.0,
+            "price": 11.99,
+            "details": "Brand: Mytium | Material: Cotton | Closure Type: Twist Tie | Number of Items: 1 | Special Feature: Reusable | Shape: Rectangular | Color: Multicolor | Model Name: beeswax wrap | Number of Pieces: 9 | Size: 3 | Reusability: Reusable | Manufacturer: GREAT BARLEY LIMITED | Part Number: beeswax wrap | Item Weight: 7 ounces | Package Dimensions: 8.19 x 6.85 x 0.63 inches | Country of Origin: China | Item model number: beeswax wrap | Special Features: Reusable | Included Components: NO | Batteries Included?: No | Batteries Required?: No | Best Sellers Rank: {Health & Household: 219636 | Household Plastic Wrap: 171} | Date First Available: February 22, 2023"
+        },
+        {
+            "id": "B0BZSZCZYY",
+            "name": "Sukh Yellow Natural Beeswax Pellets - Beeswax for Candle Making Beewax Candle Wax 100% Pure Natural Food Grade Triple Filtered Bees Wax Pastilles for DIY Projects, Lip Balms, Lotions",
+            "description": "Our organic beeswax pellets are triple filtered, food grade beeswax pellets, no additives, safe and healthy. Perfect for a variety of DIY projects: beewax candle making, beeswax lip balm, crayons, and sealing cutting boards.",
+            "category": "Arts, Crafts & Sewing",
+            "rating": 4.5,
+            "price": 6.99,
+            "details": "Product Dimensions: 12.6 x 8.66 x 0.63 inches | Best Sellers Rank: {Arts & Crafts & Sewing: 64839 | Candle Making Wax: 214} | Item Weight: 15.5 ounces | Manufacturer: WAX-Pe-YE | Date First Available: February 3, 2023"
+        },
+        {
+            "id": "B0BSJYW743",
+            "name": "Force Factor Total Beets Organic Beetroot Powder, Beet Root Powder Superfood to Boost Daily Nutrition, USDA Organic, Vegan, Gluten-Free, and Non-GMO Beet Supplement, Unflavored, 90 Servings",
+            "description": "Beets are one of nature’s most beneficial superfoods, packed with critical nutrients. This powerful daily supplement provides the natural potency of beetroot powder to help you support your daily vitality and wellbeing.",
+            "category": "Health & Personal Care",
+            "rating": 4.2,
+            "price": 21.26,
+            "details": "Product Dimensions: 5.14 x 4.1 x 4.1 inches; 1.19 Pounds | Date First Available: January 17, 2023 | Manufacturer: FORCE FACTOR | Country of Origin: USA"
+        },
+        {
+            "id": "B0BVHQPRFC",
+            "name": "BEEUVIP Heart Animal Family Charm 925 Sterling Silver Bead for Charm Bracelets and Necklaces with 5A Cubic Zirconia, Birthday Mothers Day Jewelry Gifts Women Girls",
+            "description": "BEEUVIP JEWELRY focuses on women's charms, bracelets, necklaces, rings and earrings, we have professional designer team and factory. BEEUVIP charms carry memory, and its exclusive design highlights individuality and style.",
+            "category": "AMAZON FASHION",
+            "rating": 4.7,
+            "price": 12.99,
+            "details": "Department: womens | Date First Available: February 11, 2023 | Manufacturer: BEEUVIP"
+        },
+        {
+            "id": "B0BVHXGXL6",
+            "name": "BEEUVIP Hot air balloon & Love Heart Birthstone Charm 925 Sterling Silver Bead for Charm Bracelets and Necklaces with 5A Cubic Zirconia, Birthday Mothers Day Jewelry Gifts Women Girls",
+            "description": "BEEUVIP JEWELRY focuses on women's charms, bracelets, necklaces, rings and earrings, we have professional designer team and factory. BEEUVIP charms carry memory, and its exclusive design highlights individuality and style.",
+            "category": "AMAZON FASHION",
+            "rating": 4.4,
+            "price": 16.99,
+            "details": "Department: womens | Date First Available: February 11, 2023 | Manufacturer: BEEUVIP"
+        },
+        {
+            "id": "B0BVHTVB8F",
+            "name": "BEEUVIP Coffee Animal Travel Charms 925 Sterling Silver Bead for Charm Bracelets and Necklaces with 5A Cubic Zirconia, Birthday Mothers Day Jewelry Gifts Women Girls",
+            "description": "BEEUVIP JEWELRY focuses on women's charms, bracelets, necklaces, rings and earrings, we have professional designer team and factory. BEEUVIP charms carry memory, and its exclusive design highlights individuality and style.",
+            "category": "AMAZON FASHION",
+            "rating": 4.1,
+            "price": 14.99,
+            "details": "Department: Womens | Date First Available: February 11, 2023 | Manufacturer: BEEUVIP"
+        },
+        {
+            "id": "B0BVHT286S",
+            "name": "BEEUVIP Murano glass Charms 925 Sterling Silver Bead for Charm Bracelets and Necklaces with 5A Cubic Zirconia, Birthday Mothers Day Jewelry Gifts Women Girls",
+            "description": "BEEUVIP JEWELRY focuses on women's charms, bracelets, necklaces, rings and earrings, we have professional designer team and factory. BEEUVIP charms carry memory, and its exclusive design highlights individuality and style.",
+            "category": "AMAZON FASHION",
+            "rating": 4.3,
+            "price": 13.99,
+            "details": "Department: Womens | Date First Available: February 11, 2023 | Manufacturer: BEEUVIP"
+        },
+        {
+            "id": "B0C1JHNBGJ",
+            "name": "BEEUVIP 12 Zodiac Sign Birthday Charms - 925 Sterling Silver Charms Fits Women's Charm Bracelet & Necklace - Birthday Gifts for Girls & Friends",
+            "description": "BEEUVIP JEWELRY focuses on women's charms, bracelets, necklaces, rings and earrings, we have professional designer team and factory. BEEUVIP charms carry memory, and its exclusive design highlights individuality and style.",
+            "category": "AMAZON FASHION",
+            "rating": 3.4,
+            "price": 9.99,
+            "details": "Department: Girls | Date First Available: April 5, 2023 | Manufacturer: BEEUVIP"
+        }
+        ]
+    },
+
+
+
+
+
+
+    {
+        "id": 10,
+        "name": "JuliaThomas",
+        "active": true,
+        "visualizationPath": "vis/J.png",
+        "targetItem": {
+            "id": "B0CFYDM1P1",
+            "name": "OHSUL Western Bathroom Decor, Western Kitchen Hand Towels, Western Bathroom Accessories, Western Towels for Bathroom, Western Kitchen Decor, Western Gifts for Couple, Kitchen Towels Set of 2 (Black)",
+            "description": "Multi-purpose:Our towels are perfect for daily hand drying, washing dishes or utensils, sopping up a quick mess, cleaning counter tops, table or windows, also can be used decoratively or as small tablecloths.",
+            "category": "Amazon Home",
+            "rating": 4.3,
+            "price": 18.99,
+            "details": "Color: Black | Brand: OHSUL | Towel form type: Bath Towel | Age Range (Description): All Ages | Material: Polyester | Product Dimensions: 24\"L x 16\"W | Number of Items: 2 | Style: Unique,Western | Pattern: Letter Print | Special Feature: Non-toxic | Theme: Cartoon | Product Care Instructions: Machine Wash | Shape: Rectangular | Size: Small | Unit Count: 1.0 Count | Item Weight: 5.6 ounces | Manufacturer: OHSUL | Country of Origin: China | Item model number: 029 | Best Sellers Rank: {Kitchen & Dining: 71161 | Dish Cloths & Dish Towels: 746} | Date First Available: April 15 | 2023"
+        },
+        "recommendedItems": [
+        {
+          "id": "B0BYV7Z737",
+          "name": "Microfiber Towel",
+          "description": "Microfiber towel with an attached loop for hanging. Multicolor 6-pack, multi-purpose, washing machine safe, high quality for cleaning all surfaces including cars, windows, TVs, furniture, and more.",
+          "category": "Amazon Home",
+          "rating": 5.0,
+          "price": 13.99,
+          "details": "Color: Multicolor | Brand: Generic | Age Range (Description): All Ages | Material: Microfiber | Product Dimensions: 11.5\"L x 11.5\"W | Number of Items: 6 | Pattern: Solid | Special Feature: Non-toxic | Theme: No Theme | Product Care Instructions: Machine Wash | Unit Count: 6.0 Count | Fabric Type: Microfiber | Item Weight: 9.1 ounces | Manufacturer: Generic | Best Sellers Rank: {Automotive: 1269303 | Exterior Car Care Chamois Cloths: 913} | Date First Available: March 18, 2023",
+          "reason": "This product is highly rated with an average rating of 5.0, offering excellent value for its price. Its multicolored design makes it a stylish addition to any bathroom or kitchen."
+        },
+        {
+          "id": "B0BYZ9Y8N4",
+          "name": "EXUQO Just A Girl Who Loves Ducks Absorbent Kitchen Towels",
+          "description": "Multi-purpose towel measuring 24x16 inches, made from durable polyester fiber, ideal for kitchen or bathroom use. Cute cartoon duck design makes it a great gift for duck lovers.",
+          "category": "Amazon Home",
+          "rating": 5.0,
+          "price": 12.99,
+          "details": "Brand: EXUQO | Towel form type: Hand Towel | Age Range (Description): All Ages | Material: Polyester | Product Dimensions: 24\"L x 16\"W | Number of Items: 1 | Special Feature: Durable | Theme: Cartoon | Product Care Instructions: Machine Wash | Shape: Rectangular | Size: Small | Unit Count: 1.0 Count | Item Weight: 3.2 ounces | Manufacturer: EXUQO | Country of Origin: China | Item model number: A | Date First Available: March 20, 2023",
+          "reason": "This product is highly rated with an average rating of 5.0, providing a durable and absorbent kitchen towel that is perfect for everyday use."
+        },
+        {
+          "id": "B0C46L9NV8",
+          "name": "Kwlegh Retro Vase Kitchen Hanging Towel",
+          "description": "Thanksgiving-themed kitchen hanging towels made of 100% high-quality polyester microfiber. Soft, quick-drying, and eco-friendly, with hook-and-loop fasteners for easy hanging.",
+          "category": "Amazon Home",
+          "rating": 4.6,
+          "price": 12.49,
+          "details": "Color: Flag Vase | Brand: Kwlegh | Towel form type: Hand Towel | Age Range (Description): All Ages | Material: Polyester | Product Dimensions: 17\"L x 12\"W | Number of Items: 2 | Pattern: Striped | Special Feature: Lightweight | Theme: Food | Product Care Instructions: Machine Wash | Hand Wash Only | Shape: Irregular | Size: 12x17 | Unit Count: 2.0 Count | Fabric Type: 100% Polyester | Item Weight: 3.84 ounces | Manufacturer: Kwlegh | Country of Origin: Italy | Item model number: H-032 | Best Sellers Rank: {Home & Kitchen: 1977807 | Hand Bath Towels: 3221} | Date First Available: May 3, 2023",
+          "reason": "This product is highly rated with an average rating of 5.0, featuring a fashionable and functional kitchen hanging towel that adds a pop of color to any kitchen."
+        },
+        {
+          "id": "B0C4H3N255",
+          "name": "200 Pack 9\"x9\" Napkins 2 Layer Unbleached Brown Napkins",
+          "description": "Practical 2-layer unbleached brown napkins for home use. Suitable for drying hands, wiping surfaces, and dining. Eco-friendly and disposable for convenience.",
+          "category": "Office Products",
+          "rating": 3.5,
+          "price": 8.99,
+          "details": "Manufacturer: HNXAZG | Brand: HNXAZG | Item Weight: 10.8 ounces | Package Dimensions: 9.41 x 4.8 x 3.9 inches | Color: Brown | Material Type: Paper | Number of Items: 200 | Manufacturer Part Number: HN-2302111507 | Best Sellers Rank: {Health & Household: 76314 | Disposable Napkins: 397} | Date First Available: February 11, 2023 | Material: Paper | Ply Rating: 2-Ply | Unit Count: 200.0 Count",
+          "reason": "This product is highly rated with an average rating of 3.5, offering a practical and eco-friendly alternative to traditional napkins for various indoor and outdoor uses."
+        },
+        {
+          "id": "B0C6CY2XV2",
+          "name": "Chees D Zone Bath Towel Sets",
+          "description": "Luxury microfiber bath towel set with three different sizes, perfect for beach, gym, spa, or home use. Features HD printed geometric patterns, soft and skin-friendly material.",
+          "category": "Amazon Home",
+          "rating": 3.0,
+          "price": 43.99,
+          "details": "Color: Usalaa8111 | Brand: Chees D Zone | Age Range (Description): All Ages | Material: Polyester | Product Dimensions: 30\"L x 60\"W | Number of Items: 3 | Style: All-season | Pattern: Geometric | Special Feature: Non-toxic | Product Care Instructions: Machine Wash | Shape: Rectangular | Size: 30x60in + 16x28in + 13x13in | Unit Count: 3.0 Count | Fabric Type: Polyester | Item Weight: 1.41 pounds | Manufacturer: Chees D Zone | Item model number: 230525ERSDFSAWQCYNXSHZF05732WJIALAA | Best Sellers Rank: {Home & Kitchen: 3733784 | Bath Towel Sets: 4091} | Date First Available: May 26, 2023",
+          "reason": "This product is highly rated with an average rating of 3.0, providing a luxurious and multifunctional bath towel set that complements various bathing scenarios and occasions."
+        }
+        ],
+        "candidateItems": [
+        {
+            "id": "B0BYZ9Y8N4",
+            "name": "EXUQO Just A Girl Who Loves Ducks Absorbent Kitchen Towels 16 x 24 Inches, Cute Cartoon Duck Dish Towels Hand Towels Bath Towels for Kitchen Bathroom, Duck Lovers Girls Gifts",
+            "description": "Multi-Purpose: The 24x16in size towel can be used in the kitchen or bathroom and is made from durable polyester fibre for long-lasting use.",
+            "category": "Amazon Home",
+            "rating": 5.0,
+            "price": 12.99,
+            "details": "Brand: EXUQO | Towel form type: Hand Towel | Age Range (Description): All Ages | Material: Polyester | Product Dimensions: 24\"L x 16\"W | Number of Items: 1 | Special Feature: Durable | Theme: Cartoon | Product Care Instructions: Machine Wash | Shape: Rectangular | Size: Small | Unit Count: 1.0 Count | Item Weight: 3.2 ounces | Manufacturer: EXUQO | Country of Origin: China | Item model number: A | Date First Available: March 20, 2023"
+        },
+        {
+            "id": "B0BTM79PWN",
+            "name": "Kewadony Red Cherry Kitchen Towels 2 Pack Dish Towels for Kitchen, Green Leaf Fruits White Dotted Black Absorbent Microfiber Hand Towels for Bathroom, Soft Tea Towels Bar Towels, 18 x 28 Inch",
+            "description": "Dish towels are a must-have kitchen staple in every home, and they're always a customer favorite. Perfect for cleaning and decorative purposes with high absorbency.",
+            "category": "Amazon Home",
+            "rating": 1.0,
+            "price": 22.86,
+            "details": "Color: Cherrykew1632 | Brand: Kewadony | Towel form type: Hand Towel | Age Range (Description): All Ages | Material: Superfine fiber | Product Dimensions: 28\"L x 18\"W | Number of Items: 2 | Pattern: CherryKEW1632 | Special Feature: Lightweight | Theme: Leaves | Product Care Instructions: Machine Wash | Shape: Rectangular | Size: 2PCS | Unit Count: 2.0 Count | Fabric Type: Microfiber | Item Weight: 10.6 ounces | Manufacturer: Kewadony | Best Sellers Rank: {Kitchen & Dining: 1328484 | Dish Cloths & Dish Towels: 24057} | Date First Available: February 1, 2023"
+        },
+        {
+            "id": "B0BX5VFP3J",
+            "name": "QualKits Kitchen Hand Towels, with Hanging Loop, Decorative, Soft, Absorbent, for Kitchen or Bathroom (2 Pack, White & Camel)",
+            "description": "Kitchen Hand Towels are perfect for kitchens or bathrooms. They are soft, absorbent, and have a hanging loop for easy storage. These towels are also decorative and will add a touch of style to any space.",
+            "category": "Amazon Home",
+            "rating": 4.6,
+            "price": 10.99,
+            "details": "Color: White & Camel | Brand: QualKits | Towel form type: Hand Towel | Product Dimensions: 19\"L x 12\"W | Number of Items: 2 | Product Care Instructions: Machine Wash | Size: 2 Pack | Unit Count: 1.0 Count | Item Weight: 5.6 ounces | Manufacturer: QualKits | Best Sellers Rank: {Home & Kitchen: 391985 | Hand Bath Towels: 559} | Date First Available: March 2, 2023"
+        },
+        {
+            "id": "B0BXQ5X75H",
+            "name": "Disposable Hand Towels for Bathroom, Bathroom Napkins Guest Disposable, 100 Pack Premium Quality 2-ply Dinner Napkins Disposable Soft, Absorbent, Party Napkins for Kitchen (Dandelion, 100, Count)",
+            "description": "Napkins for decoupage, made of paper, thicker and softer than standard paper towels for greater softness and absorbency, these are essential for accommodating guests' high-end comfort and luxury.",
+            "category": "Office Products",
+            "rating": 4.9,
+            "price": 17.99,
+            "details": "Manufacturer: YOCHANDA | Brand: YOCHANDA | Item Weight: 1.3 pounds | Package Dimensions: 8.54 x 4.45 x 4.06 inches | Material Type: Paper | Size: Dandelion | Manufacturer Part Number: DNPKINS3 | Best Sellers Rank: {Health & Household: 48638 | Disposable Napkins: 236} | Date First Available: March 7, 2023"
+        },
+        {
+            "id": "B0BRJ8PMX9",
+            "name": "Kitchen Dish Towels, Spring Sunflower Dragonfly Retro Newspaper Soft Microfiber Dish Cloths Reusable Hand Towels, Watercolor Floral Butterfly Bumblebee Washable Tea Towel for Dishes Counters 4 Pack",
+            "description": "Dish towels - a good helper for housework, giving you a clean and beautiful home! Ideal for cleaning or decorative use.",
+            "category": "Amazon Home",
+            "rating": 3.0,
+            "price": 29.89,
+            "details": "Product Dimensions: 28 x 18 x 0.1 inches | Item Weight: 1.32 pounds | Manufacturer: Yun Nist | Date First Available: January 2, 2023"
+        },
+        {
+            "id": "B0C46L9NV8",
+            "name": "Kwlegh Retro Vase Kitchen Hanging Towel 2 Pcs Thanksgiving Hand Towel with Hanging Loop American Flag Hanging Tie Towel Poppy Flowers Kitchen Towels for Bathroom Kitchen Laundry Room 12x17 Inch",
+            "description": "When you're looking for soft, quick-drying towels for the kitchen and bathroom, take a look at our vintage hand towels with hanging loops and exquisite designs.",
+            "category": "Amazon Home",
+            "rating": 4.6,
+            "price": 12.49,
+            "details": "Color: Flag Vase | Brand: Kwlegh | Towel form type: Hand Towel | Age Range (Description): All Ages | Material: Polyester | Product Dimensions: 17\"L x 12\"W | Number of Items: 2 | Pattern: Striped | Special Feature: Lightweight | Theme: Food | Product Care Instructions: Machine Wash | Hand Wash Only | Shape: Irregular | Size: 12*17 | Unit Count: 2.0 Count | Fabric Type: 100% Polyester | Item Weight: 3.84 ounces | Manufacturer: Kwlegh | Country of Origin: Italy | Item model number: H-032 | Best Sellers Rank: {Home & Kitchen: 1977807 | Hand Bath Towels: 3221} | Date First Available: May 3, 2023"
+        },
+        {
+            "id": "B0C4H3N255",
+            "name": "200 Pack 9\"x9\" Napkins 2 Layer Unbleached Brown Napkins Soft Disposable Napkins for Kitchen, Party, Wedding, Dinner",
+            "description": "Practical Home Supplies: you can use these dinner napkins for drying hands, wiping sinks and counters, cleaning surfaces and more.",
+            "category": "Office Products",
+            "rating": 3.5,
+            "price": 8.99,
+            "details": "Manufacturer: HNXAZG | Brand: HNXAZG | Item Weight: 10.8 ounces | Package Dimensions: 9.41 x 4.8 x 3.9 inches | Color: Brown | Material Type: Paper | Number of Items: 200 | Manufacturer Part Number: HN-2302111507 | Best Sellers Rank: {Health & Household: 76314 | Disposable Napkins: 397} | Date First Available: February 11, 2023"
+        },
+        {
+            "id": "B0BPX7FV7R",
+            "name": "FuSatisYilife Kitchen Towels, Reusable Towels for Kitchen Cleaning Such as Kitchen Tile or Dishes, 10pcs, Grey.",
+            "description": "FuSatisYilife kitchen towels are easy to use, can be used both wet and dry. Thick fabric, easy to take away oil. Soft long fiber, strong water absorption, wear resistance, can be used for a long time.",
+            "category": "Amazon Home",
+            "rating": 3.5,
+            "price": 5.99,
+            "details": "Brand: FuSatisYilife | Age Range (Description): All Ages | Product Dimensions: 11.8\"L x 11.8\"W | Number of Items: 10 | Style: Bamboo carbon fiber towels | Pattern: Solid | Special Feature: Reusable | Product Care Instructions: Machine Wash | Shape: Rectangular | Size: 11.8\"*11.8\" | Unit Count: 5.0 Count | Fabric Type: 100% Bamboo Charcoal Fibre | Item Weight: 8.1 ounces | Manufacturer: FuSatisYilife | Best Sellers Rank: {Health & Household: 779420 | Reuseable Cleaning Cloths: 4406} | Date First Available: February 6, 2023"
+        }
+
+        ]
+    },
+    {
+        "id": 13,
+        "name": "GraceMiller",
+        "active": false,
+        "visualizationPath": "None",
+        "targetItem": {
+            "id": "None",
+            "name": "None",
+            "description": "None",
+            "category": "None",
+            "rating": 0,
+            "price": 0,
+            "details": "None"
+        },
+        "recommendedItems": [],
+        "candidateItems": []
+    }
+]

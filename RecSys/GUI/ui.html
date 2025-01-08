@@ -7,6 +7,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #e3e8eb;
             margin: 0;
             display: flex;
             height: 100vh;
@@ -14,7 +15,7 @@
         }
 
         .sidebar {
-            background-color: #f4f4f4;
+            background-color: #e3d5c9;
             overflow-y: auto;
             border-right: 1px solid #ddd;
             padding: 10px;
@@ -112,7 +113,7 @@
         }
 
         .card.target {
-            border: 2px solid #007bff;
+            border: 2px solid #a3d5dc;
             background-color: #e9f5ff;
         }
 
@@ -167,6 +168,14 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
 
+        .modal-content h3, .modal-content p {
+            margin: 10px 0;
+        }
+
+        .modal-content h3 {
+            font-weight: bold;
+        }
+
         .close {
             color: #aaa;
             float: right;
@@ -187,7 +196,7 @@
 <body>
 
 <div class="sidebar" id="sidebar">
-    <h3>Users</h3>
+    <h2>Users</h2>
     <div id="userList">
         <!-- User list will populate here dynamically -->
     </div>
@@ -219,7 +228,7 @@
     <div class="data-section">
         <h3>Data Visualization</h3>
         <div class="data-display">
-            <img src="vis/3DVector.png" alt="3D Vector Visualization">
+            <img id="dataVisualization" src="" alt="Data Visualization">
         </div>
     </div>
 
@@ -234,42 +243,21 @@
 <div id="itemModal" class="modal">
     <div class="modal-content">
         <span class="close" id="closeModal">&times;</span>
-        <h3 id="modalTitle">Item Title</h3>
-        <p id="modalDescription">Item description will appear here.</p>
+        <h3 id="modalTitle">Product ID:</h3>
+        <p id="modalDescription">Title:</p>
+        <p id="modalDetails"></p>
+        <p id="modalReason" style="font-weight: bold;"></p>
     </div>
 </div>
 
 <script>
-    // Dummy Data
-    const users = [
-        { id: 1, name: "Alice", active: true, targetItem: { name: "Laptop", description: "High performance laptop" }, recommendedItems: [
-            { id: 2, name: "Mouse", reason: "Frequently bought together" },
-            { id: 3, name: "Keyboard", reason: "Compatible accessory" },
-            { id: 4, name: "Monitor", reason: "High resolution" },
-            { id: 5, name: "Headset", reason: "Great sound quality" },
-            { id: 6, name: "Docking Station", reason: "Expand functionality" },
-        ], candidateItems: [
-            { id: 2, name: "Mouse" }, { id: 3, name: "Keyboard" }, { id: 4, name: "Monitor" },
-            { id: 5, name: "Headset" }, { id: 6, name: "Docking Station" }, { id: 7, name: "Webcam" },
-            { id: 8, name: "External Hard Drive" }, { id: 9, name: "USB Hub" }, { id: 10, name: "Mouse Pad" },
-            { id: 11, name: "Keyboard Cover" }, { id: 12, name: "Screen Cleaner" }, { id: 13, name: "Power Bank" },
-            { id: 14, name: "Wireless Charger" }, { id: 15, name: "Laptop Stand" }
-        ] },
-        { id: 2, name: "Bob", active: false, targetItem: { name: "Tablet", description: "Portable and versatile" }, recommendedItems: [], candidateItems: [] },
-        { id: 3, name: "Charlie", active: true, targetItem: { name: "Smartphone", description: "Latest model smartphone" }, recommendedItems: [
-            { id: 23, name: "Case", reason: "Protect your phone" },
-            { id: 24, name: "Screen Protector", reason: "Prevent scratches" },
-            { id: 25, name: "Wireless Charger", reason: "Charge easily" },
-            { id: 26, name: "Stylus", reason: "Enhanced input" },
-            { id: 27, name: "Power Bank", reason: "Stay charged on the go" },
-        ], candidateItems: [
-            { id: 23, name: "Case" }, { id: 24, name: "Screen Protector" }, { id: 25, name: "Wireless Charger" },
-            { id: 26, name: "Stylus" }, { id: 27, name: "Power Bank" }, { id: 28, name: "Car Mount" },
-            { id: 29, name: "Bluetooth Headset" }, { id: 30, name: "USB Cable" }, { id: 31, name: "Camera Lens Attachment" },
-            { id: 32, name: "Memory Card" }, { id: 33, name: "Protective Case" }, { id: 34, name: "Charging Dock" },
-            { id: 35, name: "Portable Speaker" }, { id: 36, name: "Screen Wipes" }, { id: 37, name: "Battery Pack" }
-        ] }
-    ];
+    // Fetch user data from external JSON file
+    fetch('users.json')
+        .then(response => response.json())
+        .then(users => {
+            initializeUsers(users);
+        })
+        .catch(error => console.error('Error loading user data:', error));
 
     const userList = document.getElementById("userList");
     const mainContent = document.getElementById("mainContent");
@@ -278,14 +266,34 @@
     const targetDiv = document.getElementById("targetItem");
     const recommendedDiv = document.getElementById("recommendedItems");
     const candidateDiv = document.getElementById("candidateItems");
+    const dataVisualization = document.getElementById("dataVisualization");
     const sidebar = document.getElementById("sidebar");
 
     const itemModal = document.getElementById("itemModal");
     const modalTitle = document.getElementById("modalTitle");
     const modalDescription = document.getElementById("modalDescription");
+    const modalDetails = document.getElementById("modalDetails");
+    const modalReason = document.getElementById("modalReason");
     const closeModal = document.getElementById("closeModal");
 
-    // Adjust sidebar width dynamically based on content
+    function initializeUsers(users) {
+        // Populate User List
+        users.forEach(user => {
+            const userDiv = document.createElement("div");
+            userDiv.className = `user ${user.active ? "active" : "inactive"}`;
+            userDiv.textContent = user.name;
+            if (user.active) {
+                userDiv.addEventListener("click", () => {
+                    displayUserData(user);
+                });
+            }
+            userList.appendChild(userDiv);
+        });
+
+        // Adjust sidebar width dynamically
+        adjustSidebarWidth();
+    }
+
     function adjustSidebarWidth() {
         const userDivs = document.querySelectorAll(".user");
         let maxWidth = 0;
@@ -296,22 +304,6 @@
         sidebar.style.width = `${maxWidth + 40}px`; // Add padding
     }
 
-    // Populate User List
-    users.forEach(user => {
-        const userDiv = document.createElement("div");
-        userDiv.className = `user ${user.active ? "active" : "inactive"}`;
-        userDiv.textContent = user.name;
-        if (user.active) {
-            userDiv.addEventListener("click", () => {
-                displayUserData(user);
-            });
-        }
-        userList.appendChild(userDiv);
-    });
-
-    // Adjust sidebar after users are added
-    adjustSidebarWidth();
-
     function displayUserData(user) {
         mainContent.classList.add("hidden");
         userContent.classList.remove("hidden");
@@ -319,16 +311,16 @@
         userName.textContent = user.name;
 
         // Display target item
-        targetDiv.innerHTML = `<p>${user.targetItem.name}</p><p>${user.targetItem.description}</p>`;
-        targetDiv.addEventListener("click", () => openModal(user.targetItem.name, user.targetItem.description));
+        targetDiv.innerHTML = `<p>${user.targetItem.id}</p><h4>${user.targetItem.name}</h4>`;
+        targetDiv.addEventListener("click", () => openModal(user.targetItem));
 
         // Display recommended items
         recommendedDiv.innerHTML = ""; // Clear previous items
         user.recommendedItems.forEach(item => {
             const card = document.createElement("div");
             card.className = "card";
-            card.innerHTML = `<div class="reason">${item.reason}</div><h4>${item.name}</h4>`;
-            card.addEventListener("click", () => openModal(item.name, item.reason));
+            card.innerHTML = `<p>${item.id}</p><h4>${item.name}</h4>`;
+            card.addEventListener("click", () => openModal(item));
             recommendedDiv.appendChild(card);
         });
 
@@ -337,15 +329,20 @@
         user.candidateItems.forEach(item => {
             const card = document.createElement("div");
             card.className = "card";
-            card.innerHTML = `<h4>${item.name}</h4>`;
-            card.addEventListener("click", () => openModal(item.name, "No additional details available"));
+            card.innerHTML = `<p>${item.id}</p><h4>${item.name}</h4>`;
+            card.addEventListener("click", () => openModal(item));
             candidateDiv.appendChild(card);
         });
+
+        // Update data visualization image
+        dataVisualization.src = user.visualizationPath;
     }
 
-    function openModal(title, description) {
-        modalTitle.textContent = title;
-        modalDescription.textContent = description;
+    function openModal(item) {
+        modalTitle.innerHTML = `<b>Product ID:</b> ${item.id}`;
+        modalDescription.innerHTML = `<b>Title:</b> ${item.name}`;
+        modalDetails.innerHTML = `<b>Description:</b> ${item.description}<br><b>Category:</b> ${item.category}<br><b>Average Rating:</b> ${item.rating}<br><b>Price:</b> $${item.price}<br><b>Details:</b> ${item.details}`;
+        modalReason.innerHTML = item.reason ? `<b>Reason:</b> ${item.reason}` : "";
         itemModal.style.display = "flex";
     }
 
