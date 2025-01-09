@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graph-Based Semi-Supervised Clustering</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script defer src="user_data.js"></script>
+    <style>
+        /* 全局样式 */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        header {
+            text-align: center;
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 20px 0;
+            background-color: #25274d;
+            color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-left: 20px;
+        }
+
+        .label-group {
+            margin-top: 20px;
+            margin-right: 20px;
+        }
+
+        .label-group button {
+            background-color: #29648a;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .label-group button:hover {
+            background-color: #2e9cca;
+        }
+
+        #content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            width: 100%;
+            gap: 20px;
+        }
+
+        #main {
+            flex: 2;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #category-description {
+            margin-top: 30px;
+            line-height: 1.6;
+          }
+
+
+        #details {
+            display: none; /* 初始隐藏 */
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: relative; /* 确保关闭按钮位置正常 */
+            width: 80%;
+            max-width: 500px;
+            overflow: visible;
+        }
+
+        #close-details {
+            background-color: #aaabb8;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 14px;
+            cursor: pointer;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        #close-details:hover {
+            background-color: #2e9cca;
+        }
+
+
+        #user-input {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #user-id {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        #user-details {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .clickable-label {
+            cursor: pointer;
+            color: #29648a;
+            text-decoration: underline;
+            font-weight: bold;
+            margin-right: 5px;
+        }
+
+        .clickable-label:hover {
+            color: #2e9cca;
+            text-decoration: none;
+        }
+
+
+        /*#static-data-display {*/
+        /*    margin-top: 20px;*/
+        /*    background-color: #fff;*/
+        /*    padding: 10px;*/
+        /*    border-radius: 5px;*/
+        /*    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/
+        /*    max-height: 200px;*/
+        /*    overflow-y: auto;*/
+        /*    font-size: 14px;*/
+        /*}*/
+
+        /*.user-entry {*/
+        /*    margin-bottom: 15px;*/
+        /*    padding: 10px;*/
+        /*    background-color: #f9f9f9;*/
+        /*    border-radius: 5px;*/
+        /*    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/
+        /*}*/
+        /*.label {*/
+        /*    display: inline-block;*/
+        /*    padding: 5px 10px;*/
+        /*    margin: 2px;*/
+        /*    background-color: #2e9cca;*/
+        /*    color: white;*/
+        /*    border-radius: 5px;*/
+        /*    font-size: 12px;*/
+
+        #load-static-data {
+            margin-top: 20px;
+            background-color: #2e9cca;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        #load-static-data:hover {
+            background-color: #29648a;
+        }
+
+        footer button {
+            background-color: #29648a; /* 按钮背景色 */
+            color: white; /* 按钮文字颜色 */
+            border: none; /* 移除边框 */
+            padding: 10px 20px; /* 按钮的内边距 */
+            border-radius: 5px; /* 按钮圆角 */
+            font-size: 16px; /* 按钮文字大小 */
+            cursor: pointer; /* 鼠标悬停显示为手型 */
+            transition: background-color 0.3s ease; /* 按钮背景色的过渡效果 */
+        }
+
+        footer button:hover {
+            background-color: #2e9cca; /* 按钮悬停时的颜色 */
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>User Data - Clustering Result</h1>
+    <div class="label-group">
+        <button onclick="showLabels('behavior')">Behavior</button>
+        <button onclick="showLabels('favorite')">Favorite</button>
+        <button onclick="showLabels('price')">Price</button>
+    </div>
+</header>
+
+<div id="content">
+    <div id="main">
+        <canvas id="chart"></canvas>
+        <div id="user-input">
+            <input type="text" id="user-id" placeholder="Search User ID">
+            <button onclick="searchUser()">Search</button>
+            <div id="user-details"></div>
+        </div>
+    </div>
+    <div id="details" style="display: none;">
+        <h3>Category Details</h3>
+        <p id="category-description">Select a category to see details.</p>
+        <button id="close-details" onclick="closeDetails()">Close</button>
+    </div>
+</div>
+
+<!-- 加载静态数据按钮和展示区域 -->
+<!--<div>-->
+<!--    <button id="load-static-data" onclick="loadStaticData()">Load Static Data</button>-->
+<!--    <div id="static-data-display" style="margin-top: 20px;">Static data will appear here.</div>-->
+
+<!--</div>-->
+
+<footer>
+    <button onclick="exportPDF()">Export to PDF</button>
+    <button onclick="goToIndex()">Return to Home</button>
+</footer>
+
+<script>
+    function goToIndex() {
+        window.location.href = './index.html';
+    }
+</script>
+
+</body>
+</html>

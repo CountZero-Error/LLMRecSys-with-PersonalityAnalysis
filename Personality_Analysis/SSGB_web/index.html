@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clustering Results</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="user_data.js" defer></script>
+    <style>
+        /* 全局样式 */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 20px; /* 页面边距 */
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+
+        header {
+            text-align: center;
+            width: 100%;
+            margin-bottom: 40px; /* 与下方内容的间隔 */
+            padding: 20px 0; /* 增加上下内边距 */
+            background-color: #25274d; /* 头部背景色 */
+            border-radius: 10px; /* 圆角效果 */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            margin-left: 20px;
+        }
+
+        #welcome-container {
+            margin-top: 50px;
+            text-align: center;
+            margin-bottom: 50px; /* 增加间隔 */
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        #welcome-message {
+            font-size: 1.5rem;
+            color: #555;
+        }
+
+        /* 按钮 */
+        .buttons {
+            display: flex;
+            gap: 20px; /* 按钮间距 */
+            justify-content: center; /* 居中对齐 */
+            opacity: 0; /* 初始隐藏 */
+            animation: fadeIn 1.5s ease-in-out forwards;
+            animation-delay: 1s; /* 动画延时，欢迎文字完成后出现 */
+        }
+
+        button {
+            background-color: #29648a;
+            color: white;
+            border: none;
+            padding: 15px 25px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #2e9cca;
+        }
+
+        /* 动画效果 */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px); /* 从下方滑入 */
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Graph-based Semi-supervised Clustering</h1>
+    </header>
+
+    <!-- 动态消息容器 -->
+    <div id="welcome-container">
+        <p id="welcome-message">Explore our clustering results or predict user labels!</p>
+    </div>
+
+    <!-- 按钮并排显示 -->
+    <div class="buttons">
+        <button onclick="navigateToUserData()">Go to User Data</button>
+        <button onclick="navigateToPredict()">Go to Predict</button>
+    </div>
+
+    <script>
+        function navigateToPredict() {
+            window.location.href = './predict.html';
+        }
+
+        function navigateToUserData() {
+            window.location.href = './user.html';
+        }
+    </script>
+</body>
+</html>
