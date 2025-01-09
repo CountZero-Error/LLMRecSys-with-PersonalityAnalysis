@@ -102,31 +102,6 @@ class preprocessing:
             # If it's an unexpected type, raise an error for manual inspection
             raise ValueError(f"[*] Unexpected type {type(x)} for embedding: {x}")
 
-    def preprocess_single_user(self, user_data):
-        """
-        预处理单个用户的数据，返回特征向量和嵌入。
-        """
-        numerical_features = ['average_time_float', 'purchase_ratio', 'brand_loyalty_ratio', 'average_price']
-
-        # Step 1: 转换用户数据为 DataFrame
-        user_df = pd.DataFrame([user_data])
-
-        # Step 2: 标准化数值特征
-        user_df = self.standardization(numerical_features, user_df)
-
-        # Step 3: 转换嵌入特征
-        user_df['embedding_orig'] = user_df['average_embedding_orig'].apply(self.convert_embedding)
-        user_df['embedding_aug'] = user_df['average_embedding_aug'].apply(self.convert_embedding)
-
-        # Step 4: 融合特征（数值特征和嵌入特征）
-        a = 0.5  # 融合权重
-        user_features = np.hstack([
-            user_df[numerical_features].values,
-            a * np.vstack(user_df['embedding_orig'].values) + (1 - a) * np.vstack(user_df['embedding_aug'].values)
-        ])
-
-        return user_features
-
     def run(self):
         start = time.time()
 
@@ -336,42 +311,6 @@ class GraphClustering:
 
         return candidates
 
-    def predict_single_user(self, user_features):
-        """
-        使用完整的图构建和随机游走流程预测单用户的标签。
-        """
-        # Step 1: 构造伪图
-        # 计算单用户与训练数据的余弦相似度
-        user_similarity = cosine_similarity(user_features, self.features).flatten()
-
-        # 创建邻接矩阵，将新用户加入为一行
-        pseudo_adj = np.zeros((self.features.shape[0] + 1, self.features.shape[0] + 1))
-        pseudo_adj[:-1, :-1] = self.construct_graph()  # 原有训练数据的图
-        pseudo_adj[-1, :-1] = user_similarity  # 新用户与其他节点的相似度
-        pseudo_adj[:-1, -1] = user_similarity  # 对称性
-
-        # Step 2: 计算伪图的拉普拉斯矩阵
-        pseudo_laplacian = self.compute_laplacian(pseudo_adj)
-
-        # Step 3: 随机游走传播
-        # 构造初始标签矩阵（包括新用户的空标签）
-        label_matrix = np.zeros((self.features.shape[0] + 1, len(self.labels[0])))
-        label_matrix[:len(self.labels)] = self.labels  # 已标注数据的标签
-
-        # 运行随机游走
-        transition_matrix = np.eye(pseudo_laplacian.shape[0]) - pseudo_laplacian
-        random_walk_result = np.linalg.matrix_power(transition_matrix, self.step).dot(label_matrix)
-
-        # Step 4: 提取新用户的标签分布
-        user_label_scores = random_walk_result[-1]  # 新用户对应的最后一行
-        predicted_labels = [
-            self.OneHotLabels[0][i]
-            for i in range(len(user_label_scores))
-            if user_label_scores[i] > self.threshold
-        ]
-
-        return predicted_labels
-
     def run(self):
         graph = self.construct_graph()
         lap = self.compute_laplacian(graph)
@@ -383,11 +322,11 @@ class GraphClustering:
 
 
 if __name__ == '__main__':
-    fi = '/Users/cookie/Desktop/FYP/1000k/parameter_labeled.csv'
+    fi = '/Users/cookie/Desktop/Final_run/parameter_labeled.csv'
     # dir_o = args.OUTPUT_DIRECTORY
     label_types = ['Night_owl', 'Early_bird', 'Decisive', 'Brand_loyalty', 'Maker', 'Homebody', 'Culinarian', 'Geek',
                    'Photophile', 'Media_Aficionado', 'Audiophile', 'Fashionista', 'Lifestyle', 'Car_Enthusiast',
-                   'Caregiver', 'Health_Enthusiast', 'Farm', 'Sport', 'high_consumer', 'Mid_Consumer']
+                   'Caregiver', 'Health_Enthusiast', 'Farm', 'high_consumer', 'Mid_Consumer']
     k_neighbors = 5
     threshold = 0.1
     step = 3
@@ -421,8 +360,8 @@ if __name__ == '__main__':
     nodes = {'user_id': [], 'labels': []}
     ori_df = pd.read_csv(fi)
     for node, info in candidates.items():
-        if node < 180:
-            print(f"Node {node}: {info}")
+        # if node < 180:
+        #     print(f"Node {node}: {info}")
 
         curr_nodes = []
         for _info in info:
