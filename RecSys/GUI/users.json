@@ -185,19 +185,1303 @@
       "active": true,
       "visualizationPath": "vis/B.png",
       "targetItem": {
-          "id": "B0C6B1PPYC",
-          "name": "MUK LUKS Women's Holly Slippers",
-          "description": "Kick back in cozy style in Muk Luks® holly slippers! cuddle up with your choice of sweet patterns, a warm faux fur lining, and relaxed fit. Easy pull on style and versatile indoor/outdoor sole take you where you need to go! hand wash in cold water, no bleach, dry flat. Imported.",
+          "id": "B0C4FKDJYK",
+          "name": "BORN Maia",
+          "description": "Walk in comfort and style wearing the Brn Maia clogs. Soft hand finished or distressed suede leather upper. Breathable fabric lining. Fabric covered footbed features extra foam offering enhanced cushioning and comfort. Slip-on style. Round toe. Opanka hand-sewn construction creates a long-lasting and flexible bond. Flat silhouette Branded silhouette. Lightweight rubber outsole offers adequate traction and flexibility.",
           "category": "AMAZON FASHION",
-          "rating": 4.5,
-          "price": 39.99,
-          "details": "Department: Womens | Date First Available: May 25 | 2023 | Manufacturer: MUK LUKS"
+          "rating": "5.0",
+          "price": "99.85",
+          "details": "May 5 | 2023"
       },
       "recommendedItems": [
-
+          {
+              "id": "B0C9S4WN2F",
+              "name": "TCX mens",
+              "description": "\"UPPER Grain leather upper, with pull-up finishing Rear reflex insert PROTECTIONS AND REINFORCEMENTS Midsole with ZPLATE shank, to optimize front flexibility and transverse rigidity Reinforcements on malleolus with D3O inserts Reinforcements on toe and heel COMFORT T-Dry waterproof membrane Closure with laces and side zip Elastic band to store the laces OrthoLite footbed with long term cushioning and high levels of breathability OUTSOLE Wear-resistant rubber Groundtrax outsole, designed to offer a superior stability\"",
+              "category": "AMAZON FASHION",
+              "rating": "4.6",
+              "price": "209.99",
+              "details": "TCX",
+              "reason": "This product is highly rated with an average rating of 4.1, offering a comfortable and stylish design with a generous cushioned footbed and durable rubber outsole."
+          },
+          {
+              "id": "B0C4HF74JZ",
+              "name": "BORN Weiser",
+              "description": "Treat your feet to something special with the Brn Weiser slide. Full grain leather upper with an easy slip-on design in a strappy silhouette. Leather lining feels great against the foot. Generously cushioned footbed. Bandalero fabric sock. Durable rubber outsole. Opanka handcrafted construction.",
+              "category": "AMAZON FASHION",
+              "rating": "4.1",
+              "price": "81.0",
+              "details": "May 6 | 2023",
+              "reason": "This product is highly rated with an average rating of 4.0, featuring a lightweight and breathable design with a super comfortable and flexible lamolite EVA outsole."
+          },
+          {
+              "id": "B0C866MV7Y",
+              "name": "Under Armour Women's Squad Sneaker",
+              "description": "6.68 oz. .",
+              "category": "AMAZON FASHION",
+              "rating": "2.9",
+              "price": "29.0",
+              "details": "Under Armour",
+              "reason": "This product is highly rated with an average rating of 4.1, offering a moisture-wicking and breathable design with a comfortable and supportive leather upper and synthetic sole."
+          },
+          {
+              "id": "B0C4HHYNTN",
+              "name": "BORN Wichita",
+              "description": "It's your day off to unwind in a comfy casual pair of Brn Wichita sandals. Buckle closure at ankle. Moisture-wicking, stationed insole. Opanka hand-crafted construction. Upper made of leather. Leather lining. Synthetic sole.",
+              "category": "AMAZON FASHION",
+              "rating": "4.1",
+              "price": "108.35",
+              "details": "May 6 | 2023",
+              "reason": "This product is highly rated with an average rating of 4.6, featuring a premium and supportive design with advanced technology, including a rockered sole and D3O inserts for optimal performance and comfort."
+          },
+          {
+              "id": "B0BTQ2G51V",
+              "name": "Lamo Women's, Maia Slip-On",
+              "description": "Women's Lamo, Maia Slip-On. You'll love this easy to wear slip-on style that features a super lightweight Lamolite EVA outsole. The lightweight canvas design adds to the comfort of this cool casual style .Cool and breathable canvas upper in a slip-on style casual Breathable canvas lining Canvas covered cushion footbed Easy to wear slip-on design with laced look Super lightweight and flexible Lamolite EVA speckled outsole",
+              "category": "AMAZON FASHION",
+              "rating": "4.0",
+              "price": "49.56",
+              "details": "Lamo Sheepskin Inc",
+              "reason": "This product is highly rated with an average rating of 4.4, offering a versatile and comfortable design with a breathable mesh upper and a responsive midsole for everyday wear."
+          }
       ],
       "candidateItems": [
-
+          {
+              "id": "B0C4HGM3CP",
+              "name": "BORN Sean",
+              "description": "Add a little casual inspiration to your handsome ensemble with the Sean lace-up from Brn. Soft suede upper with a traditional lacing system for easy on-and-off wear and a secure fit. Leather and fabric lining ensures an abrasion-free environment for all-day wear. DRYZ moisture-managing footbed massages the foot with each and every step. Steel shank provides increased midfoot support and lateral stability. Rubber outsole delivers long-lasting durability on a variety of surfaces. Opanka hand-sewn construction creates a long-lasting and flexible bond.",
+              "category": "AMAZON FASHION",
+              "rating": "3.4",
+              "price": "74.8",
+              "details": "May 6 | 2023"
+          },
+          {
+              "id": "B0CHLRVPG2",
+              "name": "Hawkwell Women's Slip on Lightweight Lycra Nursing Shoes Comfortable Slip Resistant Work Shoes",
+              "description": "Comfortable and stretchy shoes that fit for light steps and fearless strides. This sporty yet professional look features athletic-inspired lines, crafted with synthetic leather uppers that are super easy to clean. It has a Lycra fabric design on the collar that stretches with each step, giving you the ultimate flexibility and comfort! Our yoga foam insoles provide cloud-like comfort all day long. A slip-resistant out-sole will help to keep you stable on wet and dry surfaces, and the lightweight EVA bottom ensures you can go about your busy shift without being weighed down.",
+              "category": "AMAZON FASHION",
+              "rating": "4.1",
+              "price": "49.99",
+              "details": "September 8 | 2023"
+          },
+          {
+              "id": "B0BT1HJ6K7",
+              "name": "Birkenstock womens Leo Soft",
+              "description": "Please be advised that the Birkenstock Narrow width accommodates both traditional narrow and medium widths. Add some comfort and warm-weather style to your summer ensemble wearing the Betula Licensed by Birkenstock Leo Soft sandal. Birko-Flor upper is made of acrylic and polyamide felt fibers with a smooth leather-like finish. Features three straps with adjustable buckle closures. Leather-lined, contoured footbed molds to the shape of your foot creating a custom footbed that supports and cradles with every step. Raised toe bar encourages the natural gripping motion of your feet, exercising your legs and aiding circulation. The soft footbed features a foam layer inserted between the cork layer and suede liner. Microscopic air bubbles cushion your feet while providing moderate arch support. Neutral heel profile and deep heel cup keeps the natural padding of your foot under the heel, distributing your body weight more evenly. EVA outsole offers lightweight, shock absorbing support with lasting durability. Heat Warning - Cork footbeds or EVA soles can be damaged by exposure to concentrated heat. Do not leave your footwear in direct sunlight or in closed cars on warm days. If your footwear becomes wet, allow it to air dry slowly, away from direct heat.",
+              "category": "AMAZON FASHION",
+              "rating": "4.4",
+              "price": "69.99",
+              "details": "January 25 | 2023"
+          },
+          {
+              "id": "B0BWBJF1Z6",
+              "name": "Sanita Pro Textured Oiled Professional Clogs for Men - Arch Support, Durable, Closed-Back Slip-On Shoes",
+              "description": "Padded instep collar. Anatomically correct foot bed, contoured arch support. Rocker bottom from natural stride. Padded leather insole. Cleanable upper. Apma approved. Sanita has been making cozy, comfortable clogs the Danish way since 1907. That tradition of craftsmanship and caring lives on today in every clog they make. With innovative design and exacting standards, their shoes are always easy on your feet. With attractive new styles every season, they are also easy on the eyes.",
+              "category": "AMAZON FASHION",
+              "rating": "4.1",
+              "price": "131.0",
+              "details": "Sanita"
+          },
+          {
+              "id": "B0BZWY5GMH",
+              "name": "Under Armour Men's Ignite Pro Slide Sandal",
+              "description": "Adjustable synthetic strap with soft foam lining for added comfort & perforations for breathability. Textured foam footbed for unprecedented comfort. EVA outsole built with durable traction pods in heel for lightweight cushioning & comfort. 0. 0.",
+              "category": "AMAZON FASHION",
+              "rating": "4.5",
+              "price": "30.0",
+              "details": "Under Armour"
+          },
+          {
+              "id": "B0C678YY9G",
+              "name": "Under Armour Men's Stellar G2 6\" Side Zip Lace Up Boot Military and Tactical",
+              "description": "Light & breathable textile upper\u200b with full-grain, polishable leather forefoot for durable protection\u200b. Front & back pull loops for easier on/off. Medial side zip for ease of entry. Molded EVA midsole cushioning with reinforced TPU shank for protection & support. Oil- & slip-resistant high-traction rubber lug outsole for enhanced grip on a variety of surfaces. .",
+              "category": "AMAZON FASHION",
+              "rating": "4.2",
+              "price": "100.0",
+              "details": "Under Armour"
+          },
+          {
+              "id": "B0C6L66SFG",
+              "name": "HAFLINGER Women's Gz Spirit Charcoal Clogs-and-Mules-Shoes",
+              "description": "HAFLINGER WOMEN'S GZ SPIRIT WOOL CLOGS Slip into a shoe that you'll absolutely love with the Haflinger GZ Spirit clogs. These German-made Clogs bring the spirit of the classic European footwear to your home, with benefits that promote positive foot health. First, the cork-latex outsole gives you support to ease the strain on your hips, knees and spine. That way you get proper weight distribution, balance and overall comfort. But it's also soft enough to adapt to your foot's natural shape for a cozy fit and feel. Next, as you walk, the contoured heel seat absorbs impact, while the rocker heel stabilizes you for a \"roll-forward\" natural stride. Finally, the roomy toe box with toe bar allows your toes to move freely and keep their natural form for healthy circulation. On the outside, you'll love the beautiful 100% wool felt uppers. They're breathable, while acting as natural insulator for year-round comfort. Even the wool felt insole lining is breathable, as well as moisture wicking. Combine that with a slip and weather-resistant outsole, and you have a year-round Clog to wear for comfort and health. . . it starts at your feet! The Haflinger philosophy is simple and logical\u0432\u0402\u201da healthy foot needs the proper environment and a properly designed walking surface to stay healthy. Haflinger clogs and boiled wool slippers pay particular attention to the needs of your foot\u0432\u0402\u201dspace to expand and contract freely and effectively; breathable, all-natural materials; a footbed and spacious toe box that follow the natural form of the foot; and an impact surface that compliments and fortifies human foot design. Founded 50 years ago as a family-owned business, Haflinger is the largest manufacturer of boiled wool in Germany. Run by the grandson of the founder, Haflinger is known in many international markets for not only its boiled wool slippers and wool felt clogs, but more importantly for its outstanding quality and workmanship. In 1991 Gerda Hoehm began importing Haflinger into the U.S. and Canada and the company has since doubled and tripled sales from year to year--our footwear has been extremely well received in North America. Although the recipe for reliable footwear and superior wool has not changed since the early days of Haflinger, the line has evolved its product offering to include a range of styles--children's slippers and clogs, wool-felt cork-bottom clogs, hard- and soft-sole slippers, and our newest sandal and clog line, the Trend Collection. Whether you prefer the classic Grizzly clog, our breathable, comfortable boiled-wool slippers, or our fresh, new Trend styles, Haflinger footwear consistently treats your feet to the best!",
+              "category": "AMAZON FASHION",
+              "rating": "4.6",
+              "price": "149.95",
+              "details": "Haflinger"
+          },
+          {
+              "id": "B0BXR6BMRW",
+              "name": "PUMA Men's Roma Basic + Sneaker",
+              "description": "From the PUMA archives in 1968, this lightweight training shoe was equipped with comfort enhancing features such as a thick padded tongue and orthopedic arch supports. This version features an all over leather upper and fresh spring colorways.",
+              "category": "AMAZON FASHION",
+              "rating": "4.0",
+              "price": "48.57",
+              "details": "PUMA"
+          },
+          {
+              "id": "B0C68Z3T8K",
+              "name": "Donald Pliner Women's Loafer",
+              "description": "The HOPE is a slip-on women's loafer set on a trend-right, non-slip rubber lug sole. The insole is designed with breathable arch support and extra padded memory foam for lasting comfort. This casual loafer in croco patent leather is detailed with a round toe and raised stitch seam, along with contrast stitching on the midsole for added interest.  Donald Pliner has been designing and building luxury footwear for both men and women for the last 30 years. We carry a legacy that consists of a bold approach to design, unique combinations of materials and color, and high-quality craftsmanship. Our full range of footwear includes casual and dress styles in a wide variety of silhouettes including heels, wedges, flats, sneakers, boots, and sandals. We strike a balance between daring statements and wearable fashion. There\u2019s something for every style and comfort minded person.",
+              "category": "AMAZON FASHION",
+              "rating": "3.7",
+              "price": "187.95",
+              "details": "Donald Pliner"
+          },
+          {
+              "id": "B0C31FXRP7",
+              "name": "Bernardo Belize",
+              "description": "Be it the office party or a regular day look, complete it with Bernardo Belize heels. Elegant beadwork woven raffia Leather upper. Leather lining. Cushioned footbed. Adjustable buckle closure. Low block heel. Brand name embossed on the footbed. Open square toe design. Leather outsole. Made in Brazil.",
+              "category": "AMAZON FASHION",
+              "rating": "5.0",
+              "price": "348.0",
+              "details": "January 25 | 2023"
+          }
       ]
-    }
+  },
+
+
+    {
+      "id": 4,
+      "name": "Dana Miller",
+      "active": true,
+      "visualizationPath": "vis/C.png",
+      "targetItem": {
+          "id": "B0BVNWCH49",
+          "name": "Invisible Bra, Silicone Adhesive Bra Lift, Reusable Conceal Lift Up Sticky Bra",
+          "description": "Introducing the Shiningqueen Invisible Adhesive Lift Bra - the ultimate solution for comfortable and reliable support! Choose Shiningqueen Adhesive bra, Be an Eye Catching Winner In All Occasions! This bra features a unique design that enhances your natural shape while providing comfortable lift and support.  Made from high-quality materials,it provides a smooth and flattering silhouette under any outfit, making it the perfect choice for everyday wear.  Features transparent adjustable sticky tape, allowing you to customize the fit for maximum comfort and support. Plus, its backless and strapless design makes it the perfect option for those special occasions when you want to show off your shoulders and back without worrying about bra straps showing.  Whether you're running errands or attending a formal event, Shiningqueen Adhesive Lift Bra is the perfect choice for all-day comfort and support.   Order yours today and experience the freedom and confidence of Shiningqueen Adhesive Bras!",
+          "category": "AMAZON FASHION",
+          "rating": "3.1",
+          "price": "26.99",
+          "details": "February 14 | 2023"
+      },
+      "recommendedItems": [
+          {
+              "id": "B0C5VZLZD3",
+              "name": "2 Pairs Sticky Bra Backless Strapless Bras for Women, Reusable Adhesive Invisible Bra Stick on Bra Push up for Large Breasts",
+              "description": "Do not discard the transparent film that protects the adhesive bra.",
+              "category": "AMAZON FASHION",
+              "rating": "4.5",
+              "price": "11.99",
+              "details": "April 30 | 2023",
+              "reason": "This product has an impressive average rating of 4.6 and offers a variety of benefits including freedom of dressing, adjustable straps, and a sleek appearance."
+          },
+          {
+              "id": "B0BVZ6318C",
+              "name": "Sticky Bra Strapless Bras for Women Adhesive Invisible Backless Push up Gathering Lift up Cups Dresses with Nipple Cover",
+              "description": "1. Wash with soap 2. Dry in a ventilated place 3. Disable the hot air blower 4. Do not expose to the sun 5. Laminated storage Due to the different dressing habits of each person, errors are inevitable, and the recommended size is for reference only.",
+              "category": "AMAZON FASHION",
+              "rating": "4.6",
+              "price": "20.99",
+              "details": "Yiwu Zili Trading Co. | Ltd.",
+              "reason": "Highly rated with an average rating of 4.6, providing a versatile solution for various occasions and ensuring a secure fit."
+          },
+          {
+              "id": "B0C4P67ZYS",
+              "name": "Colleer Invisible Adhesive Bra, Strapless Push Up Bra,Sticky Bra with 1 Pair of Nipple Sticker",
+              "description": "Strapless Self Adhesive Plunge Bra Push up Invisible Backless Sticky Bras",
+              "category": "AMAZON FASHION",
+              "rating": "3.7",
+              "price": "7.99",
+              "details": "May 9 | 2023",
+              "reason": "Offers good reviews with an average rating of 3.7, featuring a comfortable and discreet design suitable for different types of clothing."
+          },
+          {
+              "id": "B0C979W2KS",
+              "name": "2 Pairs Sticky Bra Adhesive Invisible Bra, Strapless Backless Reusable Push Up Large Breast Lift Nipple Covers for Women",
+              "description": "\u26652 Pairs Sticky Adhesive Invisible Bra are the perfect solution to ensure your nipples don't show and keep your breasts lifted and perky while going without bra, are generally used as undergarments for swimwear, formal dresses, and revealing tops that may not provide enough back coverage for wearing a full bra. \u2714\u3010Why Choose the \u00a0Adhesive\u00a0Backless\u00a0Bra?\u3011 \u2714 Easy to wear and remove,appears seamless and natural.Works great even on sensitive skin \u2714 Made of 100% pure Hypoallergenic silicone, self-adhesive, washable, and reusable,No Slipping. \u2714Our nipple covers are waterproof, so they can also be worn under any type of bathing suit, in the pool, or at the gym. They can be applied at any time and occasions \u2714If at any point you're unsatisfied with your breast lift stickers within 30 days, out unconditional satisfaction guarantee allows you to return them for a full refund. \u261e\u3010How to Use?\u3011 1.Wash your hands,and Wipe the breasts with warm towel. Wipe all oil, dirt even sweat on the body. 2. Peel off the backing film, Put the nipple cover onto the nipple softly, making the outer edge of which be stuck to the skin. 3.With the upper body leaning forward, attach the chest to the chest and flatten the edges. 4.Wear clothing and complete. \u3010Package includes\u3011 2 Pair Sticky Bra 2 Pieces Gifts\uff08Bra anti-slip buckle\uff09 \u2605\u3010Please Note\u3011 1.After each use, simply hand wash the silicone pasties with warm water and mild soap. 2.Do not expose it to sun, Naturally air dry. 3.Do not use on damaged or inflamed skin Do not wear more than 8 hours for each application. 4.Do not wear Nippleless Covers for too long time especially for those who has sensitive skin, do not sleep on them. 5.Not suitable for lactating mothers. 6.Keep out of reach of children.",
+              "category": "AMAZON FASHION",
+              "rating": "4.6",
+              "price": "16.99",
+              "details": "June 14 | 2023",
+              "reason": "Has an average rating of 4.5 and provides a convenient way to wear backless dresses and other revealing outfits without the hassle of traditional bras."
+          },
+          {
+              "id": "B0C85K3KVK",
+              "name": "ZaneGear 20 pairs Nipple Covers Nippleless Covers Self Adhensive Nipple Covers Disposable Pasties Lingerie Breast Pasties",
+              "description": "Disposable items, change it after using. Keep your skin dry before sticking.",
+              "category": "AMAZON FASHION",
+              "rating": "4.6",
+              "price": "10.98",
+              "details": "June 15 | 2023",
+              "reason": "While not a bra, it receives a high average rating of 4.6 and serves as an essential accessory for those attending special occasions where a regular bra might not suffice."
+          }
+      ],
+      "candidateItems": [
+          {
+              "id": "B0C6G855MC",
+              "name": "MITALOO Sticky Push Up Adhesive Invisible Backless Bra Magic Nipple Covers Strapless Bra",
+              "description": "1 piece Adhesive Bra Size:B Cup 32/70A 34/75A 32/70A 32/70B 36/80A 34/75B 38/85A C Cup 32/70C 32/70D 34/75C 36/80B 38/85B 36/70C D Cup 32/70D 36/80D 38/85C 38/85D 32/70E Color:Beige,Black Reusable:Yes Washable:Yes CLEAN & WEAR TIPS Clean your chest and Remove the protective film from the bra before wearing. Hand wash only, Simply wash with warm water and mild soap then air dry. When the silicone bra is dry, the adhesive regenerates itself for next use. Do not recommend for hot temperatures, as sweat may make it slip down.",
+              "category": "AMAZON FASHION",
+              "rating": "3.4",
+              "price": "18.99",
+              "details": "May 27 | 2023"
+          },
+          {
+              "id": "B0C3R53R1X",
+              "name": "Silicone Adhesive Bra, Stick On Bras for Women Reusable Invisible Lift Up Bra for Backless Dress Prevent Breast Sagging.",
+              "description": "Silicone Adhesive Bra, Stick On Bras for Women Reusable Invisible Lift Up Bra for Backless Dress Prevent Breast Sagging.",
+              "category": "AMAZON FASHION",
+              "rating": "3.6",
+              "price": "13.99",
+              "details": "April 27 | 2023"
+          },
+          {
+              "id": "B0C2H268T4",
+              "name": "Colleer Invisible Adhesive Bra, Strapless Push Up Bra,Sticky Bra with 1 Pair of Nipple Stickers",
+              "description": "Strapless Self Adhesive Plunge Bra Push up Invisible Backless Sticky Bras",
+              "category": "AMAZON FASHION",
+              "rating": "3.7",
+              "price": "8.99",
+              "details": "April 14 | 2023"
+          },
+          {
+              "id": "B0BY8YNJ18",
+              "name": "4Pair Sticky Bra, Adhesive Bra, Adhesive Invisible Lifting Bra, Invisible Push Up Bra for Wedding Dress, Backless Dresses",
+              "description": "4PCS Sticky Bra Adhesive Push Up Invisible Strapless Bras for Women Reusable with Nipple Covers for Backless",
+              "category": "AMAZON FASHION",
+              "rating": "3.9",
+              "price": "15.99",
+              "details": "March 13 | 2023"
+          },
+          {
+              "id": "B0BT9TF5H2",
+              "name": "AMZM\u0130LLA Breast Lift Pasties Nipple Covers Reusable Silicone Tape Bra Invisible Adhesiv Brace for Women Breast Pasties Petals",
+              "description": "To ensure long life and multiple uses, always wash with mild soap and lukewarm water, and ensure they're completely dry before storing them away in a cool, dry, and dark place. Always air-dry; never use a towel or blow-drier.",
+              "category": "AMAZON FASHION",
+              "rating": "2.9",
+              "price": "7.99",
+              "details": "January 28 | 2023"
+          },
+          {
+              "id": "B0CFD8SZSN",
+              "name": "2 Pairs Sticky Bra Backless Strapless Bras for Women, Reusable Adhesive Invisible Bra Stick on Bra Push up for Large Breasts",
+              "description": "Do not discard the transparent film that protects the adhesive bra.",
+              "category": "AMAZON FASHION",
+              "rating": "4.5",
+              "price": "12.99",
+              "details": "July 29 | 2023"
+          },
+          {
+              "id": "B0C9DJL7Z5",
+              "name": "queensecret 2023 Adhesive Bra, Push up Strapless Self Adhesive Bra, Invisible Silicone Bra for Backless Dress",
+              "description": "Do You Want To Wear That Really Cute Backless Dress? Then attach these strapless bra to your cleavage before you wear that gorgeous dress!  queensecret has designed the reusable adhesive bra to help women look amazing in their wedding dress, backless and strapless tops and dresses and, basically, any outfit!  Harmless without stimulation, creates a deep V effect, natural fit your chest curve, helps to close the chest, makes the deep cleavage more attractive, and perfectly adapts to your curved cleavage.   Each Instant Breast Push up Set Can Be Used Multiple Times!  Attaching the breast push up tapes to your cleavage is a very easy procedure and once attached, the instant breast push up pasties will stay in place throughout the day  When you get home and remove the breast push up bra , remember to wash them with warm water and gentle soap and let them dry.  That will extend their life and they will be just as sturdy and effective the next time you will wear them Your Safety Is Our Number One Priority! For this reason, we have used premium medical grade silicone that is completely non toxic and safe for our sensitive breast and nipple skin  So regardless of your age, you can use these comfortable, self-adhesive breast Push up pads daily and have an absolute peace of mind Love Your strapless Push up bra Or Your Money Back! In the unlikely case that you\u2019re unsatisfied with QUEENSECRET\u2019s strapless Push up bra, you can get a full refund  Thanks to our 100% money back guarantee, this is a completely risk free purchase, so place an order and try our Push Up Strapless Bra out! Scroll Up And Click \u201cAdd to Cart\u201d NOW!!",
+              "category": "AMAZON FASHION",
+              "rating": "4.0",
+              "price": "16.19",
+              "details": "June 26 | 2023"
+          },
+          {
+              "id": "B0C7TM7PSX",
+              "name": "FULNEW Sticky Bra Invisible\u00a0Push Up\u00a0Silicone Adhesive Bra for Backless Dress with Reusable\u00a0Nipple Covers",
+              "description": "FULNEW Sticky Bra Invisible\u00a0Push Up\u00a0Silicone Adhesive Bra for Backless Dress with Reusable\u00a0Nipple Covers",
+              "category": "AMAZON FASHION",
+              "rating": "3.9",
+              "price": "16.99",
+              "details": "FU"
+          },
+          {
+              "id": "B0BYSN8MD4",
+              "name": "Ginmewrae Breast Lift Tape Pasties Nipple Cover Silicone Adhesive Sticky Bra Reusable Breast Tape for Women",
+              "description": "Ginmewrae Breast Lift Bras Pasties, Strapless Sticky Invisible Bras Lift Tape Reusable Adhesive Bra Lift up Nipple Covers",
+              "category": "AMAZON FASHION",
+              "rating": "3.5",
+              "price": "10.99",
+              "details": "March 17 | 2023"
+          },
+          {
+              "id": "B0C2LHJRGF",
+              "name": "Adhesive Bra, Lace Up Drawstring, Reusable, Apricot Color, 100% Silicone, Cup B, 1 Pack",
+              "description": "-100% Silicone Adhesive Bra, Lace up Drawstring -No visible bra lines under shirts or dress -You don\u2019t have to deal with shoulder and back pains because there are no straps -Skin friendly and Sticky, reusable",
+              "category": "AMAZON FASHION",
+              "rating": "5.0",
+              "price": "17.12",
+              "details": "China"
+          }
+      ]
+  },
+
+
+  {
+        "id": 5,
+        "name": "Oliver Hayes",
+        "active": false,
+        "visualizationPath": "None",
+        "targetItem": {
+            "id": "None",
+            "name": "None",
+            "description": "None",
+            "category": "None",
+            "rating": 0,
+            "price": 0,
+            "details": "None"
+        },
+        "recommendedItems": [],
+        "candidateItems": []
+    },
+
+
+    {
+      "id": 5,
+      "name": "Example User",
+      "active": true,
+      "visualizationPath": "vis/D.png",
+      "targetItem": {
+          "id": "B0C8P8MMFZ",
+          "name": "Calvin Klein Women's Modern Cotton Lightly Lined Wireless Bralette",
+          "description": "Simply iconic, Calvin Klein\u2019s bestselling modern cotton bralettes for women are the definition of effortless, all-day comfort.",
+          "category": "AMAZON FASHION",
+          "rating": "4.3",
+          "price": "30.0",
+          "details": "Calvin Klein"
+      },
+      "recommendedItems": [
+          {
+              "id": "B0BTTHVJ46",
+              "name": "Calvin Klein mens Cotton Stretch Lounge Sleep Short",
+              "description": "A Calvin Klein icon. Evolving our best selling underwear with new intuitive sleepwear featuring relaxed styling and our hero waistband. Designed with an extra soft cotton stretch blend for breathable, all day comfort.",
+              "category": "AMAZON FASHION",
+              "rating": "4.2",
+              "price": "35.84",
+              "details": "Calvin Klein",
+              "reason": "Highly rated with an average rating of 4.6, offering timeless elegance and comfort."
+          },
+          {
+              "id": "B0BTTSYSMY",
+              "name": "Calvin Klein mens Cotton Stretch Lounge Sleep Pant",
+              "description": "A Calvin Klein icon. Evolving our best selling underwear with new intuitive sleepwear featuring relaxed styling and our hero waistband. Designed with an extra soft cotton stretch blend for breathable, all day comfort.",
+              "category": "AMAZON FASHION",
+              "rating": "4.2",
+              "price": "34.3",
+              "details": "Calvin Klein",
+              "reason": "Highly rated with an average rating of 4.6, providing premium comfort and versatility."
+          },
+          {
+              "id": "B0C88VYZ4B",
+              "name": "Calvin Klein Men's Cotton Classics 5-Pack Tanks",
+              "description": "Crafted from soft cotton for an effortless feel, Calvin Klein\u2019s iconic men\u2019s t-shirts offer the ultimate in premium comfort.",
+              "category": "AMAZON FASHION",
+              "rating": "4.6",
+              "price": "48.65",
+              "details": "Calvin Klein",
+              "reason": "Highly rated with an average rating of 4.2, known for its breathable and comfortable fabric."
+          },
+          {
+              "id": "B0C9R93WHX",
+              "name": "Calvin Klein Women's Carousel Logo Bralette 2-Pack",
+              "description": "A Calvin Klein icon, the original logo bralette is the definition of effortless with a sporty look that feels sexy every day.",
+              "category": "AMAZON FASHION",
+              "rating": "4.6",
+              "price": "21.28",
+              "details": "Calvin Klein",
+              "reason": "Highly rated with an average rating of 4.2, designed for both relaxation and practicality."
+          },
+          {
+              "id": "B0BWFMLJFD",
+              "name": "Calvin Klein Men's Cotton Stretch Lounge Short Sleeve Crewneck",
+              "description": "A Calvin Klein icon. Evolving our best selling underwear with new intuitive sleepwear featuring relaxed styling and our hero waistband. Designed with an extra soft cotton stretch blend for breathable, all day comfort.",
+              "category": "AMAZON FASHION",
+              "rating": "4.3",
+              "price": "21.12",
+              "details": "Calvin Klein",
+              "reason": "Highly rated with an average rating of 4.3, combining comfort with a classic silhouette."
+          }
+      ],
+      "candidateItems": [
+          {
+              "id": "B0BTTP14JM",
+              "name": "Calvin Klein Men's Modern Cotton Stretch 3-Pack Hip Brief",
+              "description": "The essential Calvin Klein icon, reinvented in an extra-soft cotton stretch blend for breathable, all day comfort. Designed with a supportive pouch and longer legline, offering shape retention for long lasting support. The definition of effortless.",
+              "category": "AMAZON FASHION",
+              "rating": "4.7",
+              "price": "38.22",
+              "details": "Calvin Klein"
+          },
+          {
+              "id": "B0C9LFTJP3",
+              "name": "Savage X Fenty Women's Cotton Essentials Bralette Unlined Black Caviar Logo Print",
+              "description": "Our Cotton Essentials Bralette is an everyday essential featuring a 2-layer front for support and delicate logo lace trim.",
+              "category": "AMAZON FASHION",
+              "rating": "3.3",
+              "price": "19.95",
+              "details": "Savage X Fenty"
+          },
+          {
+              "id": "B0BTGHCS6X",
+              "name": "La Moda Wear - Barely There Be Free Seamless Bra \u2013 Size A to C Cup - Everyday Comfort Bra for Women",
+              "description": "black, white, pink, nude and blue; 57% nylon, 43% spandex; No wires, seamless design; Breathable and skin-friendly; Padded push up for flattering look; Seamless, no bulge; Flexible and stretchable material, machine washable; Eliminates the bra fat look; Nice gift choice for ladies, mom, sister, best friend, girlfriend, wife.  You\u2019ll fall in love instantly with these back smoothing bras for women!",
+              "category": "AMAZON FASHION",
+              "rating": "4.4",
+              "price": "28.99",
+              "details": "January 31 | 2023"
+          },
+          {
+              "id": "B0BY4TYHLH",
+              "name": "Calvin Klein Women's Viscose Blend 2 Piece Tee and Shorts Pajama Lounge Set",
+              "description": "A simple yet stylish solid-colored 2-piece sleep set perfect for home or travel. Crafted from a cotton viscose stretch blend for flexible and breathable comfort. Comes with a v-neck t-shirt and curved hem shorts with an iconic repeating logo elastic waistband. Pull-on design. Part of the luxurious Calvin Klein Ultimate Comfort Made from Bamboo Collection.",
+              "category": "AMAZON FASHION",
+              "rating": "4.9",
+              "price": "32.1",
+              "details": "Calvin Klein"
+          },
+          {
+              "id": "B0C4C1GWSM",
+              "name": "Nolabel Seamless Triple Criss Cross Bralette Cutout Caged Cami Crop Top for Women, Plus Size",
+              "description": "Nolabel Womens Comfort Wirefree Seamless Bralette Removable Padded Racerback Crop Bra Top Various Color, Plus Size",
+              "category": "AMAZON FASHION",
+              "rating": "4.1",
+              "price": "17.95",
+              "details": "May 4 | 2023"
+          },
+          {
+              "id": "B0BTKXX19J",
+              "name": "Undies.com X-Large Non-Wire Front Closure Lace Bralette for Women",
+              "description": "Fashion at its core that instantly makes you feel confident and beautiful! Step up your bralette fashion with our beautiful custom-knit La Fleur Lace that's almost too lovely to cover up. These lightly supportive bralettes for women feel amazing against your skin and are perfect for everyday use. Features adjustable straps, and convenient front closure. Hand wash cold, separately or with like colors, do not bleach, line dry, and do not iron. At Undies.com, we know that what you put next to your skin is important, and we believe those important pieces should reflect your style and help you to feel wonderful. We love beautiful things that feel great, and we understand what it takes to deliver the look and feel of a luxury item. Our team is dedicated to bringing quality, fit and fashion at a price we can be proud of, because we believe that gorgeous, quality intimates don't have to be expensive. It's a purchase you won't regret, so shop Big Girls' Non-Wire Bralette for Women now!",
+              "category": "AMAZON FASHION",
+              "rating": "4.4",
+              "price": "14.07",
+              "details": "Undies.com"
+          },
+          {
+              "id": "B0BSP7G6C5",
+              "name": "Calvin Klein Men's Cotton Stretch Lounge Sleep Short Set",
+              "description": "A Calvin Klein icon. Evolving our best selling underwear with new intuitive sleepwear featuring relaxed styling and our hero waistband. Designed with an extra soft cotton stretch blend for breathable, all day comfort. Classic styles packed for the perfect gift giving opportunity.",
+              "category": "AMAZON FASHION",
+              "rating": "4.6",
+              "price": "41.84",
+              "details": "Calvin Klein"
+          },
+          {
+              "id": "B0B12YGVZQ",
+              "name": "Calvin Klein Womens 3-Tone Pullover Sweater",
+              "description": "As one of the most renowned names in high-fashion, Calvin Klein offers signature looks in all of its designs\u2014from dresses and jeans to jackets and tops. Not only will you find stylish women\u2019s clothing, but also an incredible range of shoes, handbags, accessories and jewelry. Looking For A Dress that\u2019s perfect for the office? A sleeveless textured sheath dress works well during any season. Whether you pair with pumps or high-heel boots, you\u2019ll love how seamlessly this style incorporates into your workweek rotation. You can also match the dress with a cardigan or blazer as it starts to get colder. Jeans are a staple of any woman\u2019s casual look. From standard denim and printed jeans to cropped and cuffed jeans, you\u2019ll find just the right fit and style to suit any occasion. Pair with a plain white tee or printed tank top to play up your laidback look. You can even Dress Up Your Jeans with heels or shooties to make a memorable fashion statement. No outfit is complete without the perfect handbag to match. Whether you\u2019re in search of everything from clutches and crossbodies to totes and satchels, you\u2019ll discover an amazing new bag to complement the rest of your collection. In addition, you can switch out your daytime handbag for a more sophisticated evening bag at night when you hit the town or go to dinner. Punctuate your natural style with a great selection of jewelry. From timelessly elegant stainless steel bracelets and beautiful rose gold hoop earrings to long pendant necklaces and stackable rings, the possibilities for accessorizing are immense.",
+              "category": "AMAZON FASHION",
+              "rating": "4.7",
+              "price": "70.46",
+              "details": "CALVIN KLEIN"
+          },
+          {
+              "id": "B0C8KSS22Y",
+              "name": "Calvin Klein Womens Stretch Zippered Pouf Sleeve Surplice Neckline Knee Length Wear to Work Sheath Dress Petites",
+              "description": "As one of the most renowned names in high-fashion, Calvin Klein offers signature looks in all of its designs\u2014from dresses and jeans to jackets and tops. Not only will you find stylish women\u2019s clothing, but also an incredible range of shoes, handbags, accessories and jewelry. Looking For A Dress that\u2019s perfect for the office? A sleeveless textured sheath dress works well during any season. Whether you pair with pumps or high-heel boots, you\u2019ll love how seamlessly this style incorporates into your workweek rotation. You can also match the dress with a cardigan or blazer as it starts to get colder. Jeans are a staple of any woman\u2019s casual look. From standard denim and printed jeans to cropped and cuffed jeans, you\u2019ll find just the right fit and style to suit any occasion. Pair with a plain white tee or printed tank top to play up your laidback look. You can even Dress Up Your Jeans with heels or shooties to make a memorable fashion statement. No outfit is complete without the perfect handbag to match. Whether you\u2019re in search of everything from clutches and crossbodies to totes and satchels, you\u2019ll discover an amazing new bag to complement the rest of your collection. In addition, you can switch out your daytime handbag for a more sophisticated evening bag at night when you hit the town or go to dinner. Punctuate your natural style with a great selection of jewelry. From timelessly elegant stainless steel bracelets and beautiful rose gold hoop earrings to long pendant necklaces and stackable rings, the possibilities for accessorizing are immense.",
+              "category": "AMAZON FASHION",
+              "rating": "1.0",
+              "price": "30.99",
+              "details": "CALVIN KLEIN"
+          },
+          {
+              "id": "B0BT81V1CX",
+              "name": "Calvin Klein Men's Modern Cotton Stretch V-Day Trunk",
+              "description": "A Calvin Klein icon with limited edition Valentine's Day styling. The essential designer trunk reinvented in extra-soft cotton stretch. Designed with the original Calvin Klein logo waistband, this is a sporty look that feels sexy everyday. With a supportive pouch and more coverage than our hip brief, this style is easy under anything.",
+              "category": "AMAZON FASHION",
+              "rating": "4.3",
+              "price": "21.45",
+              "details": "Calvin Klein"
+          }
+      ]
+  },
+
+
+    {
+      "id": 1,
+      "name": "Example User",
+      "active": true,
+      "visualizationPath": "",
+      "targetItem": {
+          "id": "B0BTXMS1L4",
+          "name": "iPhone XS Max Pink Star Distressed Case",
+          "description": "Distressed Pink five pointed Star. Filled Pentagram style stars makes excellent gifts for anyone celebrating Pink as their color!",
+          "category": "Cell Phones & Accessories",
+          "rating": "5.0",
+          "price": "17.99",
+          "details": "February 5 | 2023"
+      },
+      "recommendedItems": [
+          {
+              "id": "B0C8YL4VB5",
+              "name": "DIYDEC 200pcs Star Beads Glass Crystal Star Beads 8mm Star Glass Spacer Beads Colorful Clear Star Beads for Jewelry Bracelet Making DIY Crafts Gifts for Girls Adults",
+              "description": "Star Beads",
+              "category": "Amazon Home",
+              "rating": "4.3",
+              "price": "7.99",
+              "details": "200",
+              "reason": "This product has a high average rating of 3.7, making it a good choice for those who appreciate elegant and sparkly accessories. Its unique design featuring pink crystals against a rose gold background appeals to both adults and teenagers."
+          },
+          {
+              "id": "B0C2ZLFYN3",
+              "name": "Trendy Zone 21 Masonic Official Ballpoint Pen in Blue, Black Ink Pen, With Rubberized Finish and Engraved Logo - Writing Instrument for Members of the Masonic Order - Gift Set",
+              "description": "Stylish and modern design Stylish and modern design Engraved Masonic logo adds significance and value Engraved Masonic logo adds significance and value Ballpoint Pen with extra refill for convenience Ballpoint Pen with extra refill for convenience Personalized top ring makes it a great gift Personalized top ring makes it a great gift Luxurious packaging adds an extra touch of elegance. Luxurious packaging adds an extra touch of elegance.",
+              "category": "Office Products",
+              "rating": "5.0",
+              "price": "12.99",
+              "details": "Refillable",
+              "reason": "This product offers a high average rating of 4.6, indicating its popularity and quality. The festive wreath with patriotic signs is perfect for enhancing outdoor spaces during holidays like Independence Day."
+          },
+          {
+              "id": "B0C4YJ5LVS",
+              "name": "Dangle Aqua Blue Vacation Cats Eye Strong Rolo Chain Celestial American USA Patriotic Rock Star Anklet Multi Charm Ankle Bracelet For Women Teens .925 Sterling Silver",
+              "description": "It is written in the stars that you will shine all summer while showing off our star filled ankle bracelet. This shining, sterling silver jewelry is made with .925 silver, creating a dainty rolo chain that comes together with an easy to use lobster clasp. Open and closed star shapes alternate down the anklet for a look that fits in with any style of clothing, even if you want to channel your inner rock star. Despite all the shine, our star bracelet only weighs three grams, and fits up to a 10 inch ankle due to its extender. Get one to wear to the beach. Or, let it be the perfect Fourth of July jewelry and wear with your favorite striped top to create a fun flag look all your own.",
+              "category": "AMAZON FASHION",
+              "rating": "4.0",
+              "price": "26.99",
+              "details": "Bling Jewelry",
+              "reason": "This product boasts a perfect average rating of 5.0, suggesting exceptional quality and craftsmanship. Ideal for Freemasons or anyone interested in elegant stationery, it features a stylish design and engraving that signifies membership."
+          },
+          {
+              "id": "B0C1TG3ZV6",
+              "name": "Unisex USA American Patriotic Rock Star Sparkling Pave Black Crystals Pink Celestial Stars Stud Earrings For Women Teen Rose Gold .925 Sterling Silver",
+              "description": "Star power. If you are looking for a way to help your little be the star of the show, these dazzling star shaped stud earrings will help her to shine bright. With sparkling pink crystal accents, our petite sterling silver star earrings will make her feel patriotic and chic and day of the week. Lots of little s love to wear pink jewelry and these pink crystal star studs will make her feel pretty in pink. Star jewelry is very popular for adults too, so if you favor small stud earrings, add these pink star studs to your list of sterling silver jewelry for your jewelry box. Our rhodium plated sterling silver studs fit securely with a post with friction back so that you can wear them with confidence.",
+              "category": "AMAZON FASHION",
+              "rating": "3.7",
+              "price": "36.99",
+              "details": "Bling Jewelry",
+              "reason": "This product receives a high average rating of 4.1, highlighting its beauty and uniqueness. The combination of orange fire opals and white opals in a vintage-style setting makes it a standout accessory for special occasions."
+          },
+          {
+              "id": "B0BYSL83H1",
+              "name": "Vintage Estate Style Jewelry Oval Created Orange Fire White Opal Crown Halo CZ Stud Earrings For Women .925 Sterling Silver 12MM October Birthstone",
+              "description": "Add some shimmer to your outfit with these Created White Opal stud earrings. A stunning pair of oval earrings in contrast to normal stud earrings, they will be sure to make you feel like a star. The oval shaped Created Opal is in the center surrounded by sparkling pave set CZs forming a beautiful flower shape with a post friction backing made of sterling silver to ensure security. These Created Opal studs are the perfect gift or anyone with an October birthday or as a just because present. Surprise your leading lady with these gorgeous Created Opal earrings studs today.",
+              "category": "AMAZON FASHION",
+              "rating": "4.1",
+              "price": "19.99",
+              "details": "Bling Jewelry",
+              "reason": "This product garners a rating of 4.0, making it a versatile and fashionable choice. The multi-charm design allows for personalization and versatility, fitting well into various outfits and occasions."
+          }
+      ],
+      "candidateItems": [
+          {
+              "id": "B0BLVWXLX2",
+              "name": "4 Pcs 4th of July Table Decoration 4th of July Patriotic Standing Fabric Star Independence Day Wood Star Decor Fourth of July Star Freestanding Table Signs Decorations for Outdoor Home Room",
+              "description": "Manual measurement, please allow slight errors on size. The color may exist a slight difference due to different screen display",
+              "category": "Amazon Home",
+              "rating": "4.4",
+              "price": "12.99",
+              "details": "February 20 | 2023"
+          },
+          {
+              "id": "B0C7MXPTL1",
+              "name": "JINGHONG Red White Blue Berry Wreath with Patriotic Sign,Artificial 4th of July Patriotic Wreath with Stars,July 4th Decorations for Front Door Independence Day Decor-20in",
+              "description": "Since customer satisfaction is our top priority,we are always committed to provide you a positive shopping experience. So if you have any problems with our products ,please don\u2019t hesitate to contact us,we will reply in time and solve the issues as soon as possible.",
+              "category": "Amazon Home",
+              "rating": "4.6",
+              "price": "9.99",
+              "details": "Round,Star Wreath"
+          },
+          {
+              "id": "B0BVXTHCPS",
+              "name": "Lovely Pink Receiving Storage Cabinets Kawaii Makeup Organizer with 4 Layers Cute Storage Cabinet Box with Bow Handle Plastic Desktop Storage Box for Home Bedroom Bathroom Women Girl Gifts, Clear",
+              "description": "Manual measurement, please allow slight errors on size. The color may exist a slight difference due to different screen displays.",
+              "category": "Tools & Home Improvement",
+              "rating": "4.1",
+              "price": "15.99",
+              "details": "February 16 | 2023"
+          },
+          {
+              "id": "B0BW8BDN4F",
+              "name": "Purple Gold Birthday Hanging Swirls Decorations for Women Girls, Purple Happy Birthday Foil Swirls Party Supplies, 10th 16th 21st 30th 40th 50th 60th Bday Ceiling Sign Decor",
+              "description": "16Pcs Birthday Themed Pattern Swirls",
+              "category": "Health & Personal Care",
+              "rating": "5.0",
+              "price": "12.99",
+              "details": "Excelloon"
+          },
+          {
+              "id": "B0BZ3KXB8Y",
+              "name": "Tatuo 8 Pieces 4th of July Tiered Tray Decor Patriotic Independence Day Wooden Faux Book Star Blocks Memorial Day Wooden Book Star Decoration Farmhouse Centerpiece for Independence Day Home Table",
+              "description": "Manual measurement, please allow slight errors on size. The color may exist a slight difference due to different screen displays.",
+              "category": "Amazon Home",
+              "rating": "3.9",
+              "price": "7.49",
+              "details": "March 21 | 2023"
+          },
+          {
+              "id": "B0BWXJT965",
+              "name": "Thenshop 120 Pcs Kids Thank You Cards Fill in the Blank Including 40 Colorful Thank You Cards with 40 Envelopes and 40 Confetti Thank You Label Sticker for Boys and Girls Birthday Graduation",
+              "description": "Manual measurement, please allow slight errors in size. The colors may have a slight difference due to different screens.",
+              "category": "Office Products",
+              "rating": "3.9",
+              "price": "11.99",
+              "details": "February 27 | 2023"
+          },
+          {
+              "id": "B0CHK7ZHMV",
+              "name": "Savage X Women's Shining Star Embroidered Half Cup Plunge Bra",
+              "description": "Retro disco-inspired stars define this must-have Shining Star Embroidered Half Cup Plunge Bra, with sheer, crystal tulle to finish the look. Crafted with lightly padded half cups for extra lift and support.",
+              "category": "AMAZON FASHION",
+              "rating": "3.9",
+              "price": "64.95",
+              "details": "Savage X"
+          },
+          {
+              "id": "B0BS3VN71H",
+              "name": "60 Pieces St. Patrick's Day Pens Shamrock Ballpoint Pens Plastic Shamrock Shaped Pens Black Ink Party Favor Ballpoint Pen for School Kids Office Supplies Birthday Graduation Presents",
+              "description": "Please allow slight size errors due to manual measurement. Please allow slight color differences due to different batches and screens.",
+              "category": "Office Products",
+              "rating": "5.0",
+              "price": "24.99",
+              "details": "January 11 | 2023"
+          },
+          {
+              "id": "B0BV1ZR75B",
+              "name": "KENKE iPad 10th Generation Case with Keyboard 2022,10.9 inch Keyboard Case with Pencil Holder, Magnetically Slim Soft Bluetooth Wireless Detachable Keyboard Cover for iPad 10th Gen 10.9\" - (Pink)",
+              "description": "Pink",
+              "category": "Computers",
+              "rating": "4.4",
+              "price": "35.88",
+              "details": "Modern"
+          },
+          {
+              "id": "B0BXX53ZW1",
+              "name": "Alilang Golden Tone Shine Pink Crystal Rhinestones Enamel Phoenix Bird Brooch Pin",
+              "description": "Casual Beautifully Packaged - Our jewelry arrives in a complimentary gift box. Makes a great gift idea!",
+              "category": "AMAZON FASHION",
+              "rating": "4.0",
+              "price": "14.99",
+              "details": "Alilang"
+          }
+      ]
+  },
+
+
+    {
+      "id": 1,
+      "name": "Example User",
+      "active": true,
+      "visualizationPath": "",
+      "targetItem": {
+          "id": "B0BWQCV5YW",
+          "name": "Grow Light Strip for Indoor Plants, DOMMIA Full Spectrum Grow Lights with Auto On/Off Timer 6/10/12H, 4 Dimmable Brightness Small Plant Light, Sunlike Grow Lamp for Hydroponics Succulent, Seedling,Veg",
+          "description": "Grow Light Strip for Indoor Plants, DOMMIA Full Spectrum Grow Lights with Auto On/Off Timer 6/10/12H, 4 Dimmable Brightness Small Plant Light, Sunlike Grow Lamp for Hydroponics Succulent, Seedling,Veg",
+          "category": "Tools & Home Improvement",
+          "rating": "4.5",
+          "price": "19.99",
+          "details": "February 24 | 2023"
+      },
+      "recommendedItems": [
+          {
+              "id": "B0BTRMPFSN",
+              "name": "DOMMIA Plant Light for Indoor Plants, Dimmable Full Spectrum Grow Lights, Plant Growing Light Fixtures with 6/10/12H Timing, Small Plant Growing Lamps for Hydroponics, Seedlings, Succulents, Flowers",
+              "description": "DOMMIA Plant Light for Indoor Plants, Dimmable Full Spectrum Grow Lights, Plant Growing Light Fixtures with 6/10/12H Timing, Small Plant Growing Lamps for Hydroponics, Seedlings, Succulents, Flowers",
+              "category": "Tools & Home Improvement",
+              "rating": "4.4",
+              "price": "19.99",
+              "details": "February 3 | 2023",
+              "reason": "This product offers dimmable full-spectrum grow lights with multiple timing options, suitable for various indoor plants and hydroponic setups."
+          },
+          {
+              "id": "B0BWQDF961",
+              "name": "DOMMIA Plant Grow Light, 6000K Sunlight Plant Light, Dimmable Plant Light for Indoor Plants, IP54 LED Grow Light Strips, Under Cabinet Grow Lamp with 6/10/12H Timing, Indoor Plant Light for Houseplant",
+              "description": "DOMMIA Plant Grow Light, 6000K Sunlight Plant Light, Dimmable Plant Light for Indoor Plants, IP54 LED Grow Light Strips, Under Cabinet Grow Lamp with 6/10/12H Timing, Indoor Plant Light for Houseplant",
+              "category": "Tools & Home Improvement",
+              "rating": "4.7",
+              "price": "22.99",
+              "details": "February 24 | 2023",
+              "reason": "Highly rated with an average rating of 4.7, providing ample light for houseplants and other indoor plants with adjustable timing settings."
+          },
+          {
+              "id": "B0BVFVG257",
+              "name": "10\" LED Ring Grow Lights for Indoor Plants, 160LEDs 6000K Full Spectrum Large Plant Light for Indoor Plants, Height Adjustable Growing Lamp with Auto On/Off Timer 3/9/12H, 9 Dimmable Brightness",
+              "description": "10\" LED Ring Grow Lights for Indoor Plants, 6000K Full Spectrum Large Plant Light for Indoor Plants, Height Adjustable Growing Lamp with Auto On/Off Timer 3/9/12H, 9 Dimmable Brightness",
+              "category": "Tools & Home Improvement",
+              "rating": "4.4",
+              "price": "35.99",
+              "details": "January 30 | 2023",
+              "reason": "Rated 4.7 with dimmable and full-spectrum capabilities, ideal for starting seeds and small indoor plants."
+          },
+          {
+              "id": "B0BWMZ27R7",
+              "name": "APLANT LED Grow Light, White Full Spectrum Plant Light Strip, IP54 Grow Lights for Indoor Plants, Dimmable Plant Growing Lamps with Auto On Off Timing 6 10 12Hrs, Small Grow Lamp for Seed Starting",
+              "description": "APLANT LED Grow Light, White Full Spectrum Plant Light Strip, IP54 Grow Lights for Indoor Plants, Dimmable Plant Growing Lamps with Auto On Off Timing 6 10 12Hrs, Small Grow Lamp for Seed Starting",
+              "category": "Tools & Home Improvement",
+              "rating": "4.7",
+              "price": "22.99",
+              "details": "16.73 x 2.2 x 2.13 inches; 10.23 Ounces",
+              "reason": "Offers 9 dimmable levels and full-spectrum lighting, beneficial for indoor gardening and seed starting."
+          },
+          {
+              "id": "B0BYCBS2F6",
+              "name": "ONEVER Grow Lights for Indoor Plants - Full Spectrum Grow Light Red Blue USB Plant Light 9 Dimmable Timer 3 9 12H Adjustable Indoor Gardening System LED Growing Light for Indoor Plants Seed Starting",
+              "description": "Grow Lights for Indoor Plants - Full Spectrum Grow Light Red Blue USB Plant Light 9 Dimmable Timer 3 9 12H Adjustable Indoor Gardening System LED Growing Light for Indoor Plants Seed Starting",
+              "category": "Tools & Home Improvement",
+              "rating": "4.1",
+              "price": "10.99",
+              "details": "March 14 | 2023",
+              "reason": "Provides 9 dimmable brightness levels and a height-adjustable design, suitable for larger indoor plants and space-saving solutions."
+          }
+      ],
+      "candidateItems": [
+          {
+              "id": "B0BRMSNSQ6",
+              "name": "iPower 60W LED Plant Grow Light Strips Full Spectrum for Indoor Plants with Auto ON/Off 3/9/12H Timer, 10 Dimmable Levels 48 LEDs, Sunlike Grow Lamp for Hydroponics Succulent, 4 Tubes, Mix",
+              "description": "iPower 60W LED Plant Grow Light Strips Full Spectrum for Indoor Plants with Auto ON/Off 3/9/12H Timer, 10 Dimmable Levels 48 LEDs, Sunlike Grow Lamp for Hydroponics Succulent, 4 Pack",
+              "category": "Tools & Home Improvement",
+              "rating": "4.2",
+              "price": "17.79",
+              "details": "January 4 | 2023"
+          },
+          {
+              "id": "B0BY4SGLND",
+              "name": "bseah Grow Light Plant Light for Indoor Plants Growing, 6000K Full Spectrum Plant Grow Light for Seedings Succulents Small Plants, Auto On/Off Timing & 10 Dimming",
+              "description": "Bseah Grow Light Plant Light for Indoor Plants Growing, 6000K Full Spectrum Plant Grow Light for Seedings Succulents Small Plants, Auto On/Off Timing & 10 Dimming",
+              "category": "Tools & Home Improvement",
+              "rating": "4.5",
+              "price": "9.99",
+              "details": "February 23 | 2023"
+          },
+          {
+              "id": "B0BTSDKHV2",
+              "name": "iPower 15W LED Grow Light for Indoor Plant with Triple Head 360\u00b0 Adjustable Gooseneck, Auto Cycle Time Function (3/9/12H), 11 Dimmable Levels, 3 Lighting Modes",
+              "description": "iPower 15W LED Grow Light for Indoor Plant with Triple Head 360\u00b0 Adjustable Gooseneck, Auto Cycle Time Function (3/9/12H), 11 Dimmable Levels, 3 Lighting Modes",
+              "category": "Tools & Home Improvement",
+              "rating": "4.0",
+              "price": "13.99",
+              "details": "February 3 | 2023"
+          },
+          {
+              "id": "B0BW3TYSV6",
+              "name": "12 Pack T5 Grow Lights Full Spectrum Grow Lamp Strips LED Plant Grow Light White Grow Light Strip Kit for Indoor Plants Greenhouse Plant Grow Shelf Grow Cabinets Seed Starting",
+              "description": "Manual measurement, please allow slight errors on size. The color may exist a slight difference due to different screen displays.",
+              "category": "Tools & Home Improvement",
+              "rating": "3.1",
+              "price": "66.99",
+              "details": "February 17 | 2023"
+          },
+          {
+              "id": "B0BQZZRWH6",
+              "name": "Briignite LED Indoor Plants Grow Light String with 3 Pack A19 Bulbs E26 Base,Full Spectrum Plant Light,Extendable at End,33W Plant Light Bulbs 300W Equivalent",
+              "description": "Our grow light strings can be used as plant lights indoors, or as ambient lights for daily life. If you have any questions about our plant lights, please feel free to contact us.",
+              "category": "Tools & Home Improvement",
+              "rating": "3.3",
+              "price": "17.99",
+              "details": "February 21 | 2023"
+          },
+          {
+              "id": "B0C3W41H8M",
+              "name": "HRDJ LED Grow Light Strips, 4Pcs 1.6ft/Strip Plant Light for Indoor Plants Auto ON&Off with 3/9/12H Timer,10 Dimmable Levels, 24W Flexible Soft Plant Grow Light for Indoor Plants,Plant Growing",
+              "description": "1x Grow Lights for Indoor Plants  1x 12V power adapter 1x User Manual",
+              "category": "Tools & Home Improvement",
+              "rating": "3.9",
+              "price": "9.99",
+              "details": "LED"
+          },
+          {
+              "id": "B0BW3TQ3KD",
+              "name": "Grow Lights for Indoor Plants, Briignite Full Spectrum Grow Light 22W, Dual Head Clip On Grow Lights 200W Equivalent, Adjustable Gooseneck, Bulbs Replacement, Grow Lights for Seed Starting, Succulents",
+              "description": "Full Spectrum and High Efficiency This full spectrum grow light appears 4000K white to eyes but has a red/blue light spectrum, which can contribute to the growth of various types of plants in all stages. With high light transmission, it improves plant absorption more effectively. Strong Clip and Flexible Gooseneck Our plant grow light equips with a strong clip which can help the grow light clamp anyway stably. The adjustable gooseneck arms support achieving the right lighting angle and height for your plants. The above features enable this plant light to be placed anywhere in your home or office. Replaceable Bulbs The led full spectrum grow light bulb of this product is replaceable, which allows you to replace a new bulb instead of wasting money to get a new grow light.Please note that 1 package includes 2 A19 E26 Base grow light bulbs.. Widely Used Same as natural sun shine, this grow lamp is perfect for indoor growing. Balanced lighting of full spectrum wavelength can give your plants more light with a high output PPF of 25 micromoles per second, ideal for tomatoes, cucumbers, peppers, leafy greens and herbs at all growth stages. Satisfied Service Briignite led grow lights concern about your plant's better growth. Please contact us for any questions and we are committed to fixing your issues timely.",
+              "category": "Tools & Home Improvement",
+              "rating": "3.8",
+              "price": "25.99",
+              "details": "February 14 | 2023"
+          },
+          {
+              "id": "B0BYKDTBQ5",
+              "name": "iPower 24 Hour Plug-in Mechanical Timer, Timer for Electrical Outlets Grounded Aquarium, Grow Light, Hydroponics, Pets, Home, Kitchen, Office, Appliances, 125VAC, 60 Hz, 1725W, 15A, 1/2HP,1Pack",
+              "description": "iPower 24 Hour Plug-in Mechanical Timer, Timer for Electrical Outlets Grounded Aquarium, Grow Light, Hydroponics, Pets, Home, Kitchen, Office, Appliances, 125VAC, 60 Hz, 1725W, 15A, 1/2HP,1Pack",
+              "category": "Tools & Home Improvement",
+              "rating": "4.2",
+              "price": "6.99",
+              "details": "iPower"
+          },
+          {
+              "id": "B0BW3TQ3KD",
+              "name": "Grow Lights for Indoor Plants, Briignite Full Spectrum Grow Light 22W, Dual Head Clip On Grow Lights 200W Equivalent, Adjustable Gooseneck, Bulbs Replacement, Grow Lights for Seed Starting, Succulents",
+              "description": "Full Spectrum and High Efficiency This full spectrum grow light appears 4000K white to eyes but has a red/blue light spectrum, which can contribute to the growth of various types of plants in all stages. With high light transmission, it improves plant absorption more effectively. Strong Clip and Flexible Gooseneck Our plant grow light equips with a strong clip which can help the grow light clamp anyway stably. The adjustable gooseneck arms support achieving the right lighting angle and height for your plants. The above features enable this plant light to be placed anywhere in your home or office. Replaceable Bulbs The led full spectrum grow light bulb of this product is replaceable, which allows you to replace a new bulb instead of wasting money to get a new grow light.Please note that 1 package includes 2 A19 E26 Base grow light bulbs.. Widely Used Same as natural sun shine, this grow lamp is perfect for indoor growing. Balanced lighting of full spectrum wavelength can give your plants more light with a high output PPF of 25 micromoles per second, ideal for tomatoes, cucumbers, peppers, leafy greens and herbs at all growth stages. Satisfied Service Briignite led grow lights concern about your plant's better growth. Please contact us for any questions and we are committed to fixing your issues timely.",
+              "category": "Tools & Home Improvement",
+              "rating": "3.8",
+              "price": "25.99",
+              "details": "February 14 | 2023"
+          },
+          {
+              "id": "B0C5TRNQ1G",
+              "name": "Kasonic Solar Spot Lights Outdoor, Color Changing Waterproof LED Solar Landscape Spotlights, Wall & Ground Lights Dark Sensing Auto On/Off, Garden Lights for Yard Pathway Walkway, 2 Pack",
+              "description": "Kasonic Solar Spot Lights Outdoor, Color Changing Waterproof LED Solar Landscape Spotlights, Wall & Ground lights Dark Sensing Auto On/Off, Garden lights for Yard Pathway Walkway, 2 Pack",
+              "category": "Tools & Home Improvement",
+              "rating": "4.6",
+              "price": "29.99",
+              "details": "March 14 | 2023"
+          }
+      ]
+  },
+
+
+    {
+      "id": 1,
+      "name": "Example User",
+      "active": true,
+      "visualizationPath": "",
+      "targetItem": {
+          "id": "B0C3QR192Y",
+          "name": "DKNY Sport Women's Jacket",
+          "description": "Protect yourself from the cold in this anorak jacket from DKNY sport, with a kangaroo pocket and attached hood,",
+          "category": "AMAZON FASHION",
+          "rating": "4.2",
+          "price": "38.68",
+          "details": "DKNY"
+      },
+      "recommendedItems": [
+          {
+              "id": "B0C9TH4YNQ",
+              "name": "Cozystar Wearable Blanket Hoodie with Giant Pocket Extra Soft Sherpa Fleece Warm \uff06 Cozy Oversized Gifts for Men Women",
+              "description": "Cozystar wearable blanket with kangaroo pocket is the perfect combination of clothes and blanket, This plus size wearable blanket that features sherpa and fleece flannel is extra soft to put on or warm your body for any time of the day. keep warm and get cozy in style with this oversized hooded blanket, an indulgent piece that is equally functional as it is stylish. come and snuggle up with your furry friends in the wearable blanket.",
+              "category": "AMAZON FASHION",
+              "rating": "4.7",
+              "price": "39.99",
+              "details": "Cozystar",
+              "reason": "This product is highly rated with an average rating of 4.2, providing excellent value for its price."
+          },
+          {
+              "id": "B0BW4XKY78",
+              "name": "Forzafide Premium Organic Cotton Unisex Hoodie - Kindness is Golden",
+              "description": "Our unisex sweatshirt hoodie is a versatile and comfortable plush wear that consists of a long-sleeved all natural cotton fleeced sweatshirt with a hood attached to the neckline. It is made from skin-friendly, soft, pilling resistant, warm, 100% cotton fabric, and is often used as an outer or mid layer for warmth in colder weather. These hoodies have high quality printing, with vibrant long lasting colour. The adjustable hood protects your ears and neck when you step outdoors. Large kangaroo pockets provide warmth for your hands. The trendy colour combination gives a contemporary casual look when paired with jeans, leggings or cargo pants. Why you need Kindness Is Golden Hoodie? Premium Quality 100% Cotton Fabric Premium Quality 100% Cotton Fabric Comfortable Unisex Fit Comfortable Unisex Fit Luxurious Golden Embroidery and Prints Luxurious Golden Embroidery and Prints Kangaroo Pocket Kangaroo Pocket Rib Cuff, Hem and Sides Rib Cuff, Hem and Sides Gold Metal Tips on Hoodie Drawstring Gold Metal Tips on Hoodie Drawstring",
+              "category": "AMAZON FASHION",
+              "rating": "5.0",
+              "price": "60.0",
+              "details": "February 17 | 2023",
+              "reason": "This product is highly rated with an average rating of 4.4, offering a cozy and warm option suitable for girls."
+          },
+          {
+              "id": "B0C1X12894",
+              "name": "SRVNFBKT Girls Winter Coats Fur Hooded Warm Puffer Jacket Parka Coat for Girls",
+              "description": "Girls Puffer Down Coat Winter Jacket Parka Overcoat Windproof Snowsuit Outerwear with Fur Hood for Girls Product features Fur hood Fur hood could keep you Warm in the chill winter climates. 2 large front pockets Hand warmer pockets provide storage for accessories and extra comfort for frigid fingers. Elastic cuffs The elastic cuffs and hem provide a close, comfortable fit for added weather protection.",
+              "category": "AMAZON FASHION",
+              "rating": "4.4",
+              "price": "39.99",
+              "details": "April 9 | 2023",
+              "reason": "This product is highly rated with an average rating of 4.7, providing a luxurious and cozy oversized hoodie."
+          },
+          {
+              "id": "B0C3QR192Y",
+              "name": "DKNY Sport Women's Jacket",
+              "description": "Protect yourself from the cold in this anorak jacket from DKNY sport, with a kangaroo pocket and attached hood,",
+              "category": "AMAZON FASHION",
+              "rating": "4.2",
+              "price": "38.68",
+              "details": "DKNY",
+              "reason": "This product is highly rated with an average rating of 5.0, offering premium quality and a fashionable design."
+          },
+          {
+              "id": "B0C8V1HBRS",
+              "name": "Sparx Men Winter Cycling Jerseys Bike Bicycle Long Sleeve Thermal Fleece Cold Weather Jacket",
+              "description": "Whether you are going for mountain biking, hiking, camping, or any other outdoor sports, the warm fleece jacket keeps you warm and comfortable as long as you desire. Add the winter jersey to your collection for perfect winter companion",
+              "category": "AMAZON FASHION",
+              "rating": "4.8",
+              "price": "44.99",
+              "details": "June 21 | 2023",
+              "reason": "This product is highly rated with an average rating of 4.8, providing durability and warmth for winter cycling."
+          }
+      ],
+      "candidateItems": [
+          {
+              "id": "B0C3Y36X6P",
+              "name": "DKNY Sport Women's Jacket",
+              "description": "Protect yourself from the cold in this anorak jacket from DKNY sport, with a kangaroo pocket and attached hood,",
+              "category": "AMAZON FASHION",
+              "rating": "3.8",
+              "price": "33.54",
+              "details": "DKNY"
+          },
+          {
+              "id": "B0C4GYF5BL",
+              "name": "POREERE Men Hoodies Sweatshirt Hooded Pullover Long Sleeve with Kangaroo Pockets",
+              "description": "Suits for Multi Sports Gym training or workout indoor, or running,jogging,power walking,cycling, hiking,fishing outdoor. Occasion Hooded Sweatshirt is a best choice for casual wear, college, office, party, dating, clubwear, vacation or everyday wear. It is not only a great gift for yourself, but also a great birthday or holiday gift for your family and friends. Features With a kangaroo pocket, a wide ribbed hem and cuffs to lock in warmth and a drawstring at the hood, we are on a mission to create incredible clothes crafted with care. Match This athletic hooded can be paired with shorts or sweatpants in any sports activities, or you can match casual pants, jeans for daily leisure",
+              "category": "AMAZON FASHION",
+              "rating": "3.0",
+              "price": "27.99",
+              "details": "May 6 | 2023"
+          },
+          {
+              "id": "B01LW7JA6H",
+              "name": "Mountain Warehouse Braddock Womens Ski Jacket \u2013Waterproof Ladies Coat",
+              "description": "024439",
+              "category": "Sports & Outdoors",
+              "rating": "4.4",
+              "price": "109.99",
+              "details": "Mountain Warehouse"
+          },
+          {
+              "id": "B0BV2T66YH",
+              "name": "Fixha Mens Zip Up Hoodie Heavyweight Sherpa Lined Sweatshirt Winter Thick Jacket Outwear",
+              "description": "Material:polyesterSize Range:M, L, XL, XXL, 3XL, 4XL,5XL (Follow the size chart to select please)Sleeve Typed:long sleeveCollar Typed:hoodie\ud83c\udd95 Ribbed cuffs and hem,keep warmth all day.\ud83c\udd95Double-needle cover-seamed neck and armholes,keep cozy while running or walking.\ud83c\udd95Hood and adjustable drawcords,stay warm on cold weathersss.\ud83c\udd95Pair this comfy hoodie with jeans and a tee shirt for a clean look or try layering it with a bomber jacket during the winter to stay extra warm.\ud83c\udd95Machine wash cold with like colors; non chlorine bleach when needed; tumble dry medium.\ud83c\udd95Fashion hoodie wirh kangaroo pockets,safety store and more fashion look.",
+              "category": "AMAZON FASHION",
+              "rating": "4.5",
+              "price": "19.99",
+              "details": "February 7 | 2023"
+          },
+          {
+              "id": "B0CG2XCTZ1",
+              "name": "ARIAT Men's Shield Mexico Hood",
+              "description": "This themed hoodie is one you'll reach for again and again. Part of the Cold Series collection, it's designed for superior warmth and features camo-print accents and a sewn-on American flag patch. Cold Series technology keeps core warm Greater Arm Mobility seam construction for maximum range of motion Cotton/poly fleece Raglan sleeves Kangaroo pocket U.S. flag patch",
+              "category": "AMAZON FASHION",
+              "rating": "4.1",
+              "price": "44.34",
+              "details": "Ariat"
+          },
+          {
+              "id": "B0BWN7TCC7",
+              "name": "Kids Balaclava Ski Mask for Boys/Girls,Washable Fleece Winter Hat with Face Cover for Windproof in Cold Weather",
+              "description": "2-Layer Fleeces Ski Mask / Balaclava Hood for Cold Weather ( Suitable for Kids / Teen / Women )",
+              "category": "AMAZON FASHION",
+              "rating": "4.6",
+              "price": "7.9",
+              "details": "February 23 | 2023"
+          },
+          {
+              "id": "B0BTZ9NMD9",
+              "name": "Fixha Mens Full Zip Hoodies Casual Athletic Sports Long Sleeve Sweatshirts for Men Boys",
+              "description": "Material:polyester Size Range:M, L, XL, XXL, 3XL, 4XL,5XL (Follow the size chart to select please) Sleeve Typed:long sleeve Collar Typed:hoodie  \ud83c\udd95 Ribbed cuffs and hem,keep warmth all day. \ud83c\udd95Double-needle cover-seamed neck and armholes,keep cozy while running or walking. \ud83c\udd95Hood and adjustable drawcords,stay warm on cold weather. \ud83c\udd95Pair this comfy hoodie with jeans and a tee shirt for a clean look or try layering it with a bomber jacket during the winter to stay extra warm. \ud83c\udd95Machine wash cold with like colors; non chlorine bleach when needed; tumble dry medium. \ud83c\udd95Fashion hoodie wirh kangaroo pockets,safety store and more fashion look.",
+              "category": "AMAZON FASHION",
+              "rating": "4.4",
+              "price": "31.99",
+              "details": "February 6 | 2023"
+          },
+          {
+              "id": "B0CFFYKNKC",
+              "name": "Under Armour Baby Girls' ColdGear Prime Puffer Jacket",
+              "description": "Stay cozy in chilly temperatures with Under Armour cold weather gear, featuring UA cold gear to feel warm, dry and light during the coldest days",
+              "category": "AMAZON FASHION",
+              "rating": "4.1",
+              "price": "68.99",
+              "details": "Under Armour"
+          },
+          {
+              "id": "B0BRJLYFSV",
+              "name": "ExOfficio Women's BugsAway Lumen Hoody",
+              "description": "When you're ready to head out on your next hike or long-distance road trip, the Women's Bugs Away Lumen Lightweight Pullover Hoody will keep you comfortable and protected. Camp out in buggy woods and tackle muggy trails with confidence-insect-repelling Bugs Away technology will keep pests at bay. Thumb loops ensure sleeves won't ride up while the adjustable hood provides additional protection and comfort. Keep your passport handy even when outside with the hidden zippered pocket inside the kangaroo pouch.",
+              "category": "AMAZON FASHION",
+              "rating": "4.5",
+              "price": "46.53",
+              "details": "ExOfficio"
+          },
+          {
+              "id": "B074XKGRM7",
+              "name": "Mountain Warehouse Galaxy Mens Ski Jacket - Waterproof Winter Coat",
+              "description": "025395",
+              "category": "AMAZON FASHION",
+              "rating": "4.5",
+              "price": "143.99",
+              "details": "Mountain Warehouse"
+          }
+      ]
+  },
+
+
+    {
+      "id": 1,
+      "name": "Example User",
+      "active": true,
+      "visualizationPath": "",
+      "targetItem": {
+          "id": "B088B6DPDK",
+          "name": "H.A.R.D. (GREEN & BLACK VINYL)",
+          "description": "Slaughterhouse MCs Joell Ortiz & KXNG Crooked combine",
+          "category": "Digital Music",
+          "rating": "4.7",
+          "price": "29.87",
+          "details": "1"
+      },
+      "recommendedItems": [
+          {
+              "id": "B0C643SV5S",
+              "name": "KitchenAid NEW 7 Quart Bowl Lift Stand Mixer with Double Flex Edge Beater KSM70SK, Cast Iron",
+              "description": "Up your culinary caliber with 2x the power in the bowl than our Tilt Head Stand Mixer.* Professional-style performance paired with a 3-point locking bowl provides you with stability for mixing heavy, dense ingredients. Designed with 11 distinct speeds, including 1/2 speed, you'll have power and control from high to low, and everything in between. So no matter if you're folding, kneading, mixing, shredding, or beating, the KitchenAid\u00ae 7 Quart Bowl-Lift Stand Mixer is designed to take it all on. To amplify your creativity, explore 10+ stand mixer attachments, each with the power to open a world of untapped cooking techniques, experimentation and inspiration.** *Compared to KSM150 when measuring peak HP in the bowl; above speed 2.**Attachments sold separately.",
+              "category": "Amazon Home",
+              "rating": "4.6",
+              "price": "499.0",
+              "details": "",
+              "reason": "This product has an impressive average rating of 4.7 and offers explicit lyrics, appealing to fans of hardcore rap music."
+          },
+          {
+              "id": "B07FLG9ZGT",
+              "name": "Mona Lisa       Explicit Lyrics",
+              "description": "Detroit's legendary producer combines with Slaughterhouse MC Joell Ortiz to paint a masterpiece",
+              "category": "Digital Music",
+              "rating": "4.8",
+              "price": "11.99",
+              "details": "1",
+              "reason": "This product boasts an average rating of 4.8 and features explicit lyrics, combining Detroit's legendary producers with talented MCs."
+          },
+          {
+              "id": "B07R826VJT",
+              "name": "Monday (BLACK & GREY SWIRL VINYL)       Explicit Lyrics",
+              "description": "Brooklyn's Joell Ortiz Is Back",
+              "category": "Digital Music",
+              "rating": "4.7",
+              "price": "22.98",
+              "details": "1",
+              "reason": "This product has received an average rating of 4.7 and includes explicit lyrics, showcasing the artist's unique style."
+          },
+          {
+              "id": "B088B5795Z",
+              "name": "H.A.R.D.       Explicit Lyrics",
+              "description": "Slaughterhouse MCs Joell Ortiz & KXNG Crooked combine",
+              "category": "Digital Music",
+              "rating": "4.7",
+              "price": "13.79",
+              "details": "1",
+              "reason": "This product has an average rating of 4.7 and delivers explicit lyrics, maintaining consistency in quality across releases."
+          },
+          {
+              "id": "B07RKFL2ZW",
+              "name": "Monday       Explicit Lyrics",
+              "description": "Joell Ortiz Spits That Brooklyn Fire",
+              "category": "Digital Music",
+              "rating": "4.7",
+              "price": "11.99",
+              "details": "1",
+              "reason": "This product has an outstanding average rating of 5.0 and offers advanced features like adjustable speed control and non-slip design, providing exceptional performance and durability."
+          }
+      ],
+      "candidateItems": [
+          {
+              "id": "B0CB3JSX1R",
+              "name": "Savage X Men's Regular Mesh & Jersey Tank",
+              "description": "Introducing our Savage X Mesh & Jersey Tank. Crafted with flocked monogram mesh and a relaxed fit.",
+              "category": "AMAZON FASHION",
+              "rating": "4.6",
+              "price": "12.63",
+              "details": "Savage X"
+          },
+          {
+              "id": "B09L8NHP49",
+              "name": "Autograph       Explicit Lyrics",
+              "description": "Hard raps from Slaughterhouses's Finest",
+              "category": "Digital Music",
+              "rating": "4.5",
+              "price": "18.99",
+              "details": "1"
+          },
+          {
+              "id": "B0BZHV44W7",
+              "name": "FHSJXR 12-050-01-S Oil Filter for 12 050 01 12 050 01-S1 KH-12-050-01-S KH-12-050-08, AM125424, 49065-7007 49065-0721 492932S Cub Cadet, Craftsman, Troy Bilt, Toro Lawn Mower Oil Filter",
+              "description": "30178 30179 30316 30317 30318 30319 30433 30527 30528 30529 30530 30612 74239 74244 74255 74256 74261 74262 74263 74282 7424 74291 74292 74412 74414 \u2192for Cub Cadet KH-12-050-01-S, 1500 and 2000 series lawn tractors with Kohler engines, XT1 XT2-series,YTH20K46 YTH21K46, 24 HP KT-735, LT-54 Mower, Craftsman 42 inch mower,Gravely, Toro, Hustler, Troy Bilt Bronco mower tractor with Kohler engine oil filter \u2192for Lawn tractors SST15, L100 and LX173 with engines, riding mower,XT1 Enduro Series,Troy Bilt Bronco Riding Lawn Mower, 7000 series 24hp engine Craftsman YT3000 YT4000 YT4500 GT5000 GT5600 PYT9000 PGT9000 ZTL7000 Z6000 Z6400 Z4800 Z5200; \u2192for Kawasaki 19HP, 21.5HP, 22HP, 23HP, 24HP, 26HP; Tecumseh OHV130 OHV135 OHV150 OHV155 OHV165 OHV175 OHV180 TVT691 OHV110 OHV115 OHV125,OV and VTX; Cub Cad RZT42 RZT50 ZT50 ZT54 lawn mower;F620, F680, F687, M653, M655, M665, Z245, Z425, Z510A, Z520A, Z910A and Z920A ZTrak mowersand lawn tractors, 1200 Hydro Rake, 800 Aercore",
+              "category": "Automotive",
+              "rating": "4.6",
+              "price": "8.78",
+              "details": "March 24 | 2023"
+          },
+          {
+              "id": "B000NDFLU8",
+              "name": "Tied & True",
+              "description": "Product Description With TIED AND TRUE, their first new record in three years, The Detroit Cobras practically created a new genre for themselves, delivering the sonic goods to back up some seriously supernatural soulful vocal gifts. Stretching out in the studio like never before, and including contributions from top line players like Greg Cartwright, the Cobras have created a versatile and formidable wall of Spector sound. Be it eerie or orchestral or pure rock and roll rough up, TIED AND TRUE puts the Cobras on a whole new level - of many sources but a genus all it's own. Amazon.com Combining girl-group hooks and harmonies with high-octane, Motor City garage rock, the Detroit Cobras conjure the 1960s era of Top 40 AM radio and vinyl 45s. Though the results are considerably poppier than the band's name and the light bondage of the album title and cover might suggest, singer Rachel Nagy has attitude to burn and the mixed-gender band plays with plenty of rough-hewn energy. Material (none of it written by the band) includes minor '60s hits such as \"Nothing But a Heartache\" and \"Leave My Kitten Alone,\" obscurities from classic songwriters such as Gerry Goffin and Jerry Ragavoy (as well as James Brown and Dr. John) and a hopped-up rendition of the Depression-era folk standard \"On a Monday.\" --Don McLeese Review Unlike a zillion other cover bands in the world, the Detroit Cobras get away with such musical poaching because Nagy is an unrivaled vocal powerhouse whose interpretations are sometimes even more memorable than her classic inspirations. This is a rather mighty achievement when you consider that she s holding her own with such giants as Otis Redding and Koko Taylor, but Nagy s voice is simultaneously serene and fiery, lit up with a saucily boozy and wise-cracking, rude confidence that makes a soul-revising latecomer like Amy Winehouse seem like a shrinking violet. --L.A. WeeklyThe Cobras don't go for the gut as much on this new album, their first in three years. More often, they go for the crotch, seducing the listener with a snaky late-night slow-dance, pulling you close enough to feel Rachel Nagy's hot breath on your tingling neck. --Stomp and StammerSure, it's red-blooded and raw, but it's also as beautiful as it is brassy. In other words, bad girls make good. --Playboy See more",
+              "category": "Digital Music",
+              "rating": "4.6",
+              "price": "39.99",
+              "details": "1"
+          },
+          {
+              "id": "B0BWRYX1N1",
+              "name": "Flex Edge Beater for KitchenAid Bowl-Lift Stand Mixer, 6 Quart Flat Beater Paddle with Flexible Silicone Edges,Grey",
+              "description": "Be sure to check your model number and size.What You Get:1* 6 quart bowl-lift flex edge beaterNote:1. When beater was attached and turned on without the ingredients in the bowl, will produce noisy, NOT DO IT!2. When the ingredients are in the mixing bowl and the unit is used as designed, it works just great.",
+              "category": "Amazon Home",
+              "rating": "4.4",
+              "price": "19.99",
+              "details": "February 24 | 2023"
+          },
+          {
+              "id": "B0BWSTCHPG",
+              "name": "Flex Edge Beater For Kitchenaid Mixer Accessory,Kitchen Aid Attachments For Mixer,Fits Tilt-Head Stand Mixer Bowls For 4.5-5 Quart Bowls,Beater With Silicone Edges,Grey",
+              "description": "biscuits, cookies, quick breads, cheesecakes, devils food cake, waffle dough, mashed potatoes, pie pastry, creamed frostings, gum paste and more.2. But do not use with heavy mixes such as breads, coffee cakes, rolls and buns, which should turn to dough hook or that flat beater without silicone edge.NOTE:1. Check the size and height before you use it.adjusted the screw that sets the beaters at the right height.2. When you fit beater with your mixer, we suggest firstly slow speed , working 2-3mins, can used fast speed.Package include:1 * flex edge beaterAfter service:Please leave a message with us, if you are not satisfied with our flex edge beater. All issues will be solved within 24 hours.",
+              "category": "Amazon Home",
+              "rating": "4.8",
+              "price": "17.99",
+              "details": "February 24 | 2023"
+          },
+          {
+              "id": "B07X1M5S6K",
+              "name": "Sincerely, Detroit       Explicit Lyrics",
+              "description": "56 of Detroit's Best MCs Combine For This DETROIT CLASSIC",
+              "category": "Digital Music",
+              "rating": "4.8",
+              "price": "8.99",
+              "details": "1"
+          },
+          {
+              "id": "B0BM59DHM4",
+              "name": "Louisville Slugger 2023 Meta\u00ae (-12) USA Baseball Bat",
+              "description": "Most bats are made to standards of governing bodies, including any certifications shown on this bat. Still, a hitter can generate batted ball speeds that present a risk of serious injury or death to fielders, nearby players, coaches, umpires, and spectators. Be alert and aware of all batters, and use appropriate protective equipment at all times, on a baseball or softball field or near a batter.",
+              "category": "Sports & Outdoors",
+              "rating": "3.9",
+              "price": "399.95",
+              "details": "February 7 | 2023"
+          },
+          {
+              "id": "B0C4Y34VNR",
+              "name": "KITMA 7 QT Stand Mixer - 3 Speed Control Commercial Countertop Dough Mixer",
+              "description": "We offer a 1-year warranty, effective from the date of purchase by the original, so ZERO risk purchasing! We have a professional after-sale service team in the US, When you have any questions during use, you can contact us all the time, we will give you a reply within 24 hours.",
+              "category": "Amazon Home",
+              "rating": "5.0",
+              "price": "159.0",
+              "details": ""
+          },
+          {
+              "id": "B0BZHV44W7",
+              "name": "FHSJXR 12-050-01-S Oil Filter for 12 050 01 12 050 01-S1 KH-12-050-01-S KH-12-050-08, AM125424, 49065-7007 49065-0721 492932S Cub Cadet, Craftsman, Troy Bilt, Toro Lawn Mower Oil Filter",
+              "description": "30178 30179 30316 30317 30318 30319 30433 30527 30528 30529 30530 30612 74239 74244 74255 74256 74261 74262 74263 74282 7424 74291 74292 74412 74414 \u2192for Cub Cadet KH-12-050-01-S, 1500 and 2000 series lawn tractors with Kohler engines, XT1 XT2-series,YTH20K46 YTH21K46, 24 HP KT-735, LT-54 Mower, Craftsman 42 inch mower,Gravely, Toro, Hustler, Troy Bilt Bronco mower tractor with Kohler engine oil filter \u2192for Lawn tractors SST15, L100 and LX173 with engines, riding mower,XT1 Enduro Series,Troy Bilt Bronco Riding Lawn Mower, 7000 series 24hp engine Craftsman YT3000 YT4000 YT4500 GT5000 GT5600 PYT9000 PGT9000 ZTL7000 Z6000 Z6400 Z4800 Z5200; \u2192for Kawasaki 19HP, 21.5HP, 22HP, 23HP, 24HP, 26HP; Tecumseh OHV130 OHV135 OHV150 OHV155 OHV165 OHV175 OHV180 TVT691 OHV110 OHV115 OHV125,OV and VTX; Cub Cad RZT42 RZT50 ZT50 ZT54 lawn mower;F620, F680, F687, M653, M655, M665, Z245, Z425, Z510A, Z520A, Z910A and Z920A ZTrak mowersand lawn tractors, 1200 Hydro Rake, 800 Aercore",
+              "category": "Automotive",
+              "rating": "4.6",
+              "price": "8.78",
+              "details": "March 24 | 2023"
+          }
+      ]
+  },
+
+
+    {
+      "id": 1,
+      "name": "Example User",
+      "active": true,
+      "visualizationPath": "",
+      "targetItem": {
+          "id": "B0C4LVC3TT",
+          "name": "Reebok Men's Classic Renaissance Fashion Sneaker",
+          "description": "athletes wanted to run faster. So in the 1890s, Joseph William Foster made some of the first known running shoes with spikes in them. By 1895, he was in business making shoes by hand for top runners; and before long his fledgling company, J.W. Foster and Sons, developed an international clientele of distinguished athletes.",
+          "category": "AMAZON FASHION",
+          "rating": "4.4",
+          "price": "42.25",
+          "details": "Reebok Footwear"
+      },
+      "recommendedItems": [
+          {
+              "id": "B0BWJ1S1VZ",
+              "name": "Keds Women's Champion Leather Lace-up Sneaker",
+              "description": "All the classic good looks of our beloved champion sneaker, now in sleek, sophisticated, and oh-so-soft tumbled leather. We lined these leather shoes with soft canvas for breathability and added ortholite insoles for cushy steps. A true American original, the Champion sneaker from Keds has been updated with a soft cotton terry lining, a more secure heel, a roomier toe, and improved arch support. This classic sneaker is a wardrobe staple that pairs perfectly with casual wear. In 1916, the Keds brand was introduced by the U.S. Rubber Company as the first national athletic and lifestyle footwear brand. At this time, the shoes were called sneakers, a term invented in late 1916 because the rubber soles made the shoes quiet. Worn by Olympic soccer players, scores of National and International tennis champions, and many college athletes, Keds was coined the shoe of champions because of its reputation as America's premier athletic brand. Not only was Keds a leading athletic brand, it was also the brand of choice for leading style icons due to its classic, stylish, and authentic characteristics. See more",
+              "category": "AMAZON FASHION",
+              "rating": "4.5",
+              "price": "64.95",
+              "details": "Keds",
+              "reason": "This product has an impressive average rating of 4.2, making it a solid choice for walking and providing good value for money."
+          },
+          {
+              "id": "B0C8F39KGH",
+              "name": "Reebok Women's Ardara 2.0 Walking Shoe",
+              "description": "athletes wanted to run faster. So in the 1890s, joseph william Foster made some of the first known running shoes with spikes in them. By 1895, he was in business making shoes by hand for top runners; and before long his fledgling company, j.W. Foster and sons, developed an international clientele of distinguished athletes.",
+              "category": "AMAZON FASHION",
+              "rating": "4.2",
+              "price": "51.95",
+              "details": "Reebok",
+              "reason": "With an average rating of 4.4, this versatile sneaker stands out for its comfortable fit and enduring appeal across different occasions."
+          },
+          {
+              "id": "B0C87L2YJB",
+              "name": "Reebok Women's Pump Plus Flame Running Shoe",
+              "description": "athletes wanted to run faster. So in the 1890s, Joseph William Foster made some of the first known running shoes with spikes in them. By 1895, he was in business making shoes by hand for top runners; and before long his fledgling company, J.W. Foster and Sons, developed an international clientele of distinguished athletes.",
+              "category": "AMAZON FASHION",
+              "rating": "4.6",
+              "price": "119.95",
+              "details": "Reebok",
+              "reason": "Highly rated with an average rating of 4.6, this running shoe offers advanced cushioning and performance-enhancing technologies suitable for serious runners."
+          },
+          {
+              "id": "B0C6NZXS1P",
+              "name": "Reebok Girl's Classic Nylon Sneaker",
+              "description": "Reebok Kids Classic Nylon Color Sneaker with suede accents which adds a high-class touch. These joggers are famous for comfort, thanks to the cushioning of a sculpted EVA midsole and a padded foam sockliner. These kids sneakers have high abrasion outsole, which provides traction and durability, so you don't have to slow down.",
+              "category": "AMAZON FASHION",
+              "rating": "4.2",
+              "price": "59.99",
+              "details": "Reebok",
+              "reason": "This classic sneaker receives an average rating of 4.5, combining timeless style with modern comfort, making it a popular choice among consumers."
+          },
+          {
+              "id": "B0C69ZP5Q6",
+              "name": "Reebok Men's Classic Leathers Sneaker",
+              "description": "athletes wanted to run faster. So in the 1890s, Joseph William Foster made some of the first known running shoes with spikes in them. By 1895, he was in business making shoes by hand for top runners; and before long his fledgling company, J.W. Foster and Sons, developed an international clientele of distinguished athletes.",
+              "category": "AMAZON FASHION",
+              "rating": "4.4",
+              "price": "73.01",
+              "details": "Reebok",
+              "reason": "Rated at 4.2, this sneaker is perfect for children who appreciate both style and comfort, offering a blend of classic and contemporary elements."
+          }
+      ],
+      "candidateItems": [
+          {
+              "id": "B07DGZC5RM",
+              "name": "Reebok Women's Walk Ultra 6 DMX Max",
+              "description": "athletes wanted to run faster. So in the 1890s, Joseph William Foster made some of the first known running shoes with spikes in them. By 1895, he was in business making shoes by hand for top runners; and before long his fledgling company, J.W. Foster and Sons, developed an international clientele of distinguished athletes.",
+              "category": "AMAZON FASHION",
+              "rating": "4.4",
+              "price": "74.95",
+              "details": "Reebok"
+          },
+          {
+              "id": "B0C9KW3245",
+              "name": "Reebok Women's Crossfit Micro Bra",
+              "description": "athletes wanted to run faster. So in the 1890s, Joseph William Foster made some of the first known running shoes with spikes in them. By 1895, he was in business making shoes by hand for top runners; and before long his fledgling company, J.W. Foster and Sons, developed an international clientele of distinguished athletes.",
+              "category": "AMAZON FASHION",
+              "rating": "4.6",
+              "price": "45.45",
+              "details": "Reebok International | LTD"
+          },
+          {
+              "id": "B0C34ZK9Z3",
+              "name": "Reebok Women's Classic Leathers Sneaker",
+              "description": "athletes wanted to run faster. So in the 1890s, Joseph William Foster made some of the first known running shoes with spikes in them. By 1895, he was in business making shoes by hand for top runners; and before long his fledgling company, J.W. Foster and Sons, developed an international clientele of distinguished athletes.",
+              "category": "AMAZON FASHION",
+              "rating": "4.4",
+              "price": "97.99",
+              "details": "Reebok"
+          },
+          {
+              "id": "B0BWZ2JQ89",
+              "name": "Reebok Women's Classic Leathers Sneaker",
+              "description": "athletes wanted to run faster. So in the 1890s, Joseph William Foster made some of the first known running shoes with spikes in them. By 1895, he was in business making shoes by hand for top runners; and before long his fledgling company, J.W. Foster and Sons, developed an international clientele of distinguished athletes.",
+              "category": "AMAZON FASHION",
+              "rating": "3.2",
+              "price": "62.0",
+              "details": "Reebok"
+          },
+          {
+              "id": "B0BWZRS4QK",
+              "name": "Reebok Women's Classic Leathers Sneaker",
+              "description": "athletes wanted to run faster. So in the 1890s, Joseph William Foster made some of the first known running shoes with spikes in them. By 1895, he was in business making shoes by hand for top runners; and before long his fledgling company, J.W. Foster and Sons, developed an international clientele of distinguished athletes.",
+              "category": "AMAZON FASHION",
+              "rating": "4.2",
+              "price": "41.88",
+              "details": "Reebok"
+          },
+          {
+              "id": "B0BWZF7FY2",
+              "name": "Reebok Women's Classic Leathers Sneaker",
+              "description": "athletes wanted to run faster. So in the 1890s, Joseph William Foster made some of the first known running shoes with spikes in them. By 1895, he was in business making shoes by hand for top runners; and before long his fledgling company, J.W. Foster and Sons, developed an international clientele of distinguished athletes.",
+              "category": "AMAZON FASHION",
+              "rating": "3.6",
+              "price": "99.0",
+              "details": "Reebok"
+          },
+          {
+              "id": "B0BW9JB9XR",
+              "name": "Reebok Mens Pump Omni Zone II Fitness Gym Basketball Shoes",
+              "description": "Renowned for innovation and pioneering ideas, it\u2019s sometimes easy to forget that the seeds for Reebok were planted when one man decided to try his hand at making simple leather running shoes above his father\u2019s sweet shop in Bolton.",
+              "category": "AMAZON FASHION",
+              "rating": "3.6",
+              "price": "159.99",
+              "details": "Reebok"
+          },
+          {
+              "id": "B0C63NMCNH",
+              "name": "Reebok Men's Bb4500 Safety Toe High Top Work Sneaker Industrial & Construction Boot",
+              "description": "ASTM F2413, Composite Toe, XTR\u00ae Brand Composite Toe, Electrical Hazard, Slip Resistant, Metal Free - High top classic basketball-inspired designs offer optimal support and stability - Blended leather and mesh uppers provide heritage comfort and breathability - Durable slip resistant rubber outsole keeps sneakers tough against any work environment - MemoryTech Memory Foam Cushion Footbed adds extra shock absorption and cushion - XTR\u00ae brand composite toe reduces weight while maintaining impact and compression protection (meets or exceeds ASTM F2413) - 360 degree sidewall stitch for long-lasting durability",
+              "category": "AMAZON FASHION",
+              "rating": "4.4",
+              "price": "109.99",
+              "details": "Reebok Work"
+          },
+          {
+              "id": "B000ER1RBK",
+              "name": "Keds Women's Champion Canvas Sneaker",
+              "description": "The shoe that defines the term \u201cclassic sneaker.\u201d Our Champion canvas sneaker was an instant American classic when it was first introduced (over 100 years ago), and its iconic design, goes-with-everything style, and cushiony comfort has made it a worldwide favorite today. In 1916, the Keds brand was introduced by the U.S. Rubber Company as the first national athletic and lifestyle footwear brand. At this time, the shoes were called sneakers, a term invented in late 1916 because the rubber soles made the shoes quiet. Worn by Olympic soccer players, scores of National and International tennis champions, and many college athletes, Keds was coined the shoe of champions because of its reputation as America's premier athletic brand. Not only was Keds a leading athletic brand, it was also the brand of choice for leading style icons due to its classic, stylish, and authentic characteristics.",
+              "category": "AMAZON FASHION",
+              "rating": "4.5",
+              "price": "44.99",
+              "details": "Keds"
+          },
+          {
+              "id": "B0BXRX6KL9",
+              "name": "Reebok unisex-adult Freestyle Hi High Top",
+              "description": "Introduced in the '80s as a durable aerobics shoe, the Reebok Classic Freestyle Hi sneakers have come back stronger than ever with classic, retro style. The first shoe to be created specifically for women that quickly became a fitness and fashion icon, the Reebok Lifestyle Freestyle High Top sneakers are back with a vengeance. High-top shoes with soft, garment leather uppers for instant comfort. Padded collar with dual adjustable hook-and-loop straps for enhanced fit. Padded collar with ankle strap closure for excellent fit and support. Terry cloth lining and a padded foam sockliner provides lightweight comfort and cushioning. Terry cloth lining with a padded, removable sockliner provides lightweight comfort and cushioning. Traditional lace up closure for secure fit. Traditional lace up closure. Perforations on toe box and sides for breathability. EVA midsole for cushioning. EVA midsole for shock absorption and lightweight cushioning. Rubber outsole features a technical trail bottom for all of life's adventures. Abrasive rubber outsole for traction and durability.",
+              "category": "AMAZON FASHION",
+              "rating": "3.8",
+              "price": "90.0",
+              "details": "March 8 | 2023"
+          }
+      ]
+  }
 ]
