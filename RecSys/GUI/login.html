@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLM Recommendation System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        .title-container {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .title-container h1 {
+            font-size: 3em; /* 主标题字体大小 */
+            margin-bottom: 15px;
+        }
+
+        .title-container h2 {
+            font-size: 1.5em; /* 副标题字体大小 */
+            font-weight: 300;
+            color: #555;
+        }
+
+        .login-container {
+            background-color: white;
+            padding: 36px; /* 登录框内边距大小缩小 10% */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 360px; /* 登录框宽度缩小 10% */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .login-container input {
+            width: 100%;
+            padding: 13.5px; /* 输入框内边距大小缩小 10% */
+            margin: 13.5px 0; /* 输入框外边距缩小 10% */
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1.08em; /* 输入框字体大小缩小 10% */
+            text-align: center;
+        }
+
+        .login-container button {
+            width: 100%;
+            padding: 13.5px; /* 按钮内边距大小缩小 10% */
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: white;
+            font-size: 1.08em; /* 按钮字体大小缩小 10% */
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .login-container button:hover {
+            background-color: #0056b3;
+        }
+
+        .error-message {
+            color: red;
+            font-size: 0.9em; /* 错误信息字体大小缩小 10% */
+            margin-top: 13.5px; /* 错误信息外边距缩小 10% */
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="title-container">
+    <h1>LLM Recommendation System</h1>
+    <h2>Powered by Llama 3.2-3B & Qwen 2.5-3B</h2>
+</div>
+
+<div class="login-container">
+    <input type="text" id="username" placeholder="Username" />
+    <input type="password" id="password" placeholder="Password" />
+    <button onclick="handleLogin()">Login</button>
+    <p class="error-message" id="errorMessage">Invalid username or password</p>
+</div>
+
+<script>
+    function handleLogin() {
+        const username = document.getElementById('username').value;
+        const password = document.getElementById('password').value;
+        const errorMessage = document.getElementById('errorMessage');
+
+        if (username === 'admin' && password === '123') {
+            window.location.href = 'GUI.html'; // Redirect to the dashboard page
+        } else {
+            errorMessage.style.display = 'block';
+        }
+    }
+</script>
+
+</body>
+</html>
