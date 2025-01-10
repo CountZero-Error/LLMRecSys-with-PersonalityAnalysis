@@ -1,4 +1,5 @@
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig, pipeline
+from transformers.utils.logging import disable_progress_bar
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 from mpl_toolkits.mplot3d import Axes3D
@@ -10,8 +11,12 @@ import pandas as pd
 import numpy as np
 import random
 import torch
+import json
 import os
 import re
+
+disable_progress_bar()
+
 
 class RecSys:
     def __init__(self, model:str, vector_db:str, access_token:str, product_description:str, k:int = 15, use_4bit:bool = False):
@@ -67,9 +72,11 @@ Question: {question}""",
 
         match self.model:
             case "Llama3.2":
-                model_id = "meta-llama/Llama-3.2-1B-Instruct"
+                # model_id = "meta-llama/Llama-3.2-1B-Instruct"
+                model_id = "meta-llama/Llama-3.2-3B-Instruct"
             case "Qwen2.5":
-                model_id = "Qwen/Qwen2.5-1.5B-Instruct"
+                # model_id = "Qwen/Qwen2.5-1.5B-Instruct"
+                model_id = "Qwen/Qwen2.5-3B-Instruct"
 
         '''Tokenizer and Model'''
         # Load Tokenizer
@@ -220,36 +227,34 @@ class RecInterpreter:
         '''get vector'''
         recommendation_vectors = {}
         matched_products = {}
-        target_retrieved, recommendations_retrieved, candidates_retrieved = 0, 0, 0
         for i, v in enumerate(self.metadata.values()):
             curr_id = v.metadata['id']
-            if curr_id == self.target_id and target_retrieved == 0:
+
+            if curr_id == self.target_id:
                 recommendation_vectors.setdefault('Target Product', [])
                 recommendation_vectors['Target Product'].append(reduced_vectors[i])
-                target_retrieved += 1
 
                 matched_products.setdefault('Target Product', [])
                 matched_products['Target Product'].append(curr_id)
 
-            elif curr_id in recommendation_ids and recommendations_retrieved < 5:
+            elif curr_id in recommendation_ids:
                 recommendation_vectors.setdefault('Recommended Product', [])
                 recommendation_vectors['Recommended Product'].append(reduced_vectors[i])
-                recommendations_retrieved += 1
 
                 matched_products.setdefault('Recommended Product', [])
                 matched_products['Recommended Product'].append(curr_id)
 
-            elif curr_id in candidate_ids and candidates_retrieved < 10:
+            elif curr_id in candidate_ids and curr_id not in recommendation_ids:
                 recommendation_vectors.setdefault('Candidate Product', [])
                 recommendation_vectors['Candidate Product'].append(reduced_vectors[i])
-                candidates_retrieved += 1
 
                 matched_products.setdefault('Candidate Product', [])
                 matched_products['Candidate Product'].append(curr_id)
 
-        # Check
-        for k, v in recommendation_vectors.items():
-            print(f'[!] {k}({len(v)}): {matched_products[k]}')
+        # Products Information
+        print('[*] Round Information:')
+        for k, v in matched_products.items():
+            print(f'\t{k}({len(set(v))}): {set(matched_products[k])}')
 
         return sorted_vector_categories, recommendation_vectors
 
@@ -344,8 +349,14 @@ class RecInterpreter:
         plt.show()
 
     def recommendations_info(self):
-        recommendation_pattern = re.compile(r"\*\*Product ID: (.*)\*\*")
-        recommendation_ids = [x.split()[-1] for x in recommendation_pattern.findall(self.recommendations)]
+        # recommendation_pattern = re.compile(r"\*\*Product ID:\s*(.*)\*\*")
+        recommendation_pattern = re.compile(r"Product ID:\s*([A-Z0-9]+)")
+        recommendation_ids = [x for x in recommendation_pattern.findall(self.recommendations)]
+        # print(f'[!] recommendation_ids: {recommendation_ids}')
+
+        reason_pattern = re.compile(r"Reason:\s*(.*)")
+        reasons = [x for x in reason_pattern.findall(self.recommendations)]
+        # print(f'[!] reasons: {reasons}')
 
         recs_info = {}
         for v in self.metadata.values():
@@ -354,26 +365,93 @@ class RecInterpreter:
                 recs_info.setdefault(curr_id, '')
                 recs_info[curr_id] = v.metadata['text']
 
+        i = 0
+        recommendedItems = []
+
         print(f'\n[*] Recommended Products Information:')
         for v in recs_info.values():
-            print(f'{v}\n')
+            print(f'Recommendation {i + 1}\n{v}\nReason: {reasons[i]}\n')
+
+            recommendation_info = v.split('\n')
+            recommendedItem = {
+                "id": recommendation_info[0].split(': ')[-1],
+                "name": recommendation_info[1].split(': ')[-1],
+                "description": recommendation_info[2].split(': ')[-1],
+                "category": recommendation_info[3].split(': ')[-1],
+                "rating": recommendation_info[4].split(': ')[-1],
+                "price": recommendation_info[5].split(': ')[-1],
+                "details": recommendation_info[6].split(': ')[-1],
+                "reason": reasons[i],
+            }
+
+            recommendedItems.append(recommendedItem)
+
+            i += 1
+
+        return recommendedItems
 
     def candidates_info(self):
+        recommendation_pattern = re.compile(r"Product ID:\s([A-Z0-9]+)")
+        recommendation_ids = [x for x in recommendation_pattern.findall(self.recommendations)]
+        # print(f'[!] recommendation_ids: {recommendation_ids}')
+
+        i = 0
+        candidateItems = []
+
         print(f'\n[*] Candidate Products Information:')
         for candidate in self.candidates:
-            print(f'{candidate}\n')
-            
+            check_candidate = True
+            for recommendation_id in recommendation_ids:
+                if recommendation_id in candidate:
+                    check_candidate = False
+                    break
+
+            if check_candidate:
+                print(f'Candidate {i + 1}\n{candidate}\n')
+
+                candidate_info = candidate.split('\n')
+                candidateItem = {
+                    "id": candidate_info[0].split(': ')[-1],
+                    "name": candidate_info[1].split(': ')[-1],
+                    "description": candidate_info[2].split(': ')[-1],
+                    "category": candidate_info[3].split(': ')[-1],
+                    "rating": candidate_info[4].split(': ')[-1],
+                    "price": candidate_info[5].split(': ')[-1],
+                    "details": candidate_info[6].split(': ')[-1],
+                }
+
+                candidateItems.append(candidateItem)
+
+                i += 1
+
+        return candidateItems
+
+
+def retrieve_product_information(df, query_value):
+    product_index = df.index[df['PRODUCT_ID'] == query_value].tolist()[0]
+    full_text = df.loc[product_index, 'TEXT']
+    product_id = df.loc[product_index, 'PRODUCT_ID']
+    print(f'[*] Retrieved product full content:\n{full_text}')
+
+    return df.loc[product_index, 'DESCRIPTION'], full_text, product_id
+
+def to_json(targetItem, recommendedItems, candidateItems, fo):
+    json_content = {
+        "id": 1,
+        "name": "Example User",
+        "active": True,
+        "visualizationPath": "",
+        "targetItem": targetItem,
+        "recommendedItems": recommendedItems,
+        "candidateItems": candidateItems
+    }
+
+    print(f'[*] Saving result to {fo}...')
+    with open(fo, "w") as json_filo:
+        json.dump(json_content, json_filo, indent=4)
+    print('[*] Done.')
 
 if __name__ == '__main__':
-    def retrieve_product_information(df, query_value):
-        product_index = df.index[df['PRODUCT_ID'] == query_value].tolist()[0]
-        full_text = df.loc[product_index, 'TEXT']
-        product_id = df.loc[product_index, 'PRODUCT_ID']
-        print(f'[*] Retrieved product full content:\n{full_text}')
-
-        return df.loc[product_index, 'DESCRIPTION'], full_text, product_id
-
-
     random.seed(time())
     formatted_df = pd.read_csv('trainData/amazon_products.train.formatted.csv')
     random_product_id = random.choice(formatted_df['PRODUCT_ID'])
@@ -381,9 +459,11 @@ if __name__ == '__main__':
     test_description, full_text, target_id = retrieve_product_information(formatted_df, random_product_id)
 
     '''RecSys'''
+    # LLModel = 'Llama3.2'
+    LLModel = 'Qwen2.5'
+    print(f'[*] Using {LLModel}.')
     recSys = RecSys(
-        # model='Llama3.2',
-        model='Qwen2.5',
+        model=LLModel,
         vector_db='./Vector_DB',
         access_token='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',
         product_description=test_description,
@@ -402,6 +482,19 @@ if __name__ == '__main__':
         candidates=retrieved_docs_text,
     )
 
-    recInterpreter.vis_3d('vectors.png')
-    recInterpreter.recommendations_info()
-    recInterpreter.candidates_info()
+    recInterpreter.vis_3d('example.png')
+    recommendedItems = recInterpreter.recommendations_info()
+    candidateItems = recInterpreter.candidates_info()
+
+    target_info = full_text.split('\n')
+    targetItem = {
+        "id": target_info[0].split(': ')[-1],
+        "name": target_info[1].split(': ')[-1],
+        "description": target_info[2].split(': ')[-1],
+        "category": target_info[3].split(': ')[-1],
+        "rating": target_info[4].split(': ')[-1],
+        "price": target_info[5].split(': ')[-1],
+        "details": target_info[6].split(': ')[-1],
+    }
+
+    to_json(targetItem, recommendedItems, candidateItems, 'example.json')
