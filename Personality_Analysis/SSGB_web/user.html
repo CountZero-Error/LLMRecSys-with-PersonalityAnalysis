@@ -6,6 +6,16 @@
     <title>Graph-Based Semi-Supervised Clustering</title>
     <link rel="stylesheet" href="./styles.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./assets/js/jspdf.umd.min.js"></script>
+
+    <script>
+        if (typeof jsPDF !== 'undefined') {
+            console.log('jsPDF loaded successfully.');
+        } else {
+            console.error('jsPDF is not loaded.');
+        }
+    </script>
+
     <script defer src="user_data.js"></script>
     <style>
         /* 全局样式 */
@@ -222,7 +232,7 @@
 
 <div id="content">
     <div id="main">
-        <canvas id="chart"></canvas>
+        <canvas id="chart" width="450" height="450"></canvas>
         <div id="user-input">
 <!--            <input type="text" id="user-id" placeholder="Search User ID">-->
 <!--            <button onclick="searchUser()">Search</button>-->
