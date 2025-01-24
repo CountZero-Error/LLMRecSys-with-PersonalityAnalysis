@@ -2,6 +2,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.preprocessing import StandardScaler
 from datasets import load_dataset
+from getpass import getpass
 from tqdm import tqdm
 import pandas as pd
 import numpy as np
@@ -331,7 +332,7 @@ if __name__ == '__main__':
     threshold = 0.1
     step = 3
 
-    access_token = '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'
+    access_token = getpass()
     original_embedding = load_dataset(
         "CookieLyu/Category_Codes",
         revision="1000k_average_embedded",

@@ -456,6 +456,8 @@ if __name__ == '__main__':
     formatted_df = pd.read_csv('trainData/amazon_products.train.formatted.csv')
     random_product_id = random.choice(formatted_df['PRODUCT_ID'])
 
+    access_token = getpass(prompt='Enter access token: ')
+
     test_description, full_text, target_id = retrieve_product_information(formatted_df, random_product_id)
 
     '''RecSys'''
@@ -465,7 +467,7 @@ if __name__ == '__main__':
     recSys = RecSys(
         model=LLModel,
         vector_db='./Vector_DB',
-        access_token='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',
+        access_token=access_token,
         product_description=test_description,
         k=15,
     )
